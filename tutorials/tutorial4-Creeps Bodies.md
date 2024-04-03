@@ -53,7 +53,7 @@ def loop():
         if st.atkable(creep):
             put.attack(creep, enemy)
         elif st.healable(creep):
-            damaged = get.friend(st.damaged)
+            damaged = get.filter(creeps, st.damaged)
             if damaged:
                 put.heal(creep, damaged)
                 put.move(creep, damaged)
