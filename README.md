@@ -50,7 +50,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;Then open browser of "127.0.0.1:8000".
 
-[documention](https://github.com/EagleBaby/python_screeps_arena/blob/main/site/index.html)
+Not Recommend: [html raw](https://github.com/EagleBaby/python_screeps_arena/blob/main/site/index.html](https://github.com/EagleBaby/python_screeps_arena/blob/gh-page/index.html)
 
 
 ## Last
