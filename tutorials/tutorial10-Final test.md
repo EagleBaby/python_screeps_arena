@@ -78,7 +78,7 @@ def heal_and_follow(s, t):
 
 
 warrior_stage = Stage([
-    ['attack', 'heal', lambda s, t: s.hp <= 95, heal_and_follow],  # attack: if hp <= 50%, heal self  # System Enemy hardly attack you. Set 95% just for teach.
+    ['attack', 'heal', lambda s, t: s.hp <= 95, heal_and_follow],  # attack: if hp <= 95%, heal self
     ['attack', 'attack', lambda s, t: put.attack(s.unit, s.closest_enemy)],  # attack: in other case, just keep attack
 
     ['heal', 'attack', lambda s, t: s.hp == 100, lambda s, t: put.attack(s.unit, s.closest_enemy)],  # heal: if hp full, goto attack
