@@ -34,7 +34,7 @@ def loop():
 
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;Run ```build.py``` and go to your game ```tutorial: Simple move``` and run the game to get <font color=#88EC80>PASSED</font>.
+&nbsp;&nbsp;&nbsp;&nbsp;Run ```build.py``` and go to your game ```tutorial``` and run the game to get <font color=#88EC80>PASSED</font>.
 
 #### ---------------------------------------------------------------------------------------------------------------
 &nbsp;&nbsp;&nbsp;&nbsp;I think you have noticed that the we use 'put.attack' to replace 'attack' and 'rangedAttack'. This is because ```put.attack``` will auto select the way to attack. 
