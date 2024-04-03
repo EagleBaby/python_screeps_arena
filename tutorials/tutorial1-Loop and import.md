@@ -2,7 +2,7 @@
 Here you will learn the basics of how to play Screeps Arena by coding.
 
 #### Introduction
-“Screeps” means “scripting creeps.” The game uses real <font color=#FC8066>JavaScript</font> as the programming language to script your units, or creeps, behavior. We won’t be teaching you JavaScript, but we will start with the basics, and recommend to get yourself familiar with the language if you wish to master the game.
+“Screeps” means “scripting creeps.” The game uses real <font color=#FC8066>JavaScript</font> as the programming language to script your units, or creeps, behavior. We won’t be teaching you ```JavaScript```, but we will start with the basics, and recommend to get yourself familiar with the language if you wish to master the game.
 
 You play by writing code files in your local folder. The in-game code editor is not ready yet, so we recommend to use some external code editor, for example <font color=#6680FC>Microsoft VS Code</font>.
 
