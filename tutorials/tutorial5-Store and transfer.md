@@ -49,5 +49,16 @@ def loop():
         enemy = get.creep(st.enemy)
         put.attack(tower, enemy)
 ```
+&nbsp;&nbsp;&nbsp;&nbsp;You can even simplify your code like:
+```python
+def loop():
+    tower = get.tower()
+    creep = get.creep(st.friend)
+    box = get.box()  # Container
+    enemy = get.creep(st.enemy)
+
+    put.carry(creep, box, tower)  # from box -> tower
+    put.attack(tower, enemy)  # if can not attack, will return a int error code. See detail in Screeps:Arena Document.
+```
 
 &nbsp;&nbsp;&nbsp;&nbsp;Run ```build.py``` again and run the game to get <font color=#88EC80>PASSED</font>.
