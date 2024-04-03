@@ -1,4 +1,4 @@
-### Welcome to the Tutorial! 
+### [JS]Welcome to the Tutorial! 
 Here you will learn the basics of how to play Screeps Arena by coding.
 
 #### Introduction
