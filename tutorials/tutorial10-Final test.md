@@ -67,3 +67,40 @@ def loop():
 &nbsp;&nbsp;&nbsp;&nbsp;So it's time to introduce 'FSM'(Finite State Machine). FSM is integrated into std.py, called `Stage`. Now, let me show you how to deal warrior's logic with FSM:
 
 ![img](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorials/warrior_fsm.png)
+
+
+```python
+...  # other code
+
+def heal_and_follow(s, t):
+    put.heal(s.unit, s.unit)
+    put.follow(s.unit, s.closest_enemy, 5)
+
+
+warrior_stage = Stage([
+    ['attack', 'heal', lambda s, t: s.hp <= 95, heal_and_follow],  # attack: if hp <= 50%, heal self  # System Enemy hardly attack you. Set 95% just for teach.
+    ['attack', 'attack', lambda s, t: put.attack(s.unit, s.closest_enemy)],  # attack: in other case, just keep attack
+
+    ['heal', 'attack', lambda s, t: s.hp == 100, lambda s, t: put.attack(s.unit, s.closest_enemy)],  # heal: if hp full, goto attack
+    ['heal', 'heal', heal_and_follow],  # heal: in other case, keep dist and heal self
+])
+
+# add stage update-fn  (auto update in s.next())
+warrior_stage.asu('hp', lambda s: get.health(s.unit, True))
+warrior_stage.asu('closest_enemy', lambda s: get.closest(spawn, enemies))
+
+def loop():
+    ...  # other code
+
+    if not warrior:
+        put.create(spawn, [MOVE, MOVE, MOVE, MOVE, MOVE, MOVE, MOVE, MOVE, MOVE, MOVE, ATTACK, ATTACK, HEAL])
+    else:
+        if not warrior.s:
+            warrior.s = warrior_stage
+            warrior.s.unit = warrior
+
+        print(warrior.s.next())
+
+```
+
+
