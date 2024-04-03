@@ -2,6 +2,8 @@ import os
 import sys
 import shutil
 
+__version__ = 0.1
+
 def CMD_NewProject():
     """
     cmd:
