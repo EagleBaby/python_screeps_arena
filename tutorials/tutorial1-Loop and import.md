@@ -2,9 +2,9 @@
 Here you will learn the basics of how to play Screeps Arena by coding.
 
 #### Introduction
-“Screeps” means “scripting creeps.” The game uses real <font color=#FC8066>JavaScript</font> as the programming language to script your units, or creeps, behavior. We won’t be teaching you ```JavaScript```, but we will start with the basics, and recommend to get yourself familiar with the language if you wish to master the game.
+“Screeps” means “scripting creeps.” The game uses real ```JavaScript``` as the programming language to script your units, or creeps, behavior. We won’t be teaching you ```JavaScript```, but we will start with the basics, and recommend to get yourself familiar with the language if you wish to master the game.
 
-You play by writing code files in your local folder. The in-game code editor is not ready yet, so we recommend to use some external code editor, for example <font color=#6680FC>Microsoft VS Code</font>.
+You play by writing code files in your local folder. The in-game code editor is not ready yet, so we recommend to use some external code editor, for example ```Microsoft VS Code```.
 
 These files are submitted to the server when you click the PLAY button. If you don’t have syntax errors in your code, the game will start and you can watch it. You cannot change the submitted coding during the game; you need to start another game. The game will be over in a matter of seconds. However, you can watch it on any speed.
 
@@ -38,7 +38,7 @@ Note: console.log() function above - it outputs any value in-game console panel 
 
 #### ------------------------------------------------------------------------------------------------------------------------
 
-&nbsp;&nbsp;&nbsp;&nbsp;Above is tutorial in Screeps:Arena, i just want to express that you can get the js tutorial in the game, and the other python-tutorials won't refer to the js tutorial anymore(if you need, just get it in game.)  if you want to play with <font color=#6680FC>python </font>, you need to follow the tutorial below:
+&nbsp;&nbsp;&nbsp;&nbsp;Above is tutorial in Screeps:Arena, i just want to express that you can get the js tutorial in the game, and the other python-tutorials won't refer to the js tutorial anymore(if you need, just get it in game.)  if you want to play with ```python```, you need to follow the tutorial below:
 
 ## Tutorial 1: Loop and import
 
@@ -89,4 +89,4 @@ F:\Python\python.exe H:\arena\build.py
 ```
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;Now go to your game ```tutorial: Loop and import``` and run the game to get <font color=#88EC80>PASSED</font>.
+&nbsp;&nbsp;&nbsp;&nbsp;Now go to your game ```tutorial: Loop and import``` and run the game to get ```PASSED```.
