@@ -446,6 +446,20 @@ class st:
         pass
 
     @staticmethod
+    def damaged(obj: object) -> bool:
+        """
+        判断一个game object是否受损
+
+        Args:
+            obj:
+
+        Returns:
+
+        """
+        # insert if(obj.hits < obj.hitsMax) return true;
+        pass
+
+    @staticmethod
     def friend(obj: object) -> bool:
         """
         判断一个game object是否是友方
@@ -582,22 +596,23 @@ class std:
                 err_flag = True
         if err_flag:  # 如果有错误
             caller_info = std._caller_()
+            error_params = []
 
-            txt = "[Error Params]:" + caller_info
+            txt = "[PyScreeps-Arena Error Params]:" + caller_info
             length = len(errored_names)
             for i in range(length):
-                error_param = String(errored_params[i])  # 然后对其进行长度限制并去除\n
-                error_param = error_param.replace('\n', '')
-                if error_param.length > std.OBJECT_PREVIEW_LENGTH:
-                    error_param = error_param.substring(0, std.OBJECT_PREVIEW_LENGTH) + "..."
+                error_params.append(errored_params[i])
                 txt += "\n\terror '" + errored_names[i] + "': '" + errored_errs[
-                    i] + "'  // preview: '" + error_param + "'"
+                    i] + "'  // preview: see at the above."
             txt += '\n ----------------------------------------------- \n'
 
             if not __raise:
                 # __pragma__('js', '{}', 'console.log(txt)')
                 return False
             txt = txt + "\nTick Aborted by Param Error.\n\n[Stack Info]:"
+            print("Error Params:")
+            for i, each in enumerate(error_params):
+                jprint(i, each)
             # __pragma__('js', '{}', 'throw new Error(txt);')
 
         return True
@@ -774,6 +789,8 @@ class put:
                              [combo((st.friend, st.movable)), combo([st.point, st.number])],
                              [st.NOT_FRIEND + ' & ' + st.NOT_MOVABLE, st.NOT_POINT + ' | ' + st.NOT_NUMBER])
             # else
+            if to is undefined:
+                return ERR_INVALID_TARGET
             std.param_assert([unit],
                              ['unit'],
                              [st.creep],
@@ -860,7 +877,7 @@ class put:
         Returns:
             Result (如果没有执行某条操作，则不包含对应属性)
 
-                .attack: int 发动近战攻击时记录对应的返回值(成功返回OK(0)，否则返回错误码(<0))
+                .melee: int 发动近战攻击时记录对应的返回值(成功返回OK(0)，否则返回错误码(<0))
 
                 .ranged: int 发动远程攻击时记录对应的返回值(成功返回OK(0)，否则返回错误码(<0))
 
@@ -874,6 +891,8 @@ class put:
                              [combo((st.friend, st.atkable)), combo((st.enemy, st.hitable))],
                              [st.NOT_FRIEND + ' & ' + st.NOT_ATKABLE, st.NOT_ENEMY + ' & ' + st.NOT_HITABLE])
             # else
+            if target is undefined:
+                return ERR_INVALID_TARGET
             std.param_assert([unit],
                              ['unit'],
                              [lambda obj: obj and obj.attack != undefined],
@@ -890,11 +909,11 @@ class put:
 
         if dist == 1:
             if melee:
-                result.attack = unit.attack(target)
+                result.melee = unit.attack(target)
             if ranged:
                 result.ranged = unit.rangedMassAttack()
 
-            if move and st.atkable(target):  # 如果敌方单位能攻击
+            if move and not melee and st.atkable(target):  # 如果敌方单位能攻击, 自身又不能近战攻击
                 result.move = put.escape(unit, target, None if move is True else move, False)
         elif dist <= 3:
             if ranged:
@@ -906,8 +925,8 @@ class put:
         elif move:
             result.move = put.move(unit, target, None if move is True else move, False)
 
-        if result.attack == OK:
-            unit.last_attack = get.ticks()
+        if result.melee == OK:
+            unit.last_melee = get.ticks()
         if result.ranged == OK:
             unit.last_ranged = get.ticks()
 
@@ -943,6 +962,8 @@ class put:
                              [combo((st.friend, st.healable)), combo((st.friend, st.creep))],
                              [st.NOT_FRIEND + ' & ' + st.NOT_HEALABLE, st.NOT_FRIEND + ' & ' + st.NOT_CREEP])
             # else
+            if target is undefined:
+                return ERR_INVALID_TARGET
             std.param_assert([unit],
                              ['unit'],
                              [lambda obj: obj and obj.heal != undefined],
@@ -991,6 +1012,8 @@ class put:
                              [combo((st.friend, st.storable)), combo([st.storable, st.resource])],
                              [st.NOT_FRIEND + ' & ' + st.NOT_STORABLE, st.NOT_STORABLE + ' | ' + st.NOT_RESOURCE])
             # else
+            if target is undefined:
+                return ERR_INVALID_TARGET
             std.param_assert([unit],
                              ['unit'],
                              [st.creep],
@@ -1073,6 +1096,8 @@ class put:
                              [combo((st.friend, st.storable)), combo([st.storable, lambda obj: obj is None])],
                              [st.NOT_FRIEND + ' & ' + st.NOT_STORABLE, st.NOT_STORABLE + ' | ' + 'obj is not None'])
             # else
+            if target is undefined:
+                return ERR_INVALID_TARGET
             std.param_assert([unit],
                              ['unit'],
                              [st.creep],
@@ -1116,6 +1141,8 @@ class put:
                              [combo((st.friend, st.workable))],
                              [st.NOT_FRIEND + ' & ' + st.NOT_WORKABLE])
             # else
+            if site is undefined:
+                return ERR_INVALID_TARGET
             std.param_assert([unit],
                              ['unit'],
                              [st.creep],
@@ -1164,6 +1191,8 @@ class put:
                              [combo((st.friend, st.workable)), st.source],
                              [st.NOT_FRIEND + ' & ' + st.NOT_WORKABLE, st.NOT_SOURCE])
             # else
+            if target is undefined:
+                return ERR_INVALID_TARGET
             std.param_assert([unit],
                              ['unit'],
                              [st.creep],
@@ -1278,6 +1307,8 @@ class put:
                              [combo((st.friend, st.movable)), st.point],
                              [st.NOT_FRIEND + " & " + st.NOT_MOVABLE, st.NOT_POINT])
             # else
+            if target is undefined:
+                return ERR_INVALID_TARGET
             std.param_assert([unit],
                              ['unit'],
                              [st.creep],
@@ -1286,17 +1317,14 @@ class put:
         # endif
 
         pos = Options()
-        pos.x = unit.x + unit.x - target.x
-        pos.y = unit.y + unit.y - target.y
-
-        if Math.random() > 0.9:
-            return put.move(unit, pos, options)
-        else:
-            # 如果有spawn就向spawn移动(之所以放在这里是因为大概率不需要get.spawn，节省cpu)
+        pos.x = unit.x + get.sign(unit.x - target.x)
+        pos.y = unit.y + get.sign(unit.y - target.y)
+        if get.terrain(pos) == TERRAIN_WALL:
             spawn = get.spawn(st.friend)
             if spawn:
                 return put.move(unit, spawn, options)
-            return put.move(unit, pos, options)
+        return put.move(unit, pos, options)
+
 
     @staticmethod
     def intermit(unit: st.friend & st.storable & st.movable, target: st.storable, resource_type: int = RESOURCE_ENERGY, options: Options = None,
@@ -1332,6 +1360,8 @@ class put:
                              [combo((st.friend, st.storable, st.movable)), st.storable],
                              [st.NOT_FRIEND + ' & ' + st.NOT_STORABLE + ' & ' + st.NOT_MOVABLE, st.NOT_STORABLE])
             # else
+            if target is undefined:
+                return ERR_INVALID_TARGET
             std.param_assert([unit],
                              ['unit'],
                              [st.creep],
@@ -1342,11 +1372,14 @@ class put:
         drops = get.resources(lambda obj: obj.resourceType == resource_type and get.distance(unit, obj) <= 1)
         free = unit.store.getFreeCapacity(resource_type)
         if len(drops) and free > 0:
+            unit.last_intermit = get.ticks()
             return put.fetch(unit, drops[0], resource_type, free, False, False)  # 捡起东西后这个回合就不会再移动了
 
         current = unit.store.getUsedCapacity(resource_type)
         if current == 0:
             return DONE
+
+        unit.last_intermit = get.ticks()
 
         dist = get.distance(unit, target)
         if dist <= 1:
@@ -1398,6 +1431,8 @@ class put:
                              [combo([st.list, (st.friend, st.movable)]), st.point],
                              ['obj is not python list. | (' + st.NOT_FRIEND + ' & ' + st.NOT_MOVABLE + ')', st.NOT_POINT])
             # else
+            if target is undefined:
+                return ERR_INVALID_TARGET
             std.param_assert([unit],
                              ['unit'],
                              [combo([st.list, st.creep])],
@@ -1483,6 +1518,8 @@ class put:
                              [combo((st.friend, st.storable, st.movable)), st.storable, st.storable],
                              [st.NOT_FRIEND + ' & ' + st.NOT_STORABLE + ' & ' + st.NOT_MOVABLE, st.NOT_STORABLE, st.NOT_STORABLE])
             # else
+            if src is undefined or dst is undefined:
+                return ERR_INVALID_TARGET
             std.param_assert([unit],
                              ['unit'],
                              [st.creep],
@@ -2160,7 +2197,7 @@ class get:
         return get.one(GameObject, lambda obj: st.storable(obj) and filter_fn(obj))
 
     @staticmethod
-    def moved(unit: st.creep) -> bool:
+    def moved(unit: st.creep, ticks_offset:int=0) -> bool:
         """
         判断单位当前tick是否被下达过移动命令
 
@@ -2168,14 +2205,15 @@ class get:
 
         Args:
             unit: st.creep (X) 一个Creep对象
+            ticks_offset: int (X) 偏移的ticks数, 默认为0. 比如传入-1表示上一tick
 
         Returns:
             bool
         """
-        return unit.last_move == get.ticks()
+        return unit.last_move == get.ticks() + ticks_offset
 
     @staticmethod
-    def attacked(unit: st.creep) -> bool:
+    def attacked(unit: st.creep, ticks_offset:int=0) -> bool:
         """
         判断单位当前tick是否被下达过攻击命令
 
@@ -2183,14 +2221,31 @@ class get:
 
         Args:
             unit: st.creep (X) 一个Creep对象
+            ticks_offset: int (X) 偏移的ticks数, 默认为0. 比如传入-1表示上一tick
 
         Returns:
             bool
         """
-        return unit.last_attack == get.ticks()
+        return (unit.last_attack == get.ticks() + ticks_offset) or (unit.last_ranged == get.ticks() + ticks_offset)
 
     @staticmethod
-    def ranged(unit: st.creep) -> bool:
+    def meleed(unit: st.creep, ticks_offset:int=0) -> bool:
+        """
+        判断单位当前tick是否被下达过近战攻击命令
+
+        * 只能判断由put下达的攻击命令
+
+        Args:
+            unit: st.creep (X) 一个Creep对象
+            ticks_offset: int (X) 偏移的ticks数, 默认为0. 比如传入-1表示上一tick
+
+        Returns:
+            bool
+        """
+        return unit.last_melee == get.ticks() + ticks_offset
+
+    @staticmethod
+    def ranged(unit: st.creep, ticks_offset:int=0) -> bool:
         """
         判断单位当前tick是否被下达过远程攻击命令
 
@@ -2198,14 +2253,15 @@ class get:
 
         Args:
             unit: st.creep (X) 一个Creep对象
+            ticks_offset: int (X) 偏移的ticks数, 默认为0. 比如传入-1表示上一tick
 
         Returns:
             bool
         """
-        return unit.last_ranged == get.ticks()
+        return unit.last_ranged == get.ticks() + ticks_offset
 
     @staticmethod
-    def healed(unit: st.creep) -> bool:
+    def healed(unit: st.creep, ticks_offset:int=0) -> bool:
         """
         判断单位当前tick是否被下达过治疗命令
 
@@ -2213,14 +2269,15 @@ class get:
 
         Args:
             unit: st.creep (X) 一个Creep对象
+            ticks_offset: int (X) 偏移的ticks数, 默认为0. 比如传入-1表示上一tick
 
         Returns:
             bool
         """
-        return unit.last_heal == get.ticks()
+        return unit.last_heal == get.ticks() + ticks_offset
 
     @staticmethod
-    def fetched(unit: st.creep) -> bool:
+    def fetched(unit: st.creep, ticks_offset:int=0) -> bool:
         """
         判断单位当前tick是否被下达过拿取命令
 
@@ -2228,14 +2285,15 @@ class get:
 
         Args:
             unit: st.creep (X) 一个Creep对象
+            ticks_offset: int (X) 偏移的ticks数, 默认为0. 比如传入-1表示上一tick
 
         Returns:
             bool
         """
-        return unit.last_fetch == get.ticks()
+        return unit.last_fetch == get.ticks() + ticks_offset
 
     @staticmethod
-    def deposited(unit: st.creep) -> bool:
+    def deposited(unit: st.creep, ticks_offset:int=0) -> bool:
         """
         判断单位当前tick是否被下达过放置命令
 
@@ -2243,14 +2301,15 @@ class get:
 
         Args:
             unit: st.creep (X) 一个Creep对象
+            ticks_offset: int (X) 偏移的ticks数, 默认为0. 比如传入-1表示上一tick
 
         Returns:
             bool
         """
-        return unit.last_deposit == get.ticks()
+        return unit.last_deposit == get.ticks() + ticks_offset
 
     @staticmethod
-    def built(unit: st.creep) -> bool:
+    def built(unit: st.creep, ticks_offset:int=0) -> bool:
         """
         判断单位当前tick是否被下达过建造命令
 
@@ -2258,11 +2317,28 @@ class get:
 
         Args:
             unit: st.creep (X) 一个Creep对象
+            ticks_offset: int (X) 偏移的ticks数, 默认为0. 比如传入-1表示上一tick
 
         Returns:
             bool
         """
-        return unit.last_build == get.ticks()
+        return unit.last_build == get.ticks() + ticks_offset
+
+    @staticmethod
+    def intermited(unit: st.creep, ticks_offset: int = 0) -> bool:
+        """
+        判断单位当前tick是否被下达过intermit命令
+
+        * 只能判断由put下达的放置命令
+
+        Args:
+            unit: st.creep (X) 一个Creep对象
+            ticks_offset: int (X) 偏移的ticks数, 默认为0. 比如传入-1表示上一tick
+
+        Returns:
+            bool
+        """
+        return unit.last_intermit == get.ticks() + ticks_offset
 
     @staticmethod
     def closest(obj: st.point, objs: list[st.point], filter_fn: list | tuple | set | callable | None = None) -> st.point | None:
@@ -2522,7 +2598,8 @@ class Stage:
         ```
     """
 
-    def __init__(self, sdef: list, entry: str = None, __copy=False):
+    def __init__(self, sdef: list, entry: str = None):
+        self._raw = sdef
         def_len = len(sdef)
         if def_len == 0:
             raise ValueError("Empty transition definition")
@@ -2531,47 +2608,45 @@ class Stage:
         # 获取状态转移字典 dict[src, list[tuple(dst, condition, action)]]  # 若无action, 则为None
         self._trans, self._any_trans, tmp = {}, [], []
 
-        if not __copy:
+        for i in range(len(sdef)):
+            item = sdef[i]
 
-            for i in range(len(sdef)):
-                item = sdef[i]
+            # 这一段是考虑到transcrypt的语法解析问题，不敢写的太风骚: for src, dst, *rest in smdef. 怕出问题
+            len_trans = len(item)
+            if not 3 <= len_trans <= 4:
+                raise ValueError(f"Invalid transition definition: {sdef[i]}")
+            src, dst, cond = item[0], item[1], item[2]
+            action = item[3] if len_trans == 4 else None
 
-                # 这一段是考虑到transcrypt的语法解析问题，不敢写的太风骚: for src, dst, *rest in smdef. 怕出问题
-                len_trans = len(item)
-                if not 3 <= len_trans <= 4:
-                    raise ValueError(f"Invalid transition definition: {sdef[i]}")
-                src, dst, cond = item[0], item[1], item[2]
-                action = item[3] if len_trans == 4 else None
+            if isinstance(src, str):
+                src = [src]
 
-                if isinstance(src, str):
-                    src = [src]
+            if isinstance(dst, str):
+                dst = [dst]
 
-                if isinstance(dst, str):
-                    dst = [dst]
+            # 形式上写在一起，因此共用一个DataArea
+            da = DataArea()
 
-                # 形式上写在一起，因此共用一个DataArea
-                da = DataArea()
-
-                for _src in src:
-                    for _dst in dst:
-                        if _src != '*':
-                            # 写入到常规跳转表
-                            stage_node = self._trans.py_get(_src, None)
-                            if stage_node:
-                                stage_node.append((_dst, cond, action, da))
-                            else:
-                                self._trans[_src] = [(_dst, cond, action, da)]
-
-                            tmp.extend([_src, _dst])
+            for _src in src:
+                for _dst in dst:
+                    if _src != '*':
+                        # 写入到常规跳转表
+                        stage_node = self._trans.py_get(_src, None)
+                        if stage_node:
+                            stage_node.append((_dst, cond, action, da))
                         else:
-                            self._any_trans.append((_dst, cond, action, da))
+                            self._trans[_src] = [(_dst, cond, action, da)]
 
-            # 再把any_trans添加到所有跳转集的末尾
-            for v in self._trans.values():
-                v.extend(self._any_trans)
+                        tmp.extend([_src, _dst])
+                    else:
+                        self._any_trans.append((_dst, cond, action, da))
 
-            self._states = set(tmp)
-            self.current = entry if entry else sdef[0][0]  # 当前状态 str
+        # 再把any_trans添加到所有跳转集的末尾
+        for v in self._trans.values():
+            v.extend(self._any_trans)
+
+        self._states = set(tmp)
+        self.current = entry if entry else sdef[0][0]  # 当前状态 str
 
         # // 更新函数集
         self._su = []  # (attr_name, value_func)
@@ -2744,8 +2819,21 @@ class Stage:
             return self.current + " -> " + self.current
         return self.current
 
+    def copy(self):
+        """
+        '复制'一个Stage实例
 
+        * 只会复制当前sdef和各种update函数，不会复制当前状态和局部空间数据
 
+        Returns:
+            Stage
+
+        """
+        s = Stage(self._raw)
+        s._su = self._su.copy()
+        s._cu = self._cu.copy()
+        s._tu = self._tu.copy()
+        return s
 
 
 class View:

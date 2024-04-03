@@ -17,7 +17,7 @@
 # define ASSERT_FULL 2
 # define ASSERT_ESSENTIAL 1
 # define ASSERT_DISABLE 0
-# define ASSERT_LEVEL ASSERT_DISABLE
+# define ASSERT_LEVEL ASSERT_FULL
 
 # // DLC Module Select // 根据需要自选. 选错会在进游戏对局前报错
 # define USE_TUTORIAL_FLAG 0
@@ -25,7 +25,7 @@
 # define USE_SCORE_COLLECTOR 0
 
 # // Project Config
-# define MAIN_JS_PATH C:/Users/22290/ScreepsArena/alpha-spawn_and_swamp/main.mjs
+# define MAIN_JS_PATH C:/Users/Administer/ScreepsArena/alpha-spawn_and_swamp/main.mjs
 
 # ------------------------------------------------- IDE Identification ---------------------------------------------------
 size = 0

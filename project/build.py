@@ -110,8 +110,8 @@ class Compiler:
 
         for i, line in enumerate(lines):
             striped = line.strip()
-            if_match = re.match(r'#\s*if\s+([^:]*)$', striped)
-            elif_match = re.match(r'#\s*elif\s+([^:]*)$', striped)
+            if_match = re.match(r'#\s*if\s+([^:.]*)$', striped)
+            elif_match = re.match(r'#\s*elif\s+([^:.]*)$', striped)
             else_match = re.match(r'#\s*else$', striped)
             endif_match = re.match(r'#\s*endif$', striped)
 
@@ -324,7 +324,12 @@ class Compiler:
         """
 
         # create undefined
-        imports = f'var Flag = undefined;\nvar ScoreController = undefined;\nvar RESOURCE_SCORE = undefined;\n\n'
+        imports = ""
+        if defs.get('USE_TUTORIAL_FLAG', 0) == 0 and defs.get('USE_ARENA_FLAG', 0) == 0:
+            imports += 'var Flag = undefined;\n'
+        if defs.get('USE_SCORE_COLLECTOR', 0) == 0:
+            imports += 'var ScoreController = undefined;\nvar RESOURCE_SCORE = undefined;\n'
+        imports += '\n'
 
         print(Fore.YELLOW + '>>> ' + Fore.RESET + 'analyzing and rebuilding main.js ...', end='')
 
