@@ -32,7 +32,7 @@ def loop():
         put.attack(tower, enemy)
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;Run ```build.py``` and go to your game ```tutorial: Simple move``` and run the game to get <font color=#88EC80>PASSED</font>.
+&nbsp;&nbsp;&nbsp;&nbsp;Run ```build.py``` and go to your game ```tutorial``` and run the game to get <font color=#88EC80>PASSED</font>.
 
 #### ---------------------------------------------------------------------------------------------------------------
 &nbsp;&nbsp;&nbsp;&nbsp;However, 'put' provide you a combined way to move energy from box to tower:
