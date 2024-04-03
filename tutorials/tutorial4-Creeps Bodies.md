@@ -52,7 +52,7 @@ def loop():
     for creep in creeps:
         if st.atkable(creep):
             put.attack(creep, enemy)
-        elif st.healable(creep):
+        if st.healable(creep):
             damaged = get.find(creeps, st.damaged)
             if damaged:
                 put.heal(creep, damaged)
