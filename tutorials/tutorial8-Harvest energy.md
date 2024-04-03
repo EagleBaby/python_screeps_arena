@@ -11,7 +11,7 @@
 # define USE_SCORE_COLLECTOR 0
 
 # // Project Config
-# define MAIN_JS_PATH C:/Users/22290/ScreepsArena/tutorial-harvest/main.mjs
+# define MAIN_JS_PATH C:/Users/22290/ScreepsArena/tutorial-harvest_energy/main.mjs
 ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;Now i will write python code by sample js code:
