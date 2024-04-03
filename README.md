@@ -43,8 +43,15 @@
 * [Tutorial 9: Construction](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorials/tutorial9-Construction.md)
 * [Tutorial 10: Final test](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorials/tutorial10-Final%20test.md)
 
+## 3. Transcrypt: Different between python and js
+* in python:```if []:``` is False, but get true in js.
+* in python:```_list[-1]``` is ok, but not work in js.
+* in python： use ```dict.py_get()``` instead of ```dict.get()```
+* in python： use ```container.py_clear()``` instead of ```container.clear()```
+* operator reaload do not work in js. Mean in python```[1] * 5``` do not work in js.
+* kwargs do not work in js. Mean in python```func(1, b = 5)``` do not work in js.
 
-## 3. Document
+## 4. Document
 
 &nbsp;&nbsp;&nbsp;&nbsp;Use command ```mkdocs serve``` under project dir.(the dir has 'src', 'build.py'...). 
 
