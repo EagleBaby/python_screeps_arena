@@ -14,7 +14,7 @@
 # define MAIN_JS_PATH C:/Users/22290/ScreepsArena/tutorial-store_and_transfer/main.mjs
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;Now i will write python code by js code:
+&nbsp;&nbsp;&nbsp;&nbsp;Now i will write python code by sample js code:
 ```python
 def loop():
     tower = get.tower()
