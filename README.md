@@ -52,7 +52,7 @@
 
 Not Recommend: 
 
-[html raw document](https://github.com/EagleBaby/python_screeps_arena/blob/main/site/index.html](https://github.com/EagleBaby/python_screeps_arena/blob/gh-page/index.html)
+[html raw document](https://github.com/EagleBaby/python_screeps_arena/blob/gh-page/index.html)
 
 
 ## Last
