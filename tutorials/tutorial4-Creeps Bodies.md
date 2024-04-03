@@ -16,7 +16,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;The js tutorial tell us that diffrent ```body part``` make your creep have diffrent ability. And more same type body parts the creep has, the more effect of that body part the creep has.
 
-&nbsp;&nbsp;&nbsp;&nbsp;Now i will write python code by js code:
+&nbsp;&nbsp;&nbsp;&nbsp;Now i will write python code by sample js code:
 ```python
 def loop():
     creeps = get.friends(st.creep)
