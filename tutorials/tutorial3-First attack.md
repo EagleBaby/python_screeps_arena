@@ -22,4 +22,4 @@ def loop():
     put.attack(creep, enemy)
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;Run ```build.py``` and go to your game ```tutorial: Simple move``` and run the game to get <font color=#88EC80>PASSED</font>.
+&nbsp;&nbsp;&nbsp;&nbsp;Run ```build.py``` and go to your game ```tutorial: First attack``` and run the game to get <font color=#88EC80>PASSED</font>.
