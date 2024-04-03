@@ -24,7 +24,7 @@ def loop():
         put.move(creep, get.closest(creep, flags))
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;Run ```build.py``` and go to your game ```tutorial: Simple move``` and run the game to get <font color=#88EC80>PASSED</font>.
+&nbsp;&nbsp;&nbsp;&nbsp;Run ```build.py``` and go to your game ```tutorial``` and run the game to get <font color=#88EC80>PASSED</font>.
 
 #### ---------------------------------------------------------------------------------------------------------------
 &nbsp;&nbsp;&nbsp;&nbsp;You can simply make your creeps move right :)
