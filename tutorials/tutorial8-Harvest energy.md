@@ -35,7 +35,7 @@ def loop():
 #### ---------------------------------------------------------------------------------------------------------------
 &nbsp;&nbsp;&nbsp;&nbsp;You can not use `put.carry` because the 'target' param do not support Source.
 
-&nbsp;&nbsp;&nbsp;&nbsp;Otherwise, you can try `put.intermit` instead of `put.deposit`. This may do well job in other case :)
+&nbsp;&nbsp;&nbsp;&nbsp;Otherwise, you can try `put.intermit` instead of `put.deposit`. This may do well job in some case :)
 
 ```python
 spawn = get.spawn()
