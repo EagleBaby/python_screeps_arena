@@ -14,7 +14,7 @@
 # define MAIN_JS_PATH C:/Users/22290/ScreepsArena/tutorial-terrain/main.mjs
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;Now i will write python code by js code:
+&nbsp;&nbsp;&nbsp;&nbsp;Now i will write python code by sample js code:
 ```python
 def loop():
     creeps = get.creeps(st.friend)
