@@ -14,7 +14,6 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;<font color=#FCAE80>This project <b>suggest</b> a python with >= 3.10. </font>Please make sure you have download&install from python.org
 
-### way 1: use pip
 
 &nbsp;&nbsp;&nbsp;&nbsp;Use python pip to install this package:
 &nbsp;&nbsp;&nbsp;&nbsp;```pip install pyscreeps-arena```
@@ -24,11 +23,6 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;Use your editor to open the project<font color="gray">(recommand PyCharm)</font>.
 
-### way 2: directly
-
-&nbsp;&nbsp;&nbsp;&nbsp;Clone this github project, use ```pip install -r requirements.txt```(requirements.txt undef the root dir).
-
-&nbsp;&nbsp;&nbsp;&nbsp;then open the 'project' folder as project with your editor<font color="gray">(recommand PyCharm)</font>. 
 
 ## 2. Tutorial
 
