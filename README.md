@@ -54,6 +54,61 @@
 &nbsp;&nbsp;&nbsp;&nbsp;Not Recommend: [html raw document](https://github.com/EagleBaby/python_screeps_arena/blob/gh-page/index.html)
 
 
+## 5. How to create user py module
+&nbsp;&nbsp;&nbsp;&nbsp;You can add user python file/directory under 'src'. But can not include a '__init__.py' file, this mean you only use `from a_directory.xxx_module import *` if you use a directory.
+&nbsp;&nbsp;&nbsp;&nbsp; Each user python module should contain the follow content:
+```python
+from game.const import *
+from game.proto import *
+from game.utils import *
+from src.config import *
+from src.std import *
+# ----------------------------------
+# __pragma__('noalias', 'undefined')
+# __pragma__('noalias', 'Infinity')
+# __pragma__('noalias', 'clear')
+# __pragma__('noalias', 'get')
+
+
+# User Code Here
+pass
+
+```
+&nbsp;&nbsp;&nbsp;&nbsp; Then declare python 'import' sentence in main.py.
+```python
+# main.py
+
+...
+from usr_module_a import *
+from usr_module_b import *
+
+```
+&nbsp;&nbsp;&nbsp;&nbsp; Compiler do not care import sentence in other .py file. This mean if 'module_a' import 'module_b' but not declare import in main.py, then the module_b won't be include into the final js output. To solve this problem, use `#>import` to declare it to compiler.
+
+```python
+# usr_module_a.py
+
+# > import usr_module_b
+from usr_module_b import *
+```
+```python
+# main.py
+from usr_module_a import *
+```
+
+## 6. pre compile
+&nbsp;&nbsp;&nbsp;&nbsp; Compiler can identify these `# >`sentence:
+```python
+# > import <python_module_name>
+# > sort <int>
+# > define <identify_key> <value>
+# > if <identify_key>
+# > elif <identify_key>
+# > else
+# > endif
+# > insert <js_sentence>
+```
+
 ## Last
 
 &nbsp;&nbsp;&nbsp;&nbsp;Goodluck & Have fun. :)
