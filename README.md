@@ -55,7 +55,7 @@
 
 
 ## 5. How to create user py module
-&nbsp;&nbsp;&nbsp;&nbsp;You can add user python file/directory under 'src'. But can not include a '__init__.py' file, this mean you only use `from a_directory.xxx_module import *` if you use a directory.
+&nbsp;&nbsp;&nbsp;&nbsp;You can add user python file/directory under 'src'. But can not include a `__init__.py` file, this mean you only use `from a_directory.xxx_module import *` if you use a directory.
 &nbsp;&nbsp;&nbsp;&nbsp; Each user python module should contain the follow content:
 ```python
 from game.const import *
