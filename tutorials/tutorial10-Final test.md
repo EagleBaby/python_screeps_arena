@@ -77,7 +77,7 @@ def heal_and_follow(s, t):
     put.follow(s.unit, s.closest_enemy, 5)
 
 
-warrior_stage = Stage([
+warrior_stage = ut.Stage([
     ['attack', 'heal', lambda s, t: s.hp <= 95, heal_and_follow],  # attack: if hp <= 95%, heal self
     ['attack', 'attack', lambda s, t: put.attack(s.unit, s.closest_enemy)],  # attack: in other case, just keep attack
 
