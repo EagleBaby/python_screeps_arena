@@ -12,7 +12,7 @@
 # define USE_SCORE_COLLECTOR 0
 
 # // Project Config
-# define MAIN_JS_PATH C:/Users/22290/ScreepsArena/tutorial-simple_move/main.mjs
+# define MAIN_JS_PATH C:/Users/22290/ScreepsArena/tutorial-simple_move/
 ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;Then we use ```get.creep() -> Creep``` ```get.flag() -> Flag``` and ```put.move(unit, to, options=None) -> int``` to reach out goal - ```make your creep go to the flag position```.

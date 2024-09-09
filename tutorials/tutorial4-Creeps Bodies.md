@@ -11,7 +11,7 @@
 # define USE_SCORE_COLLECTOR 0
 
 # // Project Config
-# define MAIN_JS_PATH C:/Users/22290/ScreepsArena/tutorial-creeps_bodies/main.mjs
+# define MAIN_JS_PATH C:/Users/22290/ScreepsArena/tutorial-creeps_bodies/
 ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;The js tutorial tell us that diffrent ```body part``` make your creep have diffrent ability. And more same type body parts the creep has, the more effect of that body part the creep has.

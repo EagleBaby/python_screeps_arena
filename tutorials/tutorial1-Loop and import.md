@@ -71,7 +71,7 @@ def loop():
 &nbsp;&nbsp;&nbsp;&nbsp;Then, you need specific the fpath of ```main.mjs``` in src/config.py:
 ```python
 # // Project Config
-# define MAIN_JS_PATH C:/Users/22290/ScreepsArena/tutorial-loop_and_import/main.mjs
+# define MAIN_JS_PATH C:/Users/22290/ScreepsArena/tutorial-loop_and_import/
 ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;Run the ```build.py``` to transcrypt your python code to ```main.mjs``` code.

@@ -11,7 +11,7 @@
 # define USE_SCORE_COLLECTOR 0
 
 # // Project Config
-# define MAIN_JS_PATH C:/Users/22290/ScreepsArena/tutorial-terrain/main.mjs
+# define MAIN_JS_PATH C:/Users/22290/ScreepsArena/tutorial-terrain/
 ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;Now i will write python code by sample js code:

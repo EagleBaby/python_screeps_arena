@@ -11,7 +11,7 @@
 # define USE_SCORE_COLLECTOR 0
 
 # // Project Config
-# define MAIN_JS_PATH C:/Users/22290/ScreepsArena/tutorial-final_test/main.mjs
+# define MAIN_JS_PATH C:/Users/22290/ScreepsArena/tutorial-final_test/
 ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;It's the last tutorial. So i'd like to teach you a advanced skill. But at here,i will provided a very simple code to solve it first:

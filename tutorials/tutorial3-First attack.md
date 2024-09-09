@@ -11,7 +11,7 @@
 # define USE_SCORE_COLLECTOR 0
 
 # // Project Config
-# define MAIN_JS_PATH C:/Users/22290/ScreepsArena/tutorial-first_attack/main.mjs
+# define MAIN_JS_PATH C:/Users/22290/ScreepsArena/tutorial-first_attack/
 ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;Then we use ```get.friend(st.creep) -> Creep``` ```get.enemy(st.creep) -> Creep``` and ```put.attack(unit, target, move=True) -> int``` to attack enemy creep.
