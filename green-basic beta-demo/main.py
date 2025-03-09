@@ -1,3 +1,4 @@
+# Lib Version: 0.4a6
 from builtin import *
 
 know.spawn = get.spawn(st.my)
