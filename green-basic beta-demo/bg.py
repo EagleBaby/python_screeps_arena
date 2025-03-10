@@ -19,8 +19,6 @@ if SIDE < 0:
         get.box(1, 46),
         get.box(12, 44),
     ]
-    POS1 = Point(13, 10)  # 首选点
-    POS2 = Point(13, 89)  # 次选点
 
 else:
     WALLS = [
@@ -33,5 +31,3 @@ else:
         get.box(98, 53),
         get.box(87, 55),
     ]
-    POS1 = Point(87, 89)  # 首选点
-    POS2 = Point(87, 10)  # 次选点
