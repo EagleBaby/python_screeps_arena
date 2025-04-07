@@ -1,92 +1,64 @@
-### [JS]Welcome to the Tutorial! 
-Here you will learn the basics of how to play Screeps Arena by coding.
 
-#### Introduction
-“Screeps” means “scripting creeps.” The game uses real ```JavaScript``` as the programming language to script your units, or creeps, behavior. We won’t be teaching you ```JavaScript```, but we will start with the basics, and recommend to get yourself familiar with the language if you wish to master the game.
+Welcome to the Screeps-Arena Tutorial! 
+This series will guide you through the fundamentals of code usage.  
 
-You play by writing code files in your local folder. The in-game code editor is not ready yet, so we recommend to use some external code editor, for example ```Microsoft VS Code```.
+## 1. Console Output  
 
-These files are submitted to the server when you click the PLAY button. If you don’t have syntax errors in your code, the game will start and you can watch it. You cannot change the submitted coding during the game; you need to start another game. The game will be over in a matter of seconds. However, you can watch it on any speed.
+The first lesson focuses on how to use the console. 
+In Python, console output primarily relies on the `print` statement. 
+In the Screeps Arena (abbreviated as `SA`) environment, there is also the `jprint` statement. Let’s start by opening your project.  
 
-#### Script loop
-Every turn (or a tick as we call it) the game runs your main function called ```loop()```. You have it defined in your main.mjs file already:
+### Print  
+Open your `main.py` file. You will immediately notice three locations where you can insert `print` statements:  
 
-```JavaScript
-
-export function loop() {
-    // Your code goes here.
-}
-```
-
-Everything in this function will be executed over and over again until the game ends. However, keep note that only schedule commands here. They are executed later when loop function has finished.
-
-#### Import stuff 
-There is a special function getTicks() that you can call to determine what is current tick now. In order to call it, you have to import it into your code from game/utils module:
-
-```JavaScript
-
-import { getTicks } from 'game/utils';
-
-export function loop() {
-    console.log('Current tick:', getTicks());
-}
-```
-There are many methods and objects that can be imported this way. See documentation for full list.
-
-Note: console.log() function above - it outputs any value in-game console panel so that you can debug and inspect running code.
-
-
-#### ------------------------------------------------------------------------------------------------------------------------
-
-&nbsp;&nbsp;&nbsp;&nbsp;Above is tutorial in Screeps:Arena, i just want to express that you can get the js tutorial in the game, and the other python-tutorials won't refer to the js tutorial anymore(if you need, just get it in game.)  if you want to play with ```python```, you need to follow the tutorial below:
-
-## Tutorial 1: Loop and import
-
-&nbsp;&nbsp;&nbsp;&nbsp;Build your python-project and open with one editor.([if you do not how to do that, click here](https://github.com/EagleBaby/python_screeps_arena/blob/main/README.md))
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;Every turn the game runs your main function called ```loop()```. You have it defined in your src/main.py file already:
 ```python
-def loop():
-    # Your code here...
-    std.show_usage()
+from builtin import *
 
+print("Hello, at global.")  # tick == 0
+
+def init(k: GlobalKnowledge):
+    print("Hello, at init.")  # tick == 1
+
+def step(k: GlobalKnowledge):
+    print("Hello, at step.")  # tick >= 1
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;And we have already import all things for you，means that you can code instantly：
+In the `SA` environment, content is only output to the console when `tick >= 1`. This means the message `"Hello, at global."` will **not** be displayed. Be mindful of this when using `print` statements.  
+
+### Jprint  
+<details>  
+<summary>  
+Compared to the traditional `print` statement, `SA` provides a JavaScript-equivalent `console.log` method—`jprint`—due to its JS environment. As a beginner, you can skip this section if needed.  
+</summary>  
+
 ```python
-from game.const import *
-from game.proto import *
-from game.utils import *
-from config import *
-from std import *
+from builtin import *
+
+def init(k: GlobalKnowledge):
+    a = 1
+    b = [1, 2]
+    c = {'a': a}
+    print(a, b, c)       # Python-style output
+    jprint(a, b, c)      # JS-style output
+
+def step(k: GlobalKnowledge):
+    pass
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;So let's do ```console.log('Current tick:', getTicks());``` in python way. Use ```get.ticks()->int``` to get the game ticks:
-```python
-def loop():
-    print('Current tick:', get.ticks())
-```
+When printing simple data types (e.g., `int`, `float`, `str`, `list`), there is no difference between `print` and `jprint`. However, when printing objects:  
+- `jprint` displays the actual properties of the object in JavaScript.  
+- `print` shows a Python-style formatted string.  
 
-&nbsp;&nbsp;&nbsp;&nbsp;Then, you need specific the fpath of ```main.mjs``` in src/config.py:
-```python
-# // Project Config
-# define MAIN_JS_PATH C:/Users/22290/ScreepsArena/tutorial-loop_and_import/main.mjs
-```
+Use `jprint` for detailed debugging and `print` for everyday use.  
 
-&nbsp;&nbsp;&nbsp;&nbsp;Run the ```build.py``` to transcrypt your python code to ```main.mjs``` code.
-If anything went well, you will get the output:
-```
-F:\Python\python.exe H:\arena\build.py 
-[1/6][Done] copying to build dir: H:\arena\build
-[2/6][Done] preprocess finish.
-[3/6][Done] "transcrypt -b -m -n -s -e 6 H:\arena\build\main.py" Ready.
-[4/6][Done] analyze and rebuild main.js successfully.
-[5/6][Done] generate total main.js successfully.
-[6/6][Done] export total main.js successfully.
-[Info] usr export to C:/Users/22290/ScreepsArena/tutorial-loop_and_import/main.mjs
-[Done] clean build dir
-```
+</details>  
 
+### Compilation and Execution  
+Configure `build.py` as follows:  
+1. In the game, open Tutorial 1’s file via **External Editor** (click the filename above **Play Game**).  
+2. In the opened VSCode, right-click `main.mjs` and copy its file path.  
+3. Paste the path into `config.target` in `build.py` (uncomment the line if necessary).  
 
-&nbsp;&nbsp;&nbsp;&nbsp;Now go to your game ```tutorial: Loop and import``` and run the game to get ```PASSED```.
+Set the language in `config.language` to `'en'` (English output) or `'cn'` (partial Chinese output).  
+
+Run `build.py` in PyCharm to transpile Python to JavaScript. If successful, click **Play Game** to see the result and receive a `Pass` popup.
