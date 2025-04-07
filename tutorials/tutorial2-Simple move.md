@@ -52,8 +52,8 @@ Next, we introduce the container combination of filtering functions. If you are 
 In addition to passing a simple checking function, you can also use convenient combined checking functions. The `fn_combo` parameter specifies three types of containers:
 |Container Type|Container Capacity|Container Function|
 |-----|-----|-----|
-|list|>=1|Represents the logical relationship `AND`|
-|tuple|>=1|Represents the logical relationship `OR`|
+|list|>=1|Represents the logical relationship `OR`|
+|tuple|>=1|Represents the logical relationship `AND`|
 |set|==1|Represents the logical relationship `NOT`|
 
 For example, `st` provides `st.my` to determine whether an object is friendly and `st.movable` to determine whether an object is movable. To determine whether an object is a `friendly movable object`, you can write:
