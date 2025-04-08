@@ -11,7 +11,7 @@ In `SA`, there are game objects with the following attributes:
 | hp             | int            | ✓         | Equivalent to `hits`. |  
 | hpMax          | int            | ✓         | Equivalent to `hitsMax`. |  
 
-These objects can be attacked by other **attack-capable** objects, regardless of whether they are allies or enemies (at least up to game version 0.3).  
+These objects can be attacked by other **atkable** objects, regardless of whether they are allies or enemies (at least up to game version 0.3).  
 
 Typical examples of such objects include: `Creep`, `StructureSpawn`, `StructureWall`, etc.  
 
