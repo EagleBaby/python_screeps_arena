@@ -41,7 +41,7 @@ For example:
 recipe0 = [ATTACK, MOVE]  
 recipe1 = [MOVE, ATTACK]  
 ```  
-Both Creeps have `200 hitsMax` and function as **mobile melee units**.  
+Both Creeps have `200 hitsMax` and function as **movable-melee**.  
 
 When taking `90` damage, the former's `ATTACK` Part has `10 hits` remaining; the latter's `MOVE` Part has `10 hits` remaining. Since the remaining hits (10) are greater than `0`, their functions remain operational.  
 
