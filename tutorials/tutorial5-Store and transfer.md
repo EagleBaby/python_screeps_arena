@@ -202,7 +202,7 @@ The `carry` command is a composite instance method of the `Creep` class, structu
 
 <details>
 <summary>
-You can use **carry** to replace **fetch** and **deposit**, simplifying the code:
+You can use <b>carry</b> to replace <b>fetch</b> and <b>deposit</b>, simplifying the code:
 </summary>
 
 ```python
