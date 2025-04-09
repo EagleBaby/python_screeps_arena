@@ -53,20 +53,6 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;Then open browser of "127.0.0.1:8000".
 
-&nbsp;&nbsp;&nbsp;&nbsp;Not Recommend: [html raw document](https://github.com/EagleBaby/python_screeps_arena/blob/gh-page/index.html)
-
-## 5. pre compile
-&nbsp;&nbsp;&nbsp;&nbsp; Compiler can identify these `# >`sentence:
-```python
-# > import <python_module_name>
-# > sort <int>
-# > define <identify_key> <value>
-# > if <identify_key>
-# > elif <identify_key>
-# > else
-# > endif
-# > insert <js_sentence>
-```
 
 ## Last
 
