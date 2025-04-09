@@ -13,8 +13,6 @@ The game includes various types of resources, with **Energy** being the most com
 | `RESOURCE_SCORE_Y`     | **Score Y**, a special resource in advanced CAC mode.                      |
 | `RESOURCE_SCORE_Z`     | **Score Z**, a special resource in advanced CAC mode.                      |
 
-Below is a unified version of the documentation's function descriptions, formatted in the "carry" style:  
-
 ### Game Objects  
 In this section of the tutorial (5-`Store and Transfer`), the game provides the following objects:  
 
