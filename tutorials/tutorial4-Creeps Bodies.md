@@ -1,7 +1,7 @@
 
-In this tutorial, you will learn how to distinguish between Creeps based on their **Body Parts**.  
-
 ## 4. Composition of Creep (Body Parts)  
+
+In this tutorial, you will learn how to distinguish between Creeps based on their **Body Parts**.  
 
 ### Body Parts  
 Body Parts are a term from the official tutorial. I prefer to refer to them as **Parts**.  
@@ -12,15 +12,15 @@ Each Creep consists of an **ordered** set of **Parts**, which come in several ty
 
 Each individual Part provides **100 hitsMax**, but their functions differ:  
 
-| Part Name | Action Category | Price (Energy) | Description |  
-|-----------|-----------------|----------------|-------------|  
-| MOVE      | Other           | 50/Part        | Each Part reduces the Creep's `fatigue` by `2` each tick, but not below `0`. If a Creep's `fatigue` is not `0`, it cannot move that tick. Other non-MOVE Parts generate `fatigue` during movement, which will be explained in Tutorial 5. |  
-| CARRY     | Resource        | 50/Part        | Each Part provides `50` capacity for any type of resource. When this Part holds any non-zero resource, it generates `fatigue` during movement like other Parts; otherwise, it does not. |  
-| ATTACK    | Melee           | 80/Part        | Each Part provides `30` points of melee attack power with an attack range of `1`. |  
-| RANGED_ATTACK | Ranged | 150/Part | Each Part provides `10` points of ranged attack power with an attack range of `3`, or causes AOE damage to enemies within a radius of up to `3` centered on the Creep. See the table below. |  
-| HEAL      | Melee/Ranged    | 250/Part       | Each Part provides `12` points of melee healing power with a healing range of `1`, or `4` points of ranged healing with a range of `3`. |  
-| WORK      | Melee/Ranged    | 100/Part       | Each Part provides `5` construction progress per tick for a `ConstructionSite` with a working range of `3`, or extracts `2` energy per tick from a `Source` with a harvesting range of `1`. |  
-| TOUGH     | Other           | 10/Part        | No special function; it only acts as a damage-absorbing component and generates `fatigue` during movement like other Parts. |  
+| Part Name | Action Category | Price (Energy) | Description                                                                                                                                                                                                                               |  
+|-----------|-----------------|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+| MOVE      | Other           | 50/Part        | Each Part reduces the Creep's `fatigue` by `2` each tick, but not below `0`. If a Creep's `fatigue` is not `0`, it cannot move that tick. Other non-MOVE Parts generate `fatigue` during movement, which will be explained in Tutorial 6. |  
+| CARRY     | Resource        | 50/Part        | Each Part provides `50` capacity for any type of resource. When this Part holds any non-zero resource, it generates `fatigue` during movement like other Parts; otherwise, it does not.                                                   |  
+| ATTACK    | Melee           | 80/Part        | Each Part provides `30` points of melee attack power with an attack range of `1`.                                                                                                                                                         |  
+| RANGED_ATTACK | Ranged | 150/Part | Each Part provides `10` points of ranged attack power with an attack range of `3`, or causes AOE damage to enemies within a radius of up to `3` centered on the Creep. See the table below.                                               |  
+| HEAL      | Melee/Ranged    | 250/Part       | Each Part provides `12` points of melee healing power with a healing range of `1`, or `4` points of ranged healing with a range of `3`.                                                                                                   |  
+| WORK      | Melee/Ranged    | 100/Part       | Each Part provides `5` construction progress per tick for a `ConstructionSite` with a working range of `3`, or extracts `2` energy per tick from a `Source` with a harvesting range of `1`.                                               |  
+| TOUGH     | Other           | 10/Part        | No special function; it only acts as a damage-absorbing component and generates `fatigue` during movement like other Parts.                                                                                                               |  
 
 The RANGED_ATTACK Part can cause AOE damage within a maximum distance of `3`. The damage value depends on the distance to the target:  
 
@@ -41,7 +41,7 @@ For example:
 recipe0 = [ATTACK, MOVE]  
 recipe1 = [MOVE, ATTACK]  
 ```  
-Both Creeps have `200 hitsMax` and function as **movable-melee**.  
+Both Creeps have `200 hitsMax` and function as **mobile melee units**.  
 
 When taking `90` damage, the former's `ATTACK` Part has `10 hits` remaining; the latter's `MOVE` Part has `10 hits` remaining. Since the remaining hits (10) are greater than `0`, their functions remain operational.  
 
@@ -51,7 +51,7 @@ When taking another `10` damage, the former's `ATTACK` Part hits `0 hits`, losin
 
 As you might have guessed from previous tutorials, we can filter Creeps with different capabilities using `st`.  
 
-In this tutorial, Tutorial 4 - **Body Parts** provides three friendly objects (as below) and one enemy object.  
+In this tutorial, Tutorial 4 - **Body Parts** provides three friendly objects (as below) and one enemy object. Requires us to fully leverage the strengths of each Creep, achieving victory against stronger foes through tactical superiority and eliminating the target. 
 
 | Friendly Creep | Part Recipe |  
 |----------------|-------------|  
@@ -137,19 +137,18 @@ CREEP = get.creep( (st.melee, st.healable) )  # Assume it is [MOVE, ATTACK, HEAL
 If you issue an attack command to this CREEP, you cannot issue a melee healing command to it in the same tick, as it will override the previous attack command.  
 
 ### Issuing Heal Commands  
+The `heal` command is an instance method of the `Creep` class, structured as follows:
 
-The heal command is an instance method of the `Creep` class, structured as follows:  
+| Parameter Name | Type                                | Optional | Default Value | Description                                                                 |
+|----------------|-----------------------------------|----------|---------------|-----------------------------------------------------------------------------|
+| `target`       | `Creep`                           | No       | -             | An instance of `Creep`, which can be itself, indicating **melee healing** of the creep. |
+| `options`      | `MotionOptions` \| `bool` \| `None` | Yes      | `True`        | Movement control parameters. If `False` is passed, movement is disabled. Passing `True` or a `MotionOptions` object will cause the creep to automatically approach the target if the distance is insufficient. |
 
-| Function Name | Parameter 1 | Parameter 2 | Return Value | Description |  
-|---------------|-------------|-------------|--------------|-------------|  
-| heal          | target: Creep | move: (default=True) bool\|UsrObject | int | Commands the creep to heal the target. Returns 0 for success; negative values indicate corresponding error codes (see `const.py`). |  
+| Return Type | Description                                                                 |
+|-------------|-----------------------------------------------------------------------------|
+| `int`       | Returns `0` on success, and a negative error code on failure. See `const.py` for details. |
 
-- The `target` parameter is an instance of a Creep object and can be itself, indicating **melee healing**.  
-
-- The `move` parameter controls movement. If set to `False`, movement is disabled. If set to `True` or a movement instruction `options`, the creep will automatically move closer to the target if the distance is insufficient.  
-
-- This command automatically selects between **melee healing** and **ranged healing**. If you prefer to use the more powerful **melee healing** or maintain distance for **ranged healing** (e.g., to avoid **command conflicts**), disable **auto-move** by passing `False` to `move` and issue movement commands manually.  
-
+*This command automatically selects between **melee healing** and **ranged healing** based on the distance to the target. If you prefer to use the more powerful **melee healing** or maintain distance for **ranged healing** (e.g., to avoid **command conflicts**), disable **automatic movement** by passing `False` for the `move` parameter and issue movement commands manually.*
 ### Final Code & Compilation  
 
 <details>  
