@@ -1,8 +1,8 @@
 
+## 1. Console Output  
+
 Welcome to the Screeps-Arena Tutorial! 
 This series will guide you through the fundamentals of code usage.  
-
-## 1. Console Output  
 
 The first lesson focuses on how to use the console. 
 In Python, console output primarily relies on the `print` statement. 
