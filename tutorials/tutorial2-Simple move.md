@@ -1,7 +1,7 @@
 
-This tutorial will teach you basic object acquisition and movement commands.
-
 ## 2. Object Acquisition and Movement
+
+This tutorial will teach you basic object acquisition and movement commands.
 
 The in-game tutorial 2-`SimpleMove` provides two game objects in the game scene: one Creep and one Flag. It requires us to:
 1. Acquire the Creep and Flag objects
@@ -80,17 +80,22 @@ def step(k: GlobalKnowledge):
 ```
 
 ### Executing Movement Commands
-The movement command is an instance method of the `Creep` class, constructed as follows:
+The `move` command is an instance method of the `Creep` class, constructed as follows:
 
-|Function Name|Parameter 1                |Parameter 2                                |Return Value|Description                                               |
-|-----|--------------------|------------------------------------|-----|--------------------------------------------------|
-|move|target: Point\|int|options: (Default value None) UsrObject\|None|int|Moves the creep to the target object. A return value of 0 indicates success; a value less than 0 indicates a corresponding error code. For details, see `const.py`|
+| Parameter Name | Type                          | Optional | Default Value | Description                                                                 |
+|----------------|-------------------------------|----------|---------------|-----------------------------------------------------------------------------|
+| `target`       | `Point` \| `int`             | No       | -             | Can be a `Point` object indicating the destination, or a direction integer indicating the direction to move. |
+| `options`      | `MotionOptions` \| `None`    | Yes      | `None`        | Optional parameters that control the pathfinding logic. Details are provided below. |
 
-*The `target` parameter can be a `Point` object indicating where to move. It can also be a directional integer indicating which direction to move in.
+| Return Type | Description                                                                 |
+|-------------|-----------------------------------------------------------------------------|
+| `int`       | Returns `0` on success, and a negative error code on failure. See `const.py` for details. |
+
 <details>
 <summary>
-The `options` parameter is a <b>UsrObject</b> object that represents some optional parameters. If you are a beginner, you can choose to skip this part.
+Detailed explanation of the `options` parameter. You can skip this section if you are a beginner.
 </summary>
+The `options` parameter can include the following properties:  
 
 |Property Name|Type|Description|
 |----------------|---------------|----------------------------------------------------------------------|
@@ -137,6 +142,6 @@ def step(k: GlobalKnowledge):
 
 Configure `build.py` by first opening the file for Tutorial 1 in the game using the `External Editor` (click the filename above `Play Game`). In the opened VSCode, right-click `main.mjs` to get its file path, then paste it into the `config.target` value in `build.py` (uncomment it if necessary).
 
-Set the language in `config.language` to `'en'` (English output).
+Set the language in `config.language` to `'en'` (English output) or `'cn'` (partially Chinese output).
 
 Run `build.py` in PyCharm to transpile Python to JavaScript. If successful, click `Play Game` to see the result and receive a `Pass` popup.
