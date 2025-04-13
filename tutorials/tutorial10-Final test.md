@@ -22,7 +22,6 @@ Once the Spawn has this 50 energy, it creates a single Carry Creep to transfer e
 
 Then we create a powerful ranged unit `M5R5`, and when the enemies get close, we just pound them into the ground.
 
-*"What time is it? Time to farm first!"*
 ```python
 from builtin import *
 
@@ -81,7 +80,6 @@ The initial approach is the same as the previous idea, but instead of developing
 
 Use SitePlaner to create 3 defensive structures, and then create defensive units.
 
-*"What I am good at is countering after the enemy strikes."*
 ```python
 from builtin import *
 
@@ -153,7 +151,6 @@ Idea 3: Quick Attack. Click to expand.
 
 No initial production, directly create offensive units, break the walls first, then eliminate the enemies.
 
-*"What? I have to wait for the enemy to attack!? Let me just mass troops and attack!"*
 
 ```python
 from builtin import *
