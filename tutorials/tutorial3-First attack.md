@@ -1,6 +1,6 @@
-In this tutorial, you will learn how to control a `Creep` to attack enemies.  
 
 ## 3. Attacking Enemies  
+In this tutorial, you will learn how to control a `Creep` to attack enemies.  
 
 In `SA`, there are game objects with the following attributes:  
 
@@ -11,7 +11,7 @@ In `SA`, there are game objects with the following attributes:
 | hp             | int            | ✓         | Equivalent to `hits`. |  
 | hpMax          | int            | ✓         | Equivalent to `hitsMax`. |  
 
-These objects can be attacked by other **atkable** objects, regardless of whether they are allies or enemies (at least up to game version 0.3).  
+These objects can be attacked by other **attack-capable** objects, regardless of whether they are allies or enemies (at least up to game version 0.3).  
 
 Typical examples of such objects include: `Creep`, `StructureSpawn`, `StructureWall`, etc.  
 
@@ -41,16 +41,16 @@ def step(k: GlobalKnowledge):
 </details>  
 
 ### Issuing Attack Commands  
-The attack command is an instance method of the `Creep` class, structured as follows:  
+The `attack` command is an instance method of the `Creep` class, structured as follows:
 
-| Function Name | Parameter 1              | Parameter 2                          | Return Value | Description |  
-|---------------|--------------------------|---------------------------------------|--------------|-------------|  
-| attack        | target: st.hitable       | move: (default=True) bool\|UsrObject  | int          | Commands the creep to attack the target. Returns 0 for success; negative values indicate corresponding error codes (see `const.py`). |  
+| Parameter Name | Type                                | Optional | Default Value | Description                                                                 |
+|----------------|-----------------------------------|----------|---------------|-----------------------------------------------------------------------------|
+|target ``       | `st.hitable`                      | No       | -             | An instance object recognized by `st.hitable`, i.e., an object with `hits` and `hitsMax` properties. |
+| `options`      | `MotionOptions` \| `bool` \| `None` | Yes      | `True`        | Movement control parameters. If `False` is passed, movement is disabled. Passing `True` or a `MotionOptions` object will cause the creep to automatically approach the target if the distance is insufficient; for creeps primarily using ranged attacks, it will move away from the target if the distance is too close. |
 
-- The `target` parameter must be an instance recognized by `st.hitable`, i.e., an object with `hits` and `hitsMax` attributes.  
-
-- The `move` parameter controls movement. If set to `False`, movement is disabled. If set to `True` or a movement instruction `options`, the creep will automatically move closer to the target if the distance is insufficient.  
-
+| Return Type | Description                                                                 |
+|-------------|-----------------------------------------------------------------------------|
+| `int`       | Returns `0` on success, and a negative error code on failure. See `const.py` for details. |
 - This command automatically selects between **melee attack** and **ranged attack** based on the situation. If you want to perform both simultaneously, disable **auto-move** by passing `False` to `move` and issue movement commands manually.  
 
 <details>  
