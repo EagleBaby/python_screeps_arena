@@ -140,7 +140,7 @@ def step(k: GlobalKnowledge):
     CREEP.move(FLAG)
 ```
 
-Configure `build.py` by first opening the file for Tutorial 1 in the game using the `External Editor` (click the filename above `Play Game`). In the opened VSCode, right-click `main.mjs` to get its file path, then paste it into the `config.target` value in `build.py` (uncomment it if necessary).
+Configure `build.py` by first opening the file for Tutorial 2 in the game using the `External Editor` (click the filename above `Play Game`). In the opened VSCode, right-click `main.mjs` to get its file path, then paste it into the `config.target` value in `build.py` (uncomment it if necessary).
 
 Set the language in `config.language` to `'en'` (English output) or `'cn'` (partially Chinese output).
 
