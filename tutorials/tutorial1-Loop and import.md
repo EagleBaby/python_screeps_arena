@@ -55,9 +55,10 @@ Use `jprint` for detailed debugging and `print` for everyday use.
 
 ### Compilation and Execution  
 Configure `build.py` as follows:  
-1. In the game, open Tutorial 1’s file via **External Editor** (click the filename above **Play Game**).  
-2. In the opened VSCode, right-click `main.mjs` and copy its file path.  
-3. Paste the path into `config.target` in `build.py` (uncomment the line if necessary).  
+1. Make sure that the `color` is set as `gray`( for tutorial). `blue` if for `CTF`; `green` is for `SAS`; `red` is for `CAC`
+2. In the game, open Tutorial 1’s file via **External Editor** (click the filename above **Play Game**).  
+3. In the opened VSCode, right-click `main.mjs` and copy its file path.  
+4. Paste the path into `config.target` in `build.py` (uncomment the line if necessary).  
 
 Set the language in `config.language` to `'en'` (English output) or `'cn'` (partial Chinese output).  
 
