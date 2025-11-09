@@ -1,5 +1,7 @@
 [![Python](https://img.shields.io/badge/python->3.10-blue.svg)](https://www.python.org/downloads/) [![Pyscreeps-Arena](https://img.shields.io/pypi/v/pyscreeps-arena.svg?label=Pyscreeps-Arena)](https://pypi.org/project/pyscreeps-arena/)
 
+V0.5: Support 3 basic arenas for 1.0 Game.
+
 # Welcome to PyScreeps-Arena
 
 &nbsp;&nbsp;&nbsp;&nbsp;This project is for players who want to play Screeps: Arena with python. The project provides a 'standard library' (std.py) to act as a glue layer between js and python. Players write their own logic code in the main.py loop, and run build.py to generate main.mjs
