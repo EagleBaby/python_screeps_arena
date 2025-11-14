@@ -28,7 +28,7 @@
 
 ---
 
-## [0.4.x] - 2025-Q2 | Lightweight OS Development Library
+## [0.4.x] - 2025-Q1 | Lightweight OS Development Library
 
 ### 0.4.1.x Maintenance Releases
 - **0.4.1.2**: Fixed scheduler boundary condition issues
@@ -50,7 +50,7 @@
 
 ---
 
-## [0.3.x] - 2023-Q4 | Dynamic Type Architecture Refactor
+## [0.3.x] - 2024-Q4 | Dynamic Type Architecture Refactor
 
 ### 0.3.6
 - **Fix**: Dynamic type inference issues in certain boundary scenarios
@@ -74,7 +74,7 @@
 
 ---
 
-## [0.2.x] - 2023-Q2 | Static Utility Library Era
+## [0.2.x] - 2024-Q2 | Static Utility Library Era
 
 ### 0.2.2
 - **Fix**: `get` function anomalies in cross-tick caching
@@ -92,7 +92,7 @@
 
 ---
 
-## [0.1.x] - 2023-Q1 | Project Genesis
+## [0.1.x] - 2024-Q1 | Project Genesis
 
 ### 0.1.20 - 0.1.21
 - **Feature**: Build system stabilization
