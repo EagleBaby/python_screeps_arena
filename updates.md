@@ -15,9 +15,6 @@
 ## [0.5.x] - 2025-Q4 | Arena 1.0 Adaptation
 
 ### 0.5.3.x
-- **Fix**: Inaccurate `uid` annotation issue
-- **Fix**: Logic error in `intermit` when transporting to empty tiles
-- **Optimization**: Enhanced `TeamLogic` component functionality
 - **Feature**: Added `enemies: list[Creep]` and `friends: list[Creep]` attributes to `GlobalKnowledge` (know, k)  
 - **Feature**: `Portal.destination` now supports manual assignment to another portal when explicitly ensured  
 - **Fix**: Tightened boundary conditions in `Creep.intermit` for transporting to simple `Point`-type targets  
