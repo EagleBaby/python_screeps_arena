@@ -14,7 +14,21 @@
 
 ## [0.5.x] - 2025-Q4 | Arena 1.0 Adaptation
 
-### 0.5.2.0
+### 0.5.3.x
+- **Fix**: Inaccurate `uid` annotation issue
+- **Fix**: Logic error in `intermit` when transporting to empty tiles
+- **Optimization**: Enhanced `TeamLogic` component functionality
+- **Feature**: Added `enemies: list[Creep]` and `friends: list[Creep]` attributes to `GlobalKnowledge` (know, k)  
+- **Feature**: `Portal.destination` now supports manual assignment to another portal when explicitly ensured  
+- **Fix**: Tightened boundary conditions in `Creep.intermit` for transporting to simple `Point`-type targets  
+- **Optimization**: Pruned `Creep.autoAttack` logic—skip ranged attack when dynamic ranged attack power is 0  
+- **Docs**: Updated docstring for `CreepLogic.PRIORITY`  
+- **Docs**: Updated docstring for `get.chebRotate45x`  
+- **New**: `get.directionRotate(direction: int, count: int) -> int` – rotates direction by count × 45°  
+- **New**: `get.length(obj: st.point, target: st.point) -> int` – returns path length between two points  
+- **New**: `get.cost(pt: st.point, option: UsrObject = None) -> int` – returns cost of specified position
+
+### 0.5.2.x
 - **Fix**: Inaccurate `uid` annotation issue
 - **Fix**: Logic error in `intermit` when transporting to empty tiles
 - **Optimization**: Enhanced `TeamLogic` component functionality
