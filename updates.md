@@ -14,7 +14,10 @@
 
 ## [0.5.x] - 2025-Q4 | Arena 1.0 Adaptation
 
-### 0.5.4
+### 0.5.5.x (coming soon)
+- **Feature**: Added `path()` method to `View` class for intelligent route visualization. Automatically handles portal connections with dashed lines, derives complementary colors via HSV shift, and marks unrevealed portals with error indicators.
+
+### 0.5.4.x
 - **Feature**: Enhanced compiler: `from XXX import *` now imports all modules from `__init__.py`-less directories (subdirectories ignored with warning). Behavior unchanged for packages with `__init__.py`
 - **Fix**: Fixed logic error in `recursive` decorator under special conditions  
 - **Fix**: Fixed missing `get.parts`; added `.parts: list[str]` and `.dynamicParts: list[str]` attributes to `CreepInfo`
