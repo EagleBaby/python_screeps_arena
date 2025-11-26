@@ -18,7 +18,7 @@
 - **Feature**: Enhanced compiler: `from XXX import *` now imports all modules from `__init__.py`-less directories (subdirectories ignored with warning). Behavior unchanged for packages with `__init__.py`
 - **Fix**: Fixed logic error in `recursive` decorator under special conditions  
 - **Fix**: Fixed missing `get.parts`; added `.parts: list[str]` and `.dynamicParts: list[str]` attributes to `CreepInfo`
-- **Feature**: Added `.disable()` and `.enable()` instance methods to `Scheduler` (static methods `Scheduler.Disable()` and `Scheduler.Enable()` also available) for temporarily disabling/enabling scheduler
+- **Feature**: Added `.disable()` and `.enable()` instance methods to `Scheduler` for temporarily disabling/enabling scheduler
 - **Feature**: Added `basic.py` file to `src` directory in new projects
 - **Feature**: Added `.hpPer` attribute to `Creep` for retrieving creep's health percentage
 - **Docs**: Fixed comment accuracy for some functions in `math` library
