@@ -16,6 +16,7 @@
 
 ### 0.5.5.x (coming soon)
 - **Feature**: Added `path()` method to `View` class for intelligent route visualization. Automatically handles portal connections with dashed lines, derives complementary colors via HSV shift, and marks unrevealed portals with error indicators.
+- **Fix**: Fixed pathfinding error when map contain initial roads.
 
 ### 0.5.4.x
 - **Feature**: Enhanced compiler: `from XXX import *` now imports all modules from `__init__.py`-less directories (subdirectories ignored with warning). Behavior unchanged for packages with `__init__.py`
