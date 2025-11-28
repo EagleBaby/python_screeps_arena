@@ -16,6 +16,7 @@
 
 ### 0.5.5.x (coming soon)
 - **Feature**: Added `path()` method to `View` class for intelligent route visualization. Automatically handles portal connections with dashed lines, derives complementary colors via HSV shift, and marks unrevealed portals with error indicators.
+- **Feature**: Added `nearest()` method to `Point` class for spatial proximity queries. Supports range-limited detection with optional `filter_fn` for custom filtering criteria and `notme` parameter for self-exclusion behavior.
 - **Fix**: Fixed pathfinding error when map contain initial roads.
 
 ### 0.5.4.x
