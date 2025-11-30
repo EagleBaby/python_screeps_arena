@@ -14,7 +14,7 @@
 
 ## [0.5.x] - 2025-Q4 | Arena 1.0 Adaptation
 
-### 0.5.5.x (coming soon)
+### 0.5.5.x
 - **Feature**: Extended `GlobalKnowledge` class with portal state management attributes (`pairs`, `portals`, `reveals`, `conceals`) and nested `draws` class for controlling visualization. The `draws` class provides boolean flags for `creep` (default False), `portal` (default True), and `cluster` (default True) display options.
 - **Feature**: Integrated Portal awareness into kernel methods. `Point.distance`, `Point.closest`, `Point.nearest`, and `Creep.move` now support portal detection. `Point.quickest` integration pending. Functions based on these automaticly affected too.
 - **Feature**: Added global control static methods `Disable()` and `Enable()` to `Portal` class for temporarily toggling portal effects in internal calculations. Both methods return context managers that automatically restore the previous state upon exiting a `with` statement.
