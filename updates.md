@@ -15,8 +15,11 @@
 ## [0.5.x] - 2025-Q4 | Arena 1.0 Adaptation
 
 ### 0.5.5.x (coming soon)
-- **Feature**: Added `path()` method to `View` class for intelligent route visualization. Automatically handles portal connections with dashed lines, derives complementary colors via HSV shift, and marks unrevealed portals with error indicators.
+- **Feature**: Extended `GlobalKnowledge` class with portal state management attributes (`pairs`, `portals`, `reveals`, `conceals`) and nested `draws` class for controlling visualization. The `draws` class provides boolean flags for `creep` (default False), `portal` (default True), and `cluster` (default True) display options.
 - **Feature**: Added `nearest()` method to `Point` class for spatial proximity queries. Supports range-limited detection with optional `filter_fn` for custom filtering criteria and `notme` parameter for self-exclusion behavior.
+- **Feature**: Integrated Portal awareness into kernel methods. `Point.distance`, `Point.closest`, `Point.nearest`, and `Creep.move` now support portal detection. `Point.quickest` integration pending.
+- **Feature**: Added global control static methods `Disable()` and `Enable()` to `Portal` class for temporarily toggling portal effects in internal calculations. Both methods return context managers that automatically restore the previous state upon exiting a `with` statement.
+- **Feature**: Added `path()` method to `View` class for intelligent route visualization. Automatically handles portal connections with dashed lines, derives complementary colors via HSV shift, and marks unrevealed portals with error indicators.
 - **Fix**: Fixed pathfinding error when map contain initial roads.
 
 ### 0.5.4.x
