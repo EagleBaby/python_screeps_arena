@@ -52,10 +52,7 @@ V0.5: Support 3 basic arenas for 1.0 Game.
 
 ## 4. Document
 
-&nbsp;&nbsp;&nbsp;&nbsp;Use command ```mkdocs serve``` under project dir.(the dir has 'src', 'build.py'...). 
-
-&nbsp;&nbsp;&nbsp;&nbsp;Then open browser of "127.0.0.1:8000".
-
+&nbsp;&nbsp;&nbsp;&nbsp;See *.md under `docs` folder.
 
 ## Last
 
