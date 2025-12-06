@@ -14,6 +14,16 @@
 
 ## [0.5.x] - 2025-Q4 | Arena 1.0 Adaptation
 
+### 0.5.6.x
+- **Fix**: Fixed `SitePlaner.next` method by adding a `True` return case to accommodate the 1-tick waiting period required after site creation in post-1.0 gameplay.
+- **Feature**: Added `get.history` method and streamlined `get.situation` method; introduced `know.situ` and `know.hist` methods; added global variable `k` pointing to the `know` object.
+- **Feature**: Added `energyPer` property to resource-storable classes.
+- **Feature**: Enhanced function documentation.
+- **Feature**: Added `stype` methods: `st.area`, `st.red`, `st.blue`, `st.green`.
+- **Feature**: Added `AreaEffect.kind: str` property.
+- **Fix**: Fixed fatal logical error caused by `Portal` under special conditions.
+- **Fix**: Fixed various other issues.
+
 ### 0.5.5.x
 - **Feature**: Extended `GlobalKnowledge` class with portal state management attributes (`pairs`, `portals`, `reveals`, `conceals`) and nested `draws` class for controlling visualization. The `draws` class provides boolean flags for `creep` (default False), `portal` (default True), and `cluster` (default True) display options.
 - **Feature**: Integrated Portal awareness into kernel methods. `Point.distance`, `Point.closest`, `Point.nearest`, and `Creep.move` now support portal detection. `Point.quickest` integration pending. Functions based on these automaticly affected too.
