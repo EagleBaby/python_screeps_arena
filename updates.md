@@ -16,7 +16,7 @@
 
 ### 0.5.6.x
 - **Fix**: Fixed `SitePlaner.next` method by adding a `True` return case to accommodate the 1-tick waiting period required after site creation in post-1.0 gameplay.
-- **Feature**: Added `get.history` method and streamlined `get.situation` method; introduced `know.situ` and `know.hist` methods; added global variable `k` pointing to the `know` object.
+- **Feature**: Added `get.history` method and streamlined `get.situation` method; introduced `know.situ` and `know.hist` attrs; added global variable `k` pointing to the `know` object.
 - **Feature**: Added `energyPer` property to resource-storable classes.
 - **Feature**: Enhanced function documentation.
 - **Feature**: Added `stype` methods: `st.area`, `st.red`, `st.blue`, `st.green`.
