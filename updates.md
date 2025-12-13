@@ -18,7 +18,6 @@
 - **Feature**: Added `Field` class as a 2D data field container supporting cost matrices, distance fields, direction fields, with conversion, visualization, and morphological operations
 - **Feature**: Added `creep.test` method to determine whether to approach, retreat from, or maintain distance to a target
 - **Feature**: Added `creep.info.(dynamic)meleeRatio` attribute for creep's melee combat strength
-- **Feature**: Added `get.fields` method to retrieve distance field maps
 - **Feature**: Added `get.collapse` method to optimize circular waypoint paths to better fit the map
 - **Feature**: Added `point.direction` method to get direction between two points
 - **Feature**: Added `point.offseT` method for polar coordinate offset
