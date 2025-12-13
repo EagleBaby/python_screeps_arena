@@ -14,6 +14,20 @@
 
 ## [0.5.x] - 2025-Q4 | Arena 1.0 Adaptation
 
+### 0.5.7.x (coming soon)
+- **Feature**: Added `Field` class as a 2D data field container supporting cost matrices, distance fields, direction fields, with conversion, visualization, and morphological operations
+- **Feature**: Added `creep.test` method to determine whether to approach, retreat from, or maintain distance to a target
+- **Feature**: Added `creep.info.(dynamic)meleeRatio` attribute for creep's melee combat strength
+- **Feature**: Added `get.fields` method to retrieve distance field maps
+- **Feature**: Added `get.collapse` method to optimize circular waypoint paths to better fit the map
+- **Feature**: Added `point.direction` method to get direction between two points
+- **Feature**: Added `point.offseT` method for polar coordinate offset
+- **Feature**: Added `View.color` attribute to get next random color
+- **Feature**: Modified `View.dashLine` method with default dash and gap lengths of 0.5
+- **Fix**: Fixed performance issue in `creep.motion`
+- **Feature**: Compiler now supports basic match statements
+
+
 ### 0.5.6.x
 - **Fix**: Fixed `SitePlaner.next` method by adding a `True` return case to accommodate the 1-tick waiting period required after site creation in post-1.0 gameplay.
 - **Feature**: Added `get.history` method and streamlined `get.situation` method; introduced `know.situ` and `know.hist` attrs; added global variable `k` pointing to the `know` object.
