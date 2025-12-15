@@ -14,7 +14,7 @@
 
 ## [0.5.x] - 2025-Q4 | Arena 1.0 Adaptation
 
-### 0.5.7.x (coming soon)
+### 0.5.7.x
 - **Feature**: Added `Field` class as a 2D data field container supporting cost matrices, distance fields, direction fields, with conversion, visualization, and morphological operations
 - **Feature**: Added experimental creeplogic initialer via `psaui -c` (Chinese) or `psaui -e` (English) command
 - **Feature**: Recipes now support simplified `<Type><Count>...` format (e.g., `M1`, `R8A2M24T1`)
