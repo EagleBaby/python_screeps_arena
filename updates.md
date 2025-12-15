@@ -16,7 +16,7 @@
 
 ### 0.5.7.x (coming soon)
 - **Feature**: Added `Field` class as a 2D data field container supporting cost matrices, distance fields, direction fields, with conversion, visualization, and morphological operations
-- **Feature**: Added experimental creep spawner via `psaui -c` (Chinese) or `psaui -e` (English) command
+- **Feature**: Added experimental creeplogic initialer via `psaui -c` (Chinese) or `psaui -e` (English) command
 - **Feature**: Recipes now support simplified `<Type><Count>...` format (e.g., `M1`, `R8A2M24T1`)
 - **Feature**: Added `creep.autoCombat()` method for automatic combat (cannot auto-move, returns `None`)
 - **Feature**: Added `creep.attach()` method for actively attaching to `Point` objects and subclasses
