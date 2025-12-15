@@ -16,6 +16,11 @@
 
 ### 0.5.7.x (coming soon)
 - **Feature**: Added `Field` class as a 2D data field container supporting cost matrices, distance fields, direction fields, with conversion, visualization, and morphological operations
+- **Feature**: Added experimental creep spawner via `psaui -c` (Chinese) or `psaui -e` (English) command
+- **Feature**: Recipes now support simplified `<Type><Count>...` format (e.g., `M1`, `R8A2M24T1`)
+- **Feature**: Added `creep.autoCombat()` method for automatic combat (cannot auto-move, returns `None`)
+- **Feature**: Added `creep.attach()` method for actively attaching to `Point` objects and subclasses
+- **Feature**: Added `info.dynamicFc`/`dynamicEc` properties for retrieving dynamic friendly/enemy strength
 - **Feature**: Added `creep.test` method to determine whether to approach, retreat from, or maintain distance to a target
 - **Feature**: Added `creep.info.(dynamic)meleeRatio` attribute for creep's melee combat strength
 - **Feature**: Added `get.collapse` method to optimize circular waypoint paths to better fit the map
@@ -25,6 +30,7 @@
 - **Feature**: Modified `View.dashLine` method with default dash and gap lengths of 0.5
 - **Fix**: Fixed performance issue in `creep.motion`
 - **Feature**: Compiler now supports basic match statements
+- **Docs**: Updated documentation
 
 
 ### 0.5.6.x
