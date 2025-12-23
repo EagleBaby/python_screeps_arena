@@ -20,12 +20,13 @@ The `plan` method of the `ConstructionSite` class is used to create a constructi
 | `ConstructionSite` | Returns a `site` instance on success, and a negative error code on failure. See `const.py` for details. |  
 
 ```python  
-from builtin import *  
+from builtin import *
 
-SITE = ConstructionSite.plan(50, 50, StructureTower)  
+SITE = None  # Can not create at tick == 0 (After game version 1.0)
 
 def init(k: GlobalKnowledge):  
-    pass  
+    global SITE
+    SITE = ConstructionSite.plan(50, 50, StructureTower)  
 
 def step(k: GlobalKnowledge):  
     pass  
