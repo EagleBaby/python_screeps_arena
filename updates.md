@@ -28,7 +28,12 @@
 - **Feature**: Added `point.offseT` method for polar coordinate offset
 - **Feature**: Added `View.color` attribute to get next random color
 - **Feature**: Modified `View.dashLine` method with default dash and gap lengths of 0.5
+- **Feature**: Added `point.near(target, distance=1)` method to check adjacency to target
+- **Feature**: Added `Cache` class for caching data within a time period; supports independent and same-name shared modes
 - **Fix**: Fixed performance issue in `creep.motion`
+- **Fix**: Removed empty result warnings for `closest`, `quickest`, `inrange`, `nearest` methods
+- **Fix**: Fixed planning and pathfinding issues caused by multiple Sites and Structures at a single location
+- **Fix**: Fixed logic defect in `creep.carry` when entering new terrain
 - **Feature**: Compiler now supports basic match statements
 - **Docs**: Updated documentation
 
