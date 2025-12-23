@@ -38,12 +38,13 @@ This tutorial provides a Creep with a `WORK` component and a `box` filled with e
 ```python  
 from builtin import *  
 
-SITE = ConstructionSite.plan(50, 50, StructureTower)  
+SITE = None
 CREEP = get.creep()  
 BOX = get.box()  
 
 def init(k: GlobalKnowledge):  
-    pass  
+    global SITE
+    SITE = ConstructionSite.plan(50, 50, StructureTower)  
 
 def step(k: GlobalKnowledge):  
     pass  
@@ -65,12 +66,13 @@ The `build` method is an instance method of the `Creep` class, structured as fol
 ```python  
 from builtin import *  
 
-SITE = ConstructionSite.plan(50, 50, StructureTower)  
+SITE = None
 CREEP = get.creep()  
 BOX = get.box()  
 
 def init(k: GlobalKnowledge):  
-    pass  
+    global SITE
+    SITE = ConstructionSite.plan(50, 50, StructureTower)  
 
 def step(k: GlobalKnowledge):  
     if CREEP.energy <= 0:  
