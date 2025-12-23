@@ -579,6 +579,7 @@ class DefenderA(CreepLogic):
             
 
 class DefenderB(DefenderA):
+    NAME = "defenderB"
     DIRECTION = BOTTOM
 ```
 
