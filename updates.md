@@ -14,6 +14,11 @@
 
 ## [0.5.x] - 2025-Q4 | Arena 1.0 Adaptation
 
+### 0.5.8.x
+- **Feature**: Added prefab types to docs for rapid new-arena development  
+- **Feature**: <Experimental> a lightweight mini-numpy module embeded into this arch.
+- **Fix**: Fixed various other issues.
+
 ### 0.5.7.x
 - **Feature**: Added `Field` class as a 2D data field container supporting cost matrices, distance fields, direction fields, with conversion, visualization, and morphological operations
 - **Feature**: Added experimental creeplogic initialer via `psaui -c` (Chinese) or `psaui -e` (English) command
