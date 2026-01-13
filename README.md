@@ -28,7 +28,8 @@ V0.5: Support 3 basic arenas for 1.0 Game.
 
 &nbsp;&nbsp;&nbsp;&nbsp;Use GUI cmd command to create a new game project:
 &nbsp;&nbsp;&nbsp;&nbsp;```psaui```  version >= 0.5.9
-<img width="535" height="643" alt="image" src="https://github.com/user-attachments/assets/00439f5b-f40e-4ef1-b3ef-b542944ef376" />
+<img width="474" height="542" alt="image" src="https://github.com/user-attachments/assets/e7b2b6cb-c9e3-4c25-a791-f9093cb5c0eb" />
+
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;Use your editor to open the project<font color="gray">(recommand PyCharm)</font>.
