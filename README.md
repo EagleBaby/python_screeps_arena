@@ -31,16 +31,16 @@ V0.5: Support 3 basic arenas for 1.0 Game.
 
 ## 2. Tutorial
 
-* [Tutorial 1: Loop and import](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorials/tutorial1-Loop%20and%20import.md)
-* [Tutorial 2: Simple move](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorials/tutorial2-Simple%20move.md)
-* [Tutorial 3: First attack](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorials/tutorial3-First%20attack.md)
-* [Tutorial 4: Creeps bodies](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorials/tutorial4-Creeps%20Bodies.md)
-* [Tutorial 5: Store and transfer](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorials/tutorial5-Store%20and%20transfer.md)
-* [Tutorial 6: Terrain](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorials/tutorial6-Terrain.md)
-* [Tutorial 7: Spawn creeps](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorials/tutorial7-Spawn%20creeps.md)
-* [Tutorial 8: Harvest energy](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorials/tutorial8-Harvest%20energy.md)
-* [Tutorial 9: Construction](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorials/tutorial9-Construction.md)
-* [Tutorial 10: Final test](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorials/tutorial10-Final%20test.md)
+* [Tutorial 1: Loop and import](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorials/1.md)
+* [Tutorial 2: Simple move](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorials/2.md)
+* [Tutorial 3: First attack](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorials/3.md)
+* [Tutorial 4: Creeps bodies](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorials/4.md)
+* [Tutorial 5: Store and transfer](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorials/5.md)
+* [Tutorial 6: Terrain](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorials/6.md)
+* [Tutorial 7: Spawn creeps](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorials/7.md)
+* [Tutorial 8: Harvest energy](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorials/8.md)
+* [Tutorial 9: Construction](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorials/9.md)
+* [Tutorial 10: Final test](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorials/10.md)
 
 ## 3. Transcrypt: Different between python and js
 * in python:```if []:``` is False, but get true in js.
