@@ -14,6 +14,13 @@
 
 ## [0.5.x] - 2025-Q4 | Arena 1.0 Adaptation
 
+### 0.5.9.x
+- **Fix**: Fixed logic errors in underlying codebase
+- **Feature**: Promoted engine's `state machine` to `behavior machine` architecture
+- **Feature**: Integrated `datetime` module into core architecture
+- **Feature**: Added `psaui` for graphical project configuration interface
+- **Docs**: Updated documentation
+
 ### 0.5.8.x
 - **Feature**: Added prefab types to docs for rapid new-arena development  
 - **Feature**: <Experimental> a lightweight mini-numpy module embeded into this arch.
