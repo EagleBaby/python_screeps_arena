@@ -38,7 +38,7 @@ class Demo(Logic):
 ```
 
 <p align="center">
-<img src="../../_assets/Behavior_image1.png" alt="Demo flowchart">
+<img src="pic/Behavior_image1.png" alt="Demo flowchart">
 </p>
 
 Execution order: start -> (run -> idle) -> (run -> idle) - ...
@@ -101,5 +101,5 @@ class Demo(Logic):
 ```
 
 <p align="center">
-<img src="../../_assets/Behavior_image2.png" alt="Demo flowchart">
+<img src="pic/Behavior_image2.png" alt="Demo flowchart">
 </p>
