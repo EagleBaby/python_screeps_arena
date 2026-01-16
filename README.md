@@ -27,7 +27,7 @@ V0.5: Support 3 basic arenas for 1.0 Game.
 &nbsp;&nbsp;&nbsp;&nbsp;```pyscreeps-arena 'Your Project Path'```
 
 &nbsp;&nbsp;&nbsp;&nbsp;Use GUI cmd command to create a new game project:
-&nbsp;&nbsp;&nbsp;&nbsp;```psaui```  version >= 0.5.9
+&nbsp;&nbsp;&nbsp;&nbsp;```psaui```
 
 &nbsp;&nbsp;&nbsp;&nbsp;Use your editor to open the project<font color="gray">(recommand PyCharm)</font>.
 
