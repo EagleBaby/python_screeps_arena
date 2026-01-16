@@ -194,11 +194,11 @@ class EventSender(Logic):
     
     def onStep(self, creep, k):
         # Trigger event every 100 ticks
-        if k.tick % 100 == 0:
+        if k.now % 100 == 0:
             # Push custom event with data
             self.pushEvent("custom_event", {
                 "message": "Hello from Sender",
-                "tick": k.tick
+                "tick": k.now
             })
 
 # Event Receiver
@@ -235,3 +235,4 @@ def init(k: GlobalKnowledge):
 def step(k: GlobalKnowledge):
     pass
 ```
+
