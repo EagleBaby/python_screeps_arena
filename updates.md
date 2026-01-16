@@ -14,7 +14,7 @@
 
 ## [0.5.x] - 2025-Q4 | Arena 1.0 Adaptation
 
-### 0.5.9.x (coming soon)
+### 0.5.9.x
 - **Fix**: Fixed logic defects in underlying codebase
 - **Feature**: Promoted engine's `state machine` to `behavior machine` architecture
 - **Feature**: Integrated `datetime` module into core architecture
