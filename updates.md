@@ -11,6 +11,14 @@
 - Early `0.1.x` series used continuous iteration without strict differentiation between feature updates and fixes
 
 ---
+## [0.6.x] - 2026-Q1 | Season 2
+
+### 0.5.0.0
+- **Major Update**: Adapted for Screeps: Arena season 2
+- **Feature**: `autoAttack` `autoHeal` `autoAction` for `Tower`
+- **Feature**: Remove module `datetime`. `Compiler` wont add timestamp into final main.mjs.
+- **Docs**: Updated documentation
+
 
 ## [0.5.x] - 2025-Q4 | Arena 1.0 Adaptation
 
