@@ -13,7 +13,7 @@
 ---
 ## [0.6.x] - 2026-Q1 | Season 2
 
-### 0.5.0.0
+### 0.6.0.x
 - **Major Update**: Adapted for Screeps: Arena season 2
 - **Feature**: `autoAttack` `autoHeal` `autoAction` for `Tower`
 - **Feature**: Remove module `datetime`. `Compiler` wont add timestamp into final main.mjs.
