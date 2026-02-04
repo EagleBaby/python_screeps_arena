@@ -29,6 +29,10 @@ V0.6: Support for season2.
 &nbsp;&nbsp;&nbsp;&nbsp;Use GUI cmd command to create a new game project:
 &nbsp;&nbsp;&nbsp;&nbsp;```psaui```
 
+
+&nbsp;&nbsp;&nbsp;&nbsp;Use GUI cmd command to view map and mark element as code(map at `/docs/map`):
+&nbsp;&nbsp;&nbsp;&nbsp;```psaui -m```
+
 &nbsp;&nbsp;&nbsp;&nbsp;Use your editor to open the project<font color="gray">(recommand PyCharm)</font>.
 
 
