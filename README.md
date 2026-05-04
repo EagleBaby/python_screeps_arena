@@ -17,7 +17,7 @@ V0.6.1: Support for season3.
 
 ## 1. Quick Prepare Environment
 
-&nbsp;&nbsp;&nbsp;&nbsp;<font color=#FCAE80>This project <b>suggest</b> a python with >= 3.10. </font>Please make sure you have download&install from python.org
+&nbsp;&nbsp;&nbsp;&nbsp;<font color=#FCAE80>This project need python == 3.12 (for the limit of `transcrypt`). </font>Please make sure you have download&install from python.org
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;Use python pip to install this package:
