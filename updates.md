@@ -11,7 +11,19 @@
 - Early `0.1.x` series used continuous iteration without strict differentiation between feature updates and fixes
 
 ---
+
+## [>=0.6.2] - 2026-Q2 | Season 3
+### 0.6.3
+- **Feature**: Added prefab types 'WorkerType'
+- **Fix**: Fixed other issues.
+
+### 0.6.2
+- **Fix**: Fixed other issues.
+
+
 ## [0.6.x] - 2026-Q1 | Season 2
+### 0.6.1
+- **Fix**: Fixed other issues.
 
 ### 0.6.0.x
 - **Major Update**: Adapted for Screeps: Arena season 2
