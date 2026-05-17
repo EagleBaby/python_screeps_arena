@@ -13,6 +13,10 @@
 ---
 
 ## [>=0.6.2] - 2026-Q2 | Season 3
+
+### 0.6.4
+- **Fix**: Fixed other issues.
+
 ### 0.6.3
 - **Feature**: Added prefab types 'WorkerType'
 - **Fix**: Fixed other issues.
