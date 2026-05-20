@@ -14,8 +14,6 @@
 
 ## [>=0.6.2] - 2026-Q2 | Season 3
 
-1. 
-2. Preset snake formation squads now support variable length (≥2 members).
 ### 0.6.5.x
 - **Feature**: Prefab `SnakeTeamType` now support variable length (≥2 members).
 - **Fix**: Fixed incorrect ranged attack behavior in `autoAttack` when making contact with Walls.
