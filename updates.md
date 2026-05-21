@@ -16,6 +16,7 @@
 
 ### 0.6.5.x
 - **Feature**: Prefab `SnakeTeamType` now support variable length (≥2 members).
+- **Fix**: Fixed scheduler behavior in multi-spawn scenarios.
 - **Fix**: Fixed incorrect ranged attack behavior in `autoAttack` when making contact with Walls.
 - **Fix**: Fixed other issues.
 
