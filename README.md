@@ -8,7 +8,7 @@ V0.6.1: Support for season3.
 &nbsp;&nbsp;&nbsp;&nbsp;This project is for players who want to play Screeps: Arena with python. The project provides a 'standard library' (std.py) to act as a glue layer between js and python. Players write their own logic code in the main.py loop, and run build.py to generate main.mjs
 
 <font color="#FC8480">
-&nbsp;&nbsp;&nbsp;&nbsp;Please note that the codes for 'Screeps:Arena' and 'Screeps:World' are not compatible.
+&nbsp;&nbsp;&nbsp;&nbsp;Please note that the codes for `Screeps:Arena` and 'Screeps:World' are not compatible.
 
 </font><font color="gray">
 
