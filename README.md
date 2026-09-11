@@ -1,6 +1,6 @@
 [![Python](https://img.shields.io/badge/python-==3.12-blue.svg)](https://www.python.org/downloads/) [![Pyscreeps-Arena](https://img.shields.io/pypi/v/pyscreeps-arena.svg?label=Pyscreeps-Arena)](https://pypi.org/project/pyscreeps-arena/)
 
-V0.6.1: Support for season3.
+V0.7: Support for season4.
 [Update Details](updates.md)
 
 # Welcome to PyScreeps-Arena
