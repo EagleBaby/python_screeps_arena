@@ -12,6 +12,20 @@
 
 ---
 
+## [0.7.x] - 2026-Q3 | Season 4
+
+### 0.7.0
+- **Major Update**: Adapted for Screeps: Arena season 4 (green `spawn_and_swamp`, blue `pain_and_gain`, red `escort_run`)
+- **Feature**: New `seasons` module — per-season arena field registry; `build.py` now takes a `season` option, and the compiler infers the default `main.mjs` export path from season+color when `target` is left empty
+- **Feature**: Compiler generates real imports for the current color's special classes/constants, and auto-fills blank placeholder classes for historical special types of other colors (cross-color duplicate names produce a warning)
+- **Feature**: Added season 4 `ScoreFlag` prototype (blue `pain_and_gain`) with `TICKS_LIMIT`, `MAX_SCORE_PER_TICK`, `FLAG_TYPES` constants
+- **Feature**: Flag side effects are tracked for you — `creep.info` combat & movement values (`attackPower`, `meleePower`, `rangedPower`, `healPower`, `grade`, `effect`, `meleeRatio`, `rangedRatio`, `attackRatio`, `motionAbility` and the `dynamic*` variants) now reflect the flags each side holds
+- **Feature**: Added `VirtualBlocker(x, y)` / `VirtualBlocker(point)` — marks a cell as blocked so creeps simply walk around it; call `blocker.remove()` to unblock
+- **Feature**: Local simulator now ships all season 4 maps (3 colors × basic/advanced, advanced suffixed `-ex`). This is a Experimental function with many bugs.
+- **Docs**: Added season 4 notes (`season4.md`); updated documentation
+- **Fix**: Fixed other issues.
+
+  
 ## [>=0.6.2] - 2026-Q2 | Season 3
 
 ### 0.6.5.x
