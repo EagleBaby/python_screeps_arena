@@ -43,22 +43,9 @@ pip install pyscreeps-arena
 | --- | --- |
 | `pyscreeps-arena "项目路径"` | 创建一个新的游戏项目 |
 | `psaui` | 创建一个新的游戏项目（图形界面） |
-| `psaui -m` | 查看地图并将元素标记为代码（地图位于 `/docs/map`） |
 
 然后用你喜欢的编辑器打开项目即可（*推荐 PyCharm*）。
 
----
-
-## 🎓 教程
-
-| # | 内容 | # | 内容 |
-| --- | --- | --- | --- |
-| [1](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial%20-%20cn/1.md) | 控制台输出 | [7](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial%20-%20cn/7.md) | 创建新 Creep |
-| [2](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial%20-%20cn/2.md) | 对象获取与移动 | [7+](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial%20-%20cn/7%2B.md) | 创建新 Creep（面向对象） |
-| [3](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial%20-%20cn/3.md) | 攻击敌人 | [8](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial%20-%20cn/8.md) | 采集能量 |
-| [4](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial%20-%20cn/4.md) | Creep 的构成 | [8+](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial%20-%20cn/8%2B.md) | 采集能量（面向对象） |
-| [5](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial%20-%20cn/5.md) | 资源存取 | [9](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial%20-%20cn/9.md) | 修建建筑 |
-| [6](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial%20-%20cn/6.md) | 地形影响 | [10](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial%20-%20cn/10.md) / [10+](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial%20-%20cn/10%2B.md) | 最终测试 / 最终测试（面向对象） |
 
 ---
 
@@ -77,7 +64,20 @@ pip install pyscreeps-arena
 
 ---
 
-## 📚 文档
+## 🎓 教程
+
+| # | 内容 | # | 内容 |
+| --- | --- | --- | --- |
+| [1](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial%20-%20cn/1.md) | 控制台输出 | [7](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial%20-%20cn/7.md) | 创建新 Creep |
+| [2](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial%20-%20cn/2.md) | 对象获取与移动 | [7+](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial%20-%20cn/7%2B.md) | 创建新 Creep（面向对象） |
+| [3](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial%20-%20cn/3.md) | 攻击敌人 | [8](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial%20-%20cn/8.md) | 采集能量 |
+| [4](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial%20-%20cn/4.md) | Creep 的构成 | [8+](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial%20-%20cn/8%2B.md) | 采集能量（面向对象） |
+| [5](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial%20-%20cn/5.md) | 资源存取 | [9](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial%20-%20cn/9.md) | 修建建筑 |
+| [6](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial%20-%20cn/6.md) | 地形影响 | [10](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial%20-%20cn/10.md) / [10+](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial%20-%20cn/10%2B.md) | 最终测试 / 最终测试（面向对象） |
+
+---
+
+## 📚 其他文档
 
 * [行为树](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial%20-%20cn/%E8%A1%8C%E4%B8%BA%E6%A0%91.md) —— 组合节点、行为结果与 `@behavior` 装饰器
 * [绘图](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial%20-%20cn/%E7%BB%98%E5%9B%BE.md) —— 使用 `View` 进行调试可视化：文本、线条、图形、路径与血条
