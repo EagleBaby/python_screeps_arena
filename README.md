@@ -1,66 +1,90 @@
-[![Python](https://img.shields.io/badge/python-==3.12-blue.svg)](https://www.python.org/downloads/) [![Pyscreeps-Arena](https://img.shields.io/pypi/v/pyscreeps-arena.svg?label=Pyscreeps-Arena)](https://pypi.org/project/pyscreeps-arena/)
+<div align="center">
 
-V0.7: Support for season4.
-[Update Details](updates.md)
+# 🐍 PyScreeps-Arena
 
-# Welcome to PyScreeps-Arena
+**Play Screeps: Arena with Python.**
 
-&nbsp;&nbsp;&nbsp;&nbsp;This project is for players who want to play Screeps: Arena with python. The project provides a 'standard library' (std.py) to act as a glue layer between js and python. Players write their own logic code in the main.py loop, and run build.py to generate main.mjs
+[![Python](https://img.shields.io/badge/python-==3.12-blue.svg)](https://www.python.org/downloads/)
+[![Pyscreeps-Arena](https://img.shields.io/pypi/v/pyscreeps-arena.svg?label=Pyscreeps-Arena)](https://pypi.org/project/pyscreeps-arena/)
 
-<font color="#FC8480">
-&nbsp;&nbsp;&nbsp;&nbsp;Please note that the codes for `Screeps:Arena` and 'Screeps:World' are not compatible.
+**V0.7: Support for Season 4** · [Update Details](updates.md)
 
-</font><font color="gray">
+</div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;(If you want to play Screeps:World, i recommend you to try the Github project: ['screeps-starter-python'](https://github.com/daboross/screeps-starter-python))
-</font>
+---
 
-## 1. Quick Prepare Environment
+## 📖 Introduction
 
-&nbsp;&nbsp;&nbsp;&nbsp;<font color=#FCAE80>This project need python == 3.12 (for the limit of `transcrypt`). </font>Please make sure you have download&install from python.org
+This project is for players who want to play [Screeps: Arena](https://store.steampowered.com/app/1137320/Screeps_Arena/) with Python. It provides a *standard library* (`std.py`) that acts as a glue layer between JS and Python. You write your own logic in the `main.py` loop, then run `build.py` to generate the final `main.mjs`.
 
+> [!IMPORTANT]
+> The code for **Screeps: Arena** and **Screeps: World** is **not compatible**.
+> If you want to play Screeps: World, check out the GitHub project [screeps-starter-python](https://github.com/daboross/screeps-starter-python) instead.
 
-&nbsp;&nbsp;&nbsp;&nbsp;Use python pip to install this package:
-&nbsp;&nbsp;&nbsp;&nbsp;```pip install pyscreeps-arena```
+---
 
-&nbsp;&nbsp;&nbsp;&nbsp;Use cmd command to create a new game project:
-&nbsp;&nbsp;&nbsp;&nbsp;```pyscreeps-arena 'Your Project Path'```
+## 🚀 Quick Start
 
-&nbsp;&nbsp;&nbsp;&nbsp;Use GUI cmd command to create a new game project:
-&nbsp;&nbsp;&nbsp;&nbsp;```psaui```
+### Prerequisites
 
+This project requires **Python == 3.12** (a limitation of `transcrypt`). Make sure you have downloaded and installed it from [python.org](https://www.python.org/downloads/).
 
-&nbsp;&nbsp;&nbsp;&nbsp;Use GUI cmd command to view map and mark element as code(map at `/docs/map`):
-&nbsp;&nbsp;&nbsp;&nbsp;```psaui -m```
+### Installation
 
-&nbsp;&nbsp;&nbsp;&nbsp;Use your editor to open the project<font color="gray">(recommand PyCharm)</font>.
+```bash
+pip install pyscreeps-arena
+```
 
+### Commands
 
-## 2. Tutorial
+| Command | Description |
+| --- | --- |
+| `pyscreeps-arena "Your Project Path"` | Create a new game project |
+| `psaui` | Create a new game project (GUI) |
 
-* [Tutorial 1: Loop and import](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial/1.md)
-* [Tutorial 2: Simple move](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial/2.md)
-* [Tutorial 3: First attack](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial/3.md)
-* [Tutorial 4: Creeps bodies](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial/4.md)
-* [Tutorial 5: Store and transfer](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial/5.md)
-* [Tutorial 6: Terrain](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial/6.md)
-* [Tutorial 7: Spawn creeps](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial/7.md)
-* [Tutorial 8: Harvest energy](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial/8.md)
-* [Tutorial 9: Construction](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial/9.md)
-* [Tutorial 10: Final test](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial/10.md)
+Then open the project with your favorite editor *(PyCharm recommended)*.
 
-## 3. Transcrypt: Different between python and js
-* in python:```if []:``` is False, but get true in js.
-* in python:```_list[-1]``` is ok, but not work in js.
-* in python： use ```dict.py_get()``` instead of ```dict.get()```
-* in python： use ```container.py_clear()``` instead of ```container.clear()```
-* operator reaload do not work in js. Mean in python```[1] * 5``` do not work in js.
-* kwargs do not work in js. Mean in python```func(1, b = 5)``` do not work in js.
+---
 
-## 4. Document
+## ⚠️ Transcrypt: Differences between Python and JS
 
-&nbsp;&nbsp;&nbsp;&nbsp;See *.md under `docs` folder.
+Since the code is compiled by `transcrypt`, some Python semantics behave differently in the JS runtime:
 
-## Last
+| In Python | In JS (Transcrypt) |
+| --- | --- |
+| `if []:` is `False` | Evaluates to `true` |
+| `_list[-1]` works | Does not work |
+| `dict.get()` | Use `dict.py_get()` instead |
+| `container.clear()` | Use `container.py_clear()` instead |
+| Operator overload, e.g. `[1] * 5` | Does not work |
+| Keyword arguments, e.g. `func(1, b=5)` | Does not work |
 
-&nbsp;&nbsp;&nbsp;&nbsp;Goodluck & Have fun. :)
+---
+
+## 🎓 Tutorials
+
+| # | Topic | # | Topic |
+| --- | --- | --- | --- |
+| [1](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial/1.md) | Loop and import | [7](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial/7.md) | Spawn creeps |
+| [2](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial/2.md) | Simple move | [7+](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial/7%2B.md) | Spawn creeps (Object-Oriented) |
+| [3](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial/3.md) | First attack | [8](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial/8.md) | Harvest energy |
+| [4](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial/4.md) | Creeps bodies | [8+](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial/8%2B.md) | Harvest energy (Object-Oriented) |
+| [5](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial/5.md) | Store and transfer | [9](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial/9.md) | Construction |
+| [6](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial/6.md) | Terrain | [10](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial/10.md) / [10+](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial/10%2B.md) | Final test / Final test (OOP) |
+
+---
+
+## 📚 Other Documentation
+
+* [Behavior Tree](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial/Behavior%20Tree.md) — Composite nodes, behavior results and the `@behavior` decorator
+* [Drawing](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial/Drawing.md) — Debug visualization with `View`: text, lines, shapes, paths and headers
+* [Event System](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial/Event%20System.md) — Publish-subscribe events, listeners and the `@listen` decorator
+* [Field Class](https://github.com/EagleBaby/python_screeps_arena/blob/main/tutorial/Feild.md) — 2D grid fields: distance/direction transforms, morphology and filters
+
+---
+
+<div align="center">
+
+**Good luck & have fun!** 🎮
+
+</div>
