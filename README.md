@@ -2,13 +2,15 @@
 
 # 🐍 PyScreeps-Arena
 
-**Play Screeps: Arena with Python.** \| [中文README](https://github.com/EagleBaby/python_screeps_arena/blob/main/README_CN.md)
+**Play Screeps: Arena with Python.**
 
 [![Python](https://img.shields.io/badge/python-==3.12-blue.svg)](https://www.python.org/downloads/)
 [![Pyscreeps-Arena](https://img.shields.io/pypi/v/pyscreeps-arena.svg?label=Pyscreeps-Arena)](https://pypi.org/project/pyscreeps-arena/)
 
 
 **V0.7: Support for Season 4** · [Update Details](updates.md)
+
+English | [中文](README_CN.md)
 
 </div>
 
