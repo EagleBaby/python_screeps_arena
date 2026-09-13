@@ -14,6 +14,14 @@
 
 ## [0.7.x] - 2026-Q3 | Season 4
 
+### 0.7.1
+- **Feature**: Cluster analysis upgrades — `ClusterResult` gains `sse`, `density`, `entropy` metrics (per-tick cached); `grade` now sums `dynamicGrade` so it reflects flags
+- **Feature**: New `std.front(a, b)` — returns the front line `(Point, Point)` between two clusters' control ranges, or `None` if they don't overlap
+- **Feature**: Cluster drawing is multi-line now; `know.draws.cluster_sse / cluster_density / cluster_entropy` toggle the new values
+- **Fix**: All `Logic` instances register into `__names__`, so `ref` by name works for `TeamLogic` etc.; `transform()` now removes the old logic from its team
+- **Docs**: Scheduler tutorial replaced by "Direct Control" and "Drawing" tutorials
+- **Fix**: Fixed other issues.
+
 ### 0.7.0
 - **Major Update**: Adapted for Screeps: Arena season 4 (green `spawn_and_swamp`, blue `pain_and_gain`, red `escort_run`)
 - **Feature**: New `seasons` module — per-season arena field registry; `build.py` now takes a `season` option, and the compiler infers the default `main.mjs` export path from season+color when `target` is left empty
