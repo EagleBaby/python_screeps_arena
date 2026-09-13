@@ -86,6 +86,24 @@ Since the code is compiled by `transcrypt`, some Python semantics behave differe
 
 ---
 
+## 🗺️ Arena Maps
+
+The [maps](maps/) directory holds raw arena map data extracted from the live game(project path: /docs/maps). Each JSON captures a full snapshot of an arena at tick 1: a 100×100 terrain grid (`X` wall, `A` swamp, `2`/`1` plain) plus every pre-placed object — creeps with their body recipes, flags, structures, sources, and metadata like swamp ratio.
+
+**Make map JSON**
+
+1. In your project's `src/main.py`, print the map at tick 1:
+   ```python
+   def init(k):
+       mc = MapCollector()
+       print(mc.collect())
+   ```
+2. Run `python build.py` (set the target arena/color in `build.py` first).
+3. Play one test match in the game client against any opponent (the idle opponent works fine).
+4. Find the console line starting with `{"map"` in tick 1 output and save it as `s<season>-<color>[-ex].json`.
+
+---
+
 <div align="center">
 
 **Good luck & have fun!** 🎮
