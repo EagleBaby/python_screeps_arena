@@ -44,6 +44,7 @@ pip install pyscreeps-arena
 | --- | --- |
 | `psanew "Your Project Path"` | Create a new game project |
 | `psaui` | Create a new game project (GUI) |
+| `psaui -m -e` | Start `map-marker` (GUI) |
 
 Then open the project with your favorite editor *(PyCharm recommended)*.
 
