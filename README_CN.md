@@ -87,6 +87,24 @@ pip install pyscreeps-arena
 
 ---
 
+## 🗺️ 竞技场地图
+
+[maps](maps/) 目录收录了从游戏中提取的原始竞技场地图数据（项目路径：/docs/maps）。每个 JSON 都是某竞技场在第 1 tick 的完整快照：100×100 地形网格（`X` 墙体、`A` 沼泽、`2`/`1` 平地），以及全部预置对象——含部件配方的 Creep、旗帜、建筑、能量源，以及沼泽比例等元数据。
+
+**制作地图 JSON**
+
+1. 在项目 `src/main.py` 中，于第 1 tick 打印地图：
+   ```python
+   def init(k):
+       mc = MapCollector()
+       print(mc.collect())
+   ```
+2. 运行 `python build.py`（先在 `build.py` 中设置目标竞技场/颜色）。
+3. 在游戏客户端中用任意对手打一场测试对局（静态沙袋对手即可）。
+4. 在第 1 tick 的控制台输出中找到以 `{"map"` 开头的那一行，保存为 `s<赛季>-<颜色>[-ex].json`。
+
+---
+
 <div align="center">
 
 **祝游戏愉快！** 🎮
