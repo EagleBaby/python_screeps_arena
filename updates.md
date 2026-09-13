@@ -18,7 +18,7 @@ English | [中文](updates_cn.md)
 
 ## [0.7.x] - 2026-Q3 | Season 4
 
-### 0.7.1
+### 0.7.1.x
 
 - ✨ **Feature**: Cluster analysis upgrades — `ClusterResult` gains `sse`, `density`, `entropy` metrics (per-tick cached); `grade` now sums `dynamicGrade` so it reflects flags
 - ✨ **Feature**: New `std.front(a, b)` — returns the front line `(Point, Point)` between two clusters' control ranges, or `None` if they don't overlap
