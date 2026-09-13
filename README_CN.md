@@ -41,8 +41,9 @@ pip install pyscreeps-arena
 
 | 命令 | 说明 |
 | --- | --- |
-| `pyscreeps-arena "项目路径"` | 创建一个新的游戏项目 |
+| `psanew "项目路径"` | 创建一个新的游戏项目 |
 | `psaui` | 创建一个新的游戏项目（图形界面） |
+| `psamcp` | 启动MCP服务器(实验性)，提供文档信息和简易仿真能力 |
 
 然后用你喜欢的编辑器打开项目即可（*推荐 PyCharm*）。
 
