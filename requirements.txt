@@ -1,6 +1,13 @@
 pyperclip
 colorama
+py7zr
+chardet
 Transcrypt==3.9.1
+PyQt6
 mkdocs
 mkdocstrings[python]
 mkdocs-material
+fastmcp<3,>=2
+Pillow
+beautifulsoup4
+requests
