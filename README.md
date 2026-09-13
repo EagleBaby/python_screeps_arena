@@ -42,7 +42,7 @@ pip install pyscreeps-arena
 
 | Command | Description |
 | --- | --- |
-| `pyscreeps-arena "Your Project Path"` | Create a new game project |
+| `psanew "Your Project Path"` | Create a new game project |
 | `psaui` | Create a new game project (GUI) |
 
 Then open the project with your favorite editor *(PyCharm recommended)*.
