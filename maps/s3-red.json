@@ -1,0 +1,1077 @@
+{
+  "map": [
+    "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "XXX22222222222XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "XX222222222222222AAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX22222222XXX",
+    "XX222222222222222AAAAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXAAAAXXXXXXXXXXX2222222222XXX",
+    "XX222222222222222AAAAAAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX2AAAAAAAXXXXXXXAAAAA2222222XXX",
+    "XX2222222222222222AAAAA2XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX22AAAAAAA2222222AAAAAAA2222AAXXX",
+    "XX22222XXXXX2222222222222AAAXXXXXXXXXXX2AAAXXXXXXXXXXXXXXXXXXXAAAA222AAAAAAAA22AA222AAAAAAA2222AAXXX",
+    "XX22222XXXXX2222222222222AA2222222222222AAAXXXXXXXXXXXXXXXXXXXAAA2222AAAAAAA222AA222AAA2222222222XXX",
+    "XX22222XXXXX22222222222222222222222222222AAXXXXXXXXXXXXXXXXXXXAA2222222222222222222222222222AA222XXX",
+    "XX22222XXXXX2222AAA222AAA222XXXXX222222AAAAXXXXXXXXXXXXXXXXXXXAAA22222AAAA222222222AAAAA2222AAA22XXX",
+    "XX22222XXXXX2222AAA22AAAA222XXXXX22222AAAAAXXXXXXXXXXXXXXXXXXXAAA22222AAAAA2222222AAAAAA2222AAAA22XX",
+    "XX222222222222222222AAAAA222XXXXX22222AAAAAXXXXXXXXXXXXXXXXXXXXAA22222AAAAAA222222AAAAA222222AAAA2XX",
+    "XX22222222222222222AXAAAAA22AAAA222222XXAAXXXXXXXXXXXXXXXXXXXXXAA22222AAAAAAA222222AAA22222222AAA2XX",
+    "XXX22222222222222AAXXXAAAA22AAAA222222XXAAXXXXXXXXXXXXXXXXXXXXXA222222AAAAAAAA222222A2222222222AAXXX",
+    "XXX2222222222XX2AAAXXAAAAA22AAAAA22222AAAAXXXXXXXXXXXXXXXXXXXXX2222222AAAAAAAAA2222222222AAAAA222XXX",
+    "XXX222222A22XXXX2AAAAAAAAAAAXXAAA22222AAAAXXXXXXXXXXXXXXXXXXXXX2222222AAAAAAAAAA22222222AAAAAAAA2XXX",
+    "XXX22222AAA2XXXXX2AAAAAAAAAXXXAAA2222AAAAAXXXXXXXXXXXXXXXXXXXXX2222222AA2222AAAAA2222222AAAAAAAAAXXX",
+    "XXX2222AAAA2XXXXXA2AAAAAAAAAXXAAA2222AAAAAXXXXXXXXXXXXXXXXXXXXX2222222222222AAAAA2AAAA2AAAAAAAAAAXXX",
+    "XXX222AAAAA22XXXAAA2AAAAAAAAAAAAA22222AAAAXXXXXXXXXXXXXXXXXXXXX2222222222222AAAA2AAAAAAAAAAAAAAA2XXX",
+    "XXXAAAAAAAAAAAAAAAAA2AAAAAAAAAAAA2222222AAXXXXXXXXXXXXXXXXXXXXX222222222222AAAA2AAAAAAAAAAAAAAA22XXX",
+    "XXXAAAAAAAAAAAAAAAAAA2AAAAAAAAAAAA222222AAXXXXXXXXXXXXXXXXXXXXX2222XXX22222AAA2AAAAAAAAAAAAAAA222XXX",
+    "XXXAAAAAAAAAAAAAAAAAAA2AAAAAAXXAAAA22AAAAAXXXXXXXXXXXXXXXXXXXXX222XXXXX222AAA2AAAAAAAAAAAAAAAA222XXX",
+    "XXXAAAAAAAAAAAAAAAAAAAA2AAAAAXXAAAA22AAAAAXXXXXXXXXXXXXXXXXXXXX222XXXXXX22AA2AAAAAAAAAAAAAAAA222AXXX",
+    "XXXAAAAAAAAAAAAAAAAAAA2222AAAAAAAAA22AAAAAXXXXXXXXXXXXXXXXXXXXX222XXXXXX2222AAAAAAAAAAAAAAAAA222XXXX",
+    "XXXAAAAAAAAXAAAAAAAAAA222222AAAAAAA2AAAAAAXXXXXXXXXXXXXXXXXXXXX222XXXXXX2222AAAAAAAAAAAAAAAAA222XXXX",
+    "XXX222222AXXXAAAAAAAAA22222222222AAAAAAAAAXXXXXXXXXXXXXXXXXXXXX22AXXXXXX222AAAAAAAAAAAAAAAAAA22XXXXX",
+    "XXXX222222XXXAAAAAAAAAA22222222222AAAAAAAAXXXXXXXXXXXXXXXXXXXXX2AAAXXXXX222AAAAAAAAAAAAAAAAAA2XXXXXX",
+    "XXXX2222222AAAAAAAAAAAA22222222222AAAAAAAAXXXXXXXXXXXXXXXXXXXXX2AAAAXXX2XX2AAAA2AAAAAAAAAAAAAXXXXXXX",
+    "XXXXX2222222AAAAAAAAAAA2222222222AAAAXXAAAXXXXXXXXXXXXXXXXXXXXX2AAAAAX2XXXXAAAA22AAAAAAXXAAAXXXXXXXX",
+    "XXXXX2222222AAAAAAAAAAA2222222222AAAXXXXAAXXXXXXXXXXXXXXXXXXXXXXAXAAA2XXXXXXAAAA2AAAAAAXXXA2XXXXXXXX",
+    "XXXXXX222XX22AAXXXXXXX22222222222AAAXXXAAAAXXXXXXXXXXXXXXXXXXXXXXXXA2AXXXXXXXAAAAAAAAAAXXXA2XXXXXXXX",
+    "XXXXXX222XX222XXXXXXXXX2222222222AAAAAAAAAAXXXXXXXXXXXXXXXXXXXX2XXX2AAXXXXXXXAAAAAAAA22AAAA2XXXXXXXX",
+    "XXXXXXX222222XXXXXXXXXX22222222222AAAAAAAAAXXXXXXXXXXXXXXXXXXX222222AAXXXXXXXAAAAAAAA22AAAA2XXXXXXXX",
+    "XXXXXXXX2222XXXXXXXXXX2222222222222AAAAAAAAXXXXXXXXXXXXXXXXXXX222222AAXXXXXXXAAAAAAAAA22AAA2XXXXXXXX",
+    "XXXXXXXXAA2XXXXXXXXXX222222222222222AAAAAAAXXXXXXXXXXXXXXXXXX22222222AAXXXXXXAAAAAAAAA222AA2XXXXXXXX",
+    "XXXXXXXXAAAXXXXXXXXX22222222222222222AAAAAAXXXXXXXXXXXXXXXXX2222222222AAXXXXXAAAAAAAAAA22222XXXXXXXX",
+    "XXXXXXXXAAAAXXXXXXX222222222XXXXX2222222222XXXXXXXXXXXXXXXXA2222222222AAAXXXXAAAAAAAAAA2222XXXXXXXXX",
+    "XXXXXXXXAAAAAAAAA2222AA222AXXXXXX22XXX2222XXXXXXXXXXXXXXXXAA2222222222AAA2222AAAAAAAAAAA222XXXXXXXXX",
+    "XXXXXXXXXAAAAAAAA2222AAA2AXXXXXXX22XXXX222XXXXXXXXXXXXXXXAAA2222222222AAAA2222222AAAAAAAAAXXXXXXXXXX",
+    "XXXXXXXXX2AAAAAAAA222AAAXXXXXXXXXX2XXXXX22XXXXXXXXXXXXXXAAA2222222222AAAAA22222222AAAAAAAAXXXXXXXXXX",
+    "XXXXXXXXXXAAAAAAAA222AXXXXXXXXXXXXXXXXXXX22XXXXX2AXXXXXAAA222222222AAXXAAA222222222AAAAAAXXXXXXXXXXX",
+    "XXXXXXXXXXXXAAAAAA22XXXXXXXXXXXXXXXXXXXXXA2222222AAXXXAA22222222AAAAXXXXAA2222XXX22AAAAAAXXXXXXXXXXX",
+    "XXXXXXXXXXXXXXAAAAXXXXXXXXXXXXXXXXXXXXXXXXAAAA22AAAXXXAAA222222AAAAXXXXXAAA222XXXX2AAAA2XXXXXXXXXXXX",
+    "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXAAAAA2AAAAXAAAA22222AAAAAXXXXXAAA222XXXX2AAAA2XXXXXXXXXXXX",
+    "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXAAAAAAAAAAAAAAAA222AAAAAAXXXAAAAAA2XXXX2AAAAXXXXXXXXXXXXX",
+    "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXAAAAAAAAAAAAAAAA2222AAAAAAAAAAAAAAAXXX2AAAAXXXXXXXXXXXXX",
+    "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXAAAAAAAA2AAAAAAAA2222AAAAAAAAAAAAAAAA22AAAAXXXXXXXXXXXXX",
+    "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXAAAA2X2AAAAAAA22222AAAAAAAAAAAAAAA222AAAXXXXXXXXXXXXX",
+    "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXAA2XXX2AAAAAAA2222AAAAA22AAAAAAAAA22AAAAAA222XXXXXXX",
+    "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXAA2XXX2AAAAAAAA2222222222AAAAAAAAA222AAAAAA22XXXXXXX",
+    "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXAAAA2X2AAAAAAAAAA22222XX2AAAAAAAAAAA22AAAAAAAXXXXXXXX",
+    "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXAAAAAAAA2AAAAAAAAAXXXX22XXXXAAAAAAAAAAA22AAAAAAAXXXXXXXX",
+    "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX2AAAAAAAAAAAAAAAAAXXXXXXAAXXXAAAAAAAAAAA222AAAAAAXXXXXXXX",
+    "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX222AAAAAAAAAAAAAAAAXXXXXXAAAXAAAAAAAAAAAA222AAAAAAXXXXXXXX",
+    "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX2222AA2AAAAXAAAA2AA2XXXXXAAAAAAAAAAAAAA2222222AAAAXXXXXXXXX",
+    "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXAA222AA2AAAXXXAAA2222222AAAAAA2222AAAA222222222AAAAXXXXXXXXX",
+    "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX2AA2222222AAXXXAAA22222AAAAAAAA22222222222222222AAAXXXXXXXXXX",
+    "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXAAAAA2222222222222AAXXXXXAAA222AAAAAAAA222222222222222222AAAXXXXXXXXXX",
+    "XXXXXXXXX2222222XXXXXXXXXXXXXAAAAAAAAAA22222222AAXXXXXXXXAA2AAAAAAAAA2222AAA22222222222AAXXXXXXXXXXX",
+    "XXXXXXXXA2222222AXXXXXXXXXXXAAAAAAAAAAA22222222AXXXXXXXXXXAA2AAAAAAAAA2AAAAXXXXXXAAA22AAAXXXXXXXXXXX",
+    "XXXXXXXXAA222222AXXXXXXXXXXAAAAAAAAAAA2A2222222XXXXXXXXXXXXAA2AAAAAAAAAAAAAXXXXXXXAAAAAAXXXXXXXXXXXX",
+    "XXXXXXXXXA222222AXXXXXXXXXAAAAAAAAAAA2AAA22222XXXXXXXXXXXXXXAA2AAAAAAAAAAAAAXXXXXXXAAAAAXXXXXXXXXXXX",
+    "XXXXXXXXXA222222AXXXXXXXXAAAAAAAAAAA2AAAAA222XXXXXXXXXXXXXXXXAA2AAAAXAAAAAAA2XXXXXXXAAAAXXXXXXXXXXXX",
+    "XXXXXXXXXX2222222AXXXXXXAAAAAAAAAAA2AAAAA222XXXXXXXXXXXXXXXXXXAA2AAXXXAAAAAA22XXXXXXXAAAAXXXXXXXXXXX",
+    "XXXXXXXXXX22222222AAAAAAAAAAAAAAAA2AAAAA222XXXXXXXXXXXXXXXXXXXXA222XXXAAAAA2222XXXXXXAAAAXXXXXXXXXXX",
+    "XXXXXXXXX2222222222AAAAAAAAAAAAAA2AAAAA222XXXXXXXXXXXXXXXXXXXXXA2222X22AAAAA2222222AAAAAAAXXXXXXXXXX",
+    "XXXXXXXX22222AAA2222AAAAAAAAAAAA2AAAAA2222XXXXXXXXXXXXXXXXXXXXXX22222222AAAA2222222AAAAAAAXXXXXXXXXX",
+    "XXXXXXXX22222AAAXX2222AAAAAAAAA2AAAAA2XXXXXXXXXXXXXXXXXXXXXXXXXX22222222AAAAA222222AAAAAAAAXXXXXXXXX",
+    "XXXXXXXA22222AAAXX222222AAAAAA2AAAAAAXXXXXXXXXXXXXXXXXXXXXXXXXXXAAA222222AAAAA2222AAAAAAAAXXXXXXXXXX",
+    "XXXXXXXAA2222AAAAAAA222AAAAAA2AAAAAA2XXXXXXXXXXXXXXXXXXXXXXXXXXXAAAA22222AAAAAAA2AAAAAAAAAXXXXXXXXXX",
+    "XXXXXXXAAA222AAAAAAAAAAAAAAA2AAAAAA2222XXXXXXXXXXXXXXXXXXXXXXXXXAAAA222222AAAAAAAAAAAAAAAAXXXXXXXXXX",
+    "XXXXXXXAAA222AAAAAAAAAAAAA22XXXXAA222222XXXXXXXXXXXXXXXXXXXXXXXXAAAA222222AAAAAAAAAAAAAAAAXXXXXXXXXX",
+    "XXXXXXXAAA222AAAAAAAAAAAA22XXXXXX22222222XXXXXXXXXXXXXXXXXXXXXXXAAA22222222AAAAAAAAAA2AAAAXXXXXXXXXX",
+    "XXXXXXXAAXXXX2AAAAAAAAAA22XXXXXXX222XXAAXXXXXXXXXXXXXXXXXXXXXXXXAA2XX222222AAAAAAAA22222AAAXXXX2XXXX",
+    "XXXXXX222XXXXXAAAAAAAAA22XXXXXXXX22XXXXXXXXXXXXXXXXXXXXXXXXXXXXXAAAXXX222222AAAAAA2222222AAAA222XXXX",
+    "XXXXXX222XXXXXXAAAAAAA22XXXXXXXXX222XXXXXXXXXXXXXXXXXXXXXXXXXXXXAAAXXAAAAAAA2A2222222222222222222XXX",
+    "XXXXX2222XXXXXXAAAAAA22AXXXXXXXXX22AAXXAAXXXXXXXXXXXXXXXXXXXXXXXAAAAAAAAAAAAA22222XXX222222222222XXX",
+    "XXXXX22222XXXXAAAAAAA2AAAXXXXXXX22AAAAAAAXXXXXXXXXXXXXXXXXXXXXXXAAAAAAAAAAAAAA2222XXXX22222222222XXX",
+    "XXXX2222222XXAAAAAAA2AAAAAXXXXX222AAAAAA22XXXXXXXXXXXXXXXXXXXXXXAAAAAAAAAAAAAAA222XXXX22222222222XXX",
+    "XXXX222222222AAAAAA2AAXXAA2XXX2222AAAAA222XXXXXXXXXXXXXXXXXXXXXXAAAAA22AAAAAAAA2222XXX22222AXXXAAXXX",
+    "XXXXA222222222AAA22AAAXXA22222222AAAXXX222XXXXXXXXXXXXXXXXXXXXXX2222222222AAAA222222AAA222AAXXXXXXXX",
+    "XXXXAA222AA22222222AAAAA22222222AAAAXXX22AXXXXXXXXXXXXXXXXXXXXXX222222222XXXXX2222222A2222AAAXXXXXXX",
+    "XXXXAA222AAA2222222AAAA222222AAAAAAAAXX22AXXXXXXXXXXXXXXXXXXXXXX22222222XXXXXX2222222222XXXAAAAXXXXX",
+    "XXXXAA2222A22222222222222222AAAAAAAAA2222AXXXXXXXXXXXXXXXXXXXXXX22222222XXXXXX222222222XXXXXAAAXXXXX",
+    "XXXAA22222222222222222222222AAAAAAAA2222AAXXXXXXXXXXXXXXXXXXXXXX22222222XXXXXX222222222XXXXXAAAXXXXX",
+    "XX2222222222222222AAAA2222222AAAAAAAAXXAAAXXXXXXXXXXXXXXXXXXXXXXAAAA22222XXXXX222222222XXXXXAAAXXXXX",
+    "XX222222222222222AAAAA22222222AAAAAAAXXXAAXXXXXXXXXXXXXXXXXXXXXAAAAA2222AAXXXXA222222222XXXAAAAXXXXX",
+    "XX22222222222222AAAAAA222222222AAAAAAXXAAAAXXXXXXXXXXXXXXXXXXXAAAAA2222AAAAAAAA22222222222AAAAAXXXXX",
+    "XX22222222222222AAAAA222222222222AAAAAAAAAAXXXXXXXXXXXXXXXXXXXAAAA22222AAAAAAA222222222222AAAAAXXXXX",
+    "XX222222222222222222222222222222222222222AAXXXXXXXXXXXXXXXXXXXAA222222222222222222222222222AAAAXXXXX",
+    "XX2222222222222AAAAAAA2222X22222222222222AAXXXXXXXXXXXXXXXXXXXAAAAAAA222222222AAAAA222222222AAAXXXXX",
+    "XX2222222222222AAAAXXAA22XXX2222222AXXXX2AAXXXXXXXXXXXXXXXXXXXAAAAAAA222222XXXXXXAAA222222222AAXXXXX",
+    "XX2222222222222AAAAXXAA2XXXXXXA2222XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX2222XXXXXXXXXXA2222222222AAXXXX",
+    "XX2222222222222222AAAAAXXXXXXXXX2XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX22222XXX",
+    "XX2222222222222222222XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX2222XXX",
+    "XX22222222222222222XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX222XXX",
+    "XXX22222222222XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  ],
+  "objects": {
+    "Creep": [
+      {
+        "id": "4",
+        "name": "c4",
+        "type": "Creep",
+        "method": "get.creep",
+        "x": 7,
+        "y": 7,
+        "my": false,
+        "string": "Creep信息(名称: c4, 简化配方: M10T40, 评分: 0, 攻击力: 0, 治疗力: 0)"
+      },
+      {
+        "id": "14",
+        "name": "c14",
+        "type": "Creep",
+        "method": "get.creep",
+        "x": 7,
+        "y": 92,
+        "my": true,
+        "string": "Creep信息(名称: c14, 简化配方: M10T40, 评分: 0, 攻击力: 0, 治疗力: 0)"
+      }
+    ],
+    "StructureSpawn": [
+      {
+        "id": "28",
+        "name": "sp28",
+        "type": "StructureSpawn",
+        "method": "get.spawn",
+        "x": 9,
+        "y": 9,
+        "my": false,
+        "string": "(sp28😡 9◈9 ❤️3000/3000 📦500/1000 ☕)"
+      },
+      {
+        "id": "34",
+        "name": "sp34",
+        "type": "StructureSpawn",
+        "method": "get.spawn",
+        "x": 9,
+        "y": 90,
+        "my": true,
+        "string": "(sp34😄 9◈90 ❤️3000/3000 📦500/1000 ☕)"
+      }
+    ],
+    "StructureWall": [
+      {
+        "id": "57",
+        "name": "wall57",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 43,
+        "y": 9,
+        "string": "(wall57😐 43◈9 ❤️3000/3000)"
+      },
+      {
+        "id": "58",
+        "name": "wall58",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 43,
+        "y": 90,
+        "string": "(wall58😐 43◈90 ❤️3000/3000)"
+      },
+      {
+        "id": "59",
+        "name": "wall59",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 44,
+        "y": 9,
+        "string": "(wall59😐 44◈9 ❤️3000/3000)"
+      },
+      {
+        "id": "60",
+        "name": "wall60",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 44,
+        "y": 90,
+        "string": "(wall60😐 44◈90 ❤️3000/3000)"
+      },
+      {
+        "id": "61",
+        "name": "wall61",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 45,
+        "y": 9,
+        "string": "(wall61😐 45◈9 ❤️3000/3000)"
+      },
+      {
+        "id": "62",
+        "name": "wall62",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 45,
+        "y": 90,
+        "string": "(wall62😐 45◈90 ❤️3000/3000)"
+      },
+      {
+        "id": "63",
+        "name": "wall63",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 46,
+        "y": 9,
+        "string": "(wall63😐 46◈9 ❤️3000/3000)"
+      },
+      {
+        "id": "64",
+        "name": "wall64",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 46,
+        "y": 90,
+        "string": "(wall64😐 46◈90 ❤️3000/3000)"
+      },
+      {
+        "id": "65",
+        "name": "wall65",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 47,
+        "y": 9,
+        "string": "(wall65😐 47◈9 ❤️3000/3000)"
+      },
+      {
+        "id": "66",
+        "name": "wall66",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 47,
+        "y": 90,
+        "string": "(wall66😐 47◈90 ❤️3000/3000)"
+      },
+      {
+        "id": "67",
+        "name": "wall67",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 48,
+        "y": 9,
+        "string": "(wall67😐 48◈9 ❤️3000/3000)"
+      },
+      {
+        "id": "68",
+        "name": "wall68",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 48,
+        "y": 90,
+        "string": "(wall68😐 48◈90 ❤️3000/3000)"
+      },
+      {
+        "id": "69",
+        "name": "wall69",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 49,
+        "y": 9,
+        "string": "(wall69😐 49◈9 ❤️3000/3000)"
+      },
+      {
+        "id": "70",
+        "name": "wall70",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 49,
+        "y": 90,
+        "string": "(wall70😐 49◈90 ❤️3000/3000)"
+      },
+      {
+        "id": "71",
+        "name": "wall71",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 50,
+        "y": 9,
+        "string": "(wall71😐 50◈9 ❤️3000/3000)"
+      },
+      {
+        "id": "72",
+        "name": "wall72",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 50,
+        "y": 90,
+        "string": "(wall72😐 50◈90 ❤️3000/3000)"
+      },
+      {
+        "id": "73",
+        "name": "wall73",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 51,
+        "y": 9,
+        "string": "(wall73😐 51◈9 ❤️3000/3000)"
+      },
+      {
+        "id": "74",
+        "name": "wall74",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 51,
+        "y": 90,
+        "string": "(wall74😐 51◈90 ❤️3000/3000)"
+      },
+      {
+        "id": "75",
+        "name": "wall75",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 52,
+        "y": 9,
+        "string": "(wall75😐 52◈9 ❤️3000/3000)"
+      },
+      {
+        "id": "76",
+        "name": "wall76",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 52,
+        "y": 90,
+        "string": "(wall76😐 52◈90 ❤️3000/3000)"
+      },
+      {
+        "id": "77",
+        "name": "wall77",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 53,
+        "y": 9,
+        "string": "(wall77😐 53◈9 ❤️3000/3000)"
+      },
+      {
+        "id": "78",
+        "name": "wall78",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 53,
+        "y": 90,
+        "string": "(wall78😐 53◈90 ❤️3000/3000)"
+      },
+      {
+        "id": "79",
+        "name": "wall79",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 54,
+        "y": 9,
+        "string": "(wall79😐 54◈9 ❤️3000/3000)"
+      },
+      {
+        "id": "80",
+        "name": "wall80",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 54,
+        "y": 90,
+        "string": "(wall80😐 54◈90 ❤️3000/3000)"
+      },
+      {
+        "id": "81",
+        "name": "wall81",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 55,
+        "y": 9,
+        "string": "(wall81😐 55◈9 ❤️3000/3000)"
+      },
+      {
+        "id": "82",
+        "name": "wall82",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 55,
+        "y": 90,
+        "string": "(wall82😐 55◈90 ❤️3000/3000)"
+      },
+      {
+        "id": "83",
+        "name": "wall83",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 56,
+        "y": 9,
+        "string": "(wall83😐 56◈9 ❤️3000/3000)"
+      },
+      {
+        "id": "84",
+        "name": "wall84",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 56,
+        "y": 90,
+        "string": "(wall84😐 56◈90 ❤️3000/3000)"
+      },
+      {
+        "id": "85",
+        "name": "wall85",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 57,
+        "y": 9,
+        "string": "(wall85😐 57◈9 ❤️3000/3000)"
+      },
+      {
+        "id": "86",
+        "name": "wall86",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 57,
+        "y": 90,
+        "string": "(wall86😐 57◈90 ❤️3000/3000)"
+      },
+      {
+        "id": "87",
+        "name": "wall87",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 58,
+        "y": 9,
+        "string": "(wall87😐 58◈9 ❤️3000/3000)"
+      },
+      {
+        "id": "88",
+        "name": "wall88",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 58,
+        "y": 90,
+        "string": "(wall88😐 58◈90 ❤️3000/3000)"
+      },
+      {
+        "id": "89",
+        "name": "wall89",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 59,
+        "y": 9,
+        "string": "(wall89😐 59◈9 ❤️3000/3000)"
+      },
+      {
+        "id": "90",
+        "name": "wall90",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 59,
+        "y": 90,
+        "string": "(wall90😐 59◈90 ❤️3000/3000)"
+      },
+      {
+        "id": "91",
+        "name": "wall91",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 60,
+        "y": 9,
+        "string": "(wall91😐 60◈9 ❤️3000/3000)"
+      },
+      {
+        "id": "92",
+        "name": "wall92",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 60,
+        "y": 90,
+        "string": "(wall92😐 60◈90 ❤️3000/3000)"
+      },
+      {
+        "id": "93",
+        "name": "wall93",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 61,
+        "y": 9,
+        "string": "(wall93😐 61◈9 ❤️3000/3000)"
+      },
+      {
+        "id": "94",
+        "name": "wall94",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 61,
+        "y": 90,
+        "string": "(wall94😐 61◈90 ❤️3000/3000)"
+      }
+    ],
+    "StructureRampart": [
+      {
+        "id": "3",
+        "name": "ramp3",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 7,
+        "y": 7,
+        "my": false,
+        "string": "(ramp3😡 7◈7 ❤️10000/10000)"
+      },
+      {
+        "id": "5",
+        "name": "ramp5",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 7,
+        "y": 8,
+        "my": false,
+        "string": "(ramp5😡 7◈8 ❤️10000/10000)"
+      },
+      {
+        "id": "6",
+        "name": "ramp6",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 7,
+        "y": 9,
+        "my": false,
+        "string": "(ramp6😡 7◈9 ❤️10000/10000)"
+      },
+      {
+        "id": "7",
+        "name": "ramp7",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 7,
+        "y": 10,
+        "my": false,
+        "string": "(ramp7😡 7◈10 ❤️10000/10000)"
+      },
+      {
+        "id": "8",
+        "name": "ramp8",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 7,
+        "y": 11,
+        "my": false,
+        "string": "(ramp8😡 7◈11 ❤️10000/10000)"
+      },
+      {
+        "id": "9",
+        "name": "ramp9",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 7,
+        "y": 88,
+        "my": true,
+        "string": "(ramp9😄 7◈88 ❤️10000/10000)"
+      },
+      {
+        "id": "10",
+        "name": "ramp10",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 7,
+        "y": 89,
+        "my": true,
+        "string": "(ramp10😄 7◈89 ❤️10000/10000)"
+      },
+      {
+        "id": "11",
+        "name": "ramp11",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 7,
+        "y": 90,
+        "my": true,
+        "string": "(ramp11😄 7◈90 ❤️10000/10000)"
+      },
+      {
+        "id": "12",
+        "name": "ramp12",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 7,
+        "y": 91,
+        "my": true,
+        "string": "(ramp12😄 7◈91 ❤️10000/10000)"
+      },
+      {
+        "id": "13",
+        "name": "ramp13",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 7,
+        "y": 92,
+        "my": true,
+        "string": "(ramp13😄 7◈92 ❤️10000/10000)"
+      },
+      {
+        "id": "15",
+        "name": "ramp15",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 8,
+        "y": 7,
+        "my": false,
+        "string": "(ramp15😡 8◈7 ❤️10000/10000)"
+      },
+      {
+        "id": "16",
+        "name": "ramp16",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 8,
+        "y": 8,
+        "my": false,
+        "string": "(ramp16😡 8◈8 ❤️10000/10000)"
+      },
+      {
+        "id": "17",
+        "name": "ramp17",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 8,
+        "y": 9,
+        "my": false,
+        "string": "(ramp17😡 8◈9 ❤️10000/10000)"
+      },
+      {
+        "id": "18",
+        "name": "ramp18",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 8,
+        "y": 10,
+        "my": false,
+        "string": "(ramp18😡 8◈10 ❤️10000/10000)"
+      },
+      {
+        "id": "19",
+        "name": "ramp19",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 8,
+        "y": 11,
+        "my": false,
+        "string": "(ramp19😡 8◈11 ❤️10000/10000)"
+      },
+      {
+        "id": "20",
+        "name": "ramp20",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 8,
+        "y": 88,
+        "my": true,
+        "string": "(ramp20😄 8◈88 ❤️10000/10000)"
+      },
+      {
+        "id": "21",
+        "name": "ramp21",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 8,
+        "y": 89,
+        "my": true,
+        "string": "(ramp21😄 8◈89 ❤️10000/10000)"
+      },
+      {
+        "id": "22",
+        "name": "ramp22",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 8,
+        "y": 90,
+        "my": true,
+        "string": "(ramp22😄 8◈90 ❤️10000/10000)"
+      },
+      {
+        "id": "23",
+        "name": "ramp23",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 8,
+        "y": 91,
+        "my": true,
+        "string": "(ramp23😄 8◈91 ❤️10000/10000)"
+      },
+      {
+        "id": "24",
+        "name": "ramp24",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 8,
+        "y": 92,
+        "my": true,
+        "string": "(ramp24😄 8◈92 ❤️10000/10000)"
+      },
+      {
+        "id": "25",
+        "name": "ramp25",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 9,
+        "y": 7,
+        "my": false,
+        "string": "(ramp25😡 9◈7 ❤️10000/10000)"
+      },
+      {
+        "id": "26",
+        "name": "ramp26",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 9,
+        "y": 8,
+        "my": false,
+        "string": "(ramp26😡 9◈8 ❤️10000/10000)"
+      },
+      {
+        "id": "27",
+        "name": "ramp27",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 9,
+        "y": 9,
+        "my": false,
+        "string": "(ramp27😡 9◈9 ❤️10000/10000)"
+      },
+      {
+        "id": "29",
+        "name": "ramp29",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 9,
+        "y": 10,
+        "my": false,
+        "string": "(ramp29😡 9◈10 ❤️10000/10000)"
+      },
+      {
+        "id": "30",
+        "name": "ramp30",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 9,
+        "y": 11,
+        "my": false,
+        "string": "(ramp30😡 9◈11 ❤️10000/10000)"
+      },
+      {
+        "id": "31",
+        "name": "ramp31",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 9,
+        "y": 88,
+        "my": true,
+        "string": "(ramp31😄 9◈88 ❤️10000/10000)"
+      },
+      {
+        "id": "32",
+        "name": "ramp32",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 9,
+        "y": 89,
+        "my": true,
+        "string": "(ramp32😄 9◈89 ❤️10000/10000)"
+      },
+      {
+        "id": "33",
+        "name": "ramp33",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 9,
+        "y": 90,
+        "my": true,
+        "string": "(ramp33😄 9◈90 ❤️10000/10000)"
+      },
+      {
+        "id": "35",
+        "name": "ramp35",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 9,
+        "y": 91,
+        "my": true,
+        "string": "(ramp35😄 9◈91 ❤️10000/10000)"
+      },
+      {
+        "id": "36",
+        "name": "ramp36",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 9,
+        "y": 92,
+        "my": true,
+        "string": "(ramp36😄 9◈92 ❤️10000/10000)"
+      },
+      {
+        "id": "37",
+        "name": "ramp37",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 10,
+        "y": 7,
+        "my": false,
+        "string": "(ramp37😡 10◈7 ❤️10000/10000)"
+      },
+      {
+        "id": "38",
+        "name": "ramp38",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 10,
+        "y": 8,
+        "my": false,
+        "string": "(ramp38😡 10◈8 ❤️10000/10000)"
+      },
+      {
+        "id": "39",
+        "name": "ramp39",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 10,
+        "y": 9,
+        "my": false,
+        "string": "(ramp39😡 10◈9 ❤️10000/10000)"
+      },
+      {
+        "id": "40",
+        "name": "ramp40",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 10,
+        "y": 10,
+        "my": false,
+        "string": "(ramp40😡 10◈10 ❤️10000/10000)"
+      },
+      {
+        "id": "41",
+        "name": "ramp41",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 10,
+        "y": 11,
+        "my": false,
+        "string": "(ramp41😡 10◈11 ❤️10000/10000)"
+      },
+      {
+        "id": "42",
+        "name": "ramp42",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 10,
+        "y": 88,
+        "my": true,
+        "string": "(ramp42😄 10◈88 ❤️10000/10000)"
+      },
+      {
+        "id": "43",
+        "name": "ramp43",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 10,
+        "y": 89,
+        "my": true,
+        "string": "(ramp43😄 10◈89 ❤️10000/10000)"
+      },
+      {
+        "id": "44",
+        "name": "ramp44",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 10,
+        "y": 90,
+        "my": true,
+        "string": "(ramp44😄 10◈90 ❤️10000/10000)"
+      },
+      {
+        "id": "45",
+        "name": "ramp45",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 10,
+        "y": 91,
+        "my": true,
+        "string": "(ramp45😄 10◈91 ❤️10000/10000)"
+      },
+      {
+        "id": "46",
+        "name": "ramp46",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 10,
+        "y": 92,
+        "my": true,
+        "string": "(ramp46😄 10◈92 ❤️10000/10000)"
+      },
+      {
+        "id": "47",
+        "name": "ramp47",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 11,
+        "y": 7,
+        "my": false,
+        "string": "(ramp47😡 11◈7 ❤️10000/10000)"
+      },
+      {
+        "id": "48",
+        "name": "ramp48",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 11,
+        "y": 8,
+        "my": false,
+        "string": "(ramp48😡 11◈8 ❤️10000/10000)"
+      },
+      {
+        "id": "49",
+        "name": "ramp49",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 11,
+        "y": 9,
+        "my": false,
+        "string": "(ramp49😡 11◈9 ❤️10000/10000)"
+      },
+      {
+        "id": "50",
+        "name": "ramp50",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 11,
+        "y": 10,
+        "my": false,
+        "string": "(ramp50😡 11◈10 ❤️10000/10000)"
+      },
+      {
+        "id": "51",
+        "name": "ramp51",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 11,
+        "y": 11,
+        "my": false,
+        "string": "(ramp51😡 11◈11 ❤️10000/10000)"
+      },
+      {
+        "id": "52",
+        "name": "ramp52",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 11,
+        "y": 88,
+        "my": true,
+        "string": "(ramp52😄 11◈88 ❤️10000/10000)"
+      },
+      {
+        "id": "53",
+        "name": "ramp53",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 11,
+        "y": 89,
+        "my": true,
+        "string": "(ramp53😄 11◈89 ❤️10000/10000)"
+      },
+      {
+        "id": "54",
+        "name": "ramp54",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 11,
+        "y": 90,
+        "my": true,
+        "string": "(ramp54😄 11◈90 ❤️10000/10000)"
+      },
+      {
+        "id": "55",
+        "name": "ramp55",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 11,
+        "y": 91,
+        "my": true,
+        "string": "(ramp55😄 11◈91 ❤️10000/10000)"
+      },
+      {
+        "id": "56",
+        "name": "ramp56",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 11,
+        "y": 92,
+        "my": true,
+        "string": "(ramp56😄 11◈92 ❤️10000/10000)"
+      }
+    ],
+    "StructureContainer": [
+      {
+        "id": "95",
+        "name": "box95",
+        "type": "StructureContainer",
+        "method": "get.box",
+        "x": 92,
+        "y": 49,
+        "string": "(box95😐 92◈49 ❤️undefined/undefined 📦2500/2500)"
+      },
+      {
+        "id": "96",
+        "name": "box96",
+        "type": "StructureContainer",
+        "method": "get.box",
+        "x": 92,
+        "y": 50,
+        "string": "(box96😐 92◈50 ❤️undefined/undefined 📦2500/2500)"
+      }
+    ],
+    "Source": [
+      {
+        "id": "1",
+        "name": "sr1",
+        "type": "Source",
+        "method": "get.source",
+        "x": 2,
+        "y": 2,
+        "string": "(sr1 2◈2 📦1000/1000)"
+      },
+      {
+        "id": "2",
+        "name": "sr2",
+        "type": "Source",
+        "method": "get.source",
+        "x": 2,
+        "y": 97,
+        "string": "(sr2 2◈97 📦1000/1000)"
+      },
+      {
+        "id": "99",
+        "name": "sr99",
+        "type": "Source",
+        "method": "get.source",
+        "x": 96,
+        "y": 24,
+        "string": "(sr99 96◈24 📦1000/1000)"
+      },
+      {
+        "id": "100",
+        "name": "sr100",
+        "type": "Source",
+        "method": "get.source",
+        "x": 96,
+        "y": 75,
+        "string": "(sr100 96◈75 📦1000/1000)"
+      }
+    ],
+    "Flag": [
+      {
+        "id": "97",
+        "name": "flag97",
+        "type": "Flag",
+        "method": "get.flag",
+        "x": 95,
+        "y": 4,
+        "my": false,
+        "string": "(flag97😡 95◈4)"
+      },
+      {
+        "id": "98",
+        "name": "flag98",
+        "type": "Flag",
+        "method": "get.flag",
+        "x": 95,
+        "y": 95,
+        "my": true,
+        "string": "(flag98😄 95◈95)"
+      }
+    ],
+    "swamp-ratio": 0.5133398247322298
+  }
+}

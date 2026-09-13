@@ -1,0 +1,727 @@
+{
+ "map": [
+  "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "X2222XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX2222XX",
+  "X22222XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX22XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX22222XX",
+  "X2222222222222222222XXXXXXXXXXXXXXXXXXXXXXXXXXXXX222222222XXXXXXXXXXXXXXXXXXXXXXXXXXXX222222222222XX",
+  "X222222222222222222222XXXXXXXXXXXXXX222XXXXXXXX222222222222222222222222XXXXXXXXXXXXX22222222222222XX",
+  "XX2222222222222222222222XXXXXXXXXX2222222XXXXX222222222222222222222222222XXXXXXXXX222222222222222XXX",
+  "XX222222222222222222222222XXXXXXX222222222222222222222222222222222XXX222222XXXXX22222222222222222XXX",
+  "XX22222222222222222222222222XXXX222222222222222222222222222222222XXXXX2222222XX222222222222222222XXX",
+  "XX2222222222222222222222222222X2222222222222222222222222222222222XXXXX222XX2222222222222222222222XXX",
+  "XX222222222222222222222222222222222222222222XX2222222222222222222XXXX2222XX2222222222222222222222XXX",
+  "XX22222222222222222222222XXX2222222222222222XX22222222222222222222XX222222222222XX222222222222222XXX",
+  "XX22222222222222222222222XXXX222222222222222222222222222222222222222222222222222XX222222222XX2222XXX",
+  "XX22222222222222222222222XXXX222222222222222222222222222222222222222222222222222XX22222222XXXX222XXX",
+  "XX2222222222222222222XX222XXX2222222222222222222222222222222222222222222222222222222222222XXXXX22XXX",
+  "XX2222222222222222222XXX22222222222222222222222222222222222222222222222XXX22222222222222222XXX222XXX",
+  "XXX222222222222222222XXX2222222222XXX2222222222222222222222222222222222XXX22222222222222222222222XXX",
+  "XXX2222222222222222222XX222222222XXXX22AA2222222222222222AAAA2XX22222222X222222222222222222222222XXX",
+  "XXXX222222222222222222222222222222XXX2AAAA22222222222222AAAAAAXXX22222222222222222222222222222222XXX",
+  "XXXX222222222222222222222222222222222AAAAAA222222222222AAAAAAAXX222222222222222222222222222222222XXX",
+  "XXXXX2222222222222222222222222222222AAAAAAAA2222222222AAAAAAAAA2222222222222222222222222222222222XXX",
+  "XXXXX22222222222222222222222222XX222AAAAAAAAA222222222AAAAAAAAA2222222222222222222XXX222222222222XXX",
+  "XXXXXX222222222222222222222222XXX222AAAAAAAAAA22222222AAAAAAAAA222222222222222222XXXX222222222222XXX",
+  "XXXXXXX2222222222222222222222XXXX222AAAAAAAAAA22222222AAAAAAAAA222222222222222222XXX2222222222222XXX",
+  "XXXXXXX2222XXX222222222222222XXXX222AAAAAAAAAA2XX22222AAAAAAAAA2222222222222222222222222222222222XXX",
+  "XXXXXXX2222XXXX222222222222222222222AAAAAAAAAAXXXX2222AAAAAAAAA2222222222222222222222222222222222XXX",
+  "XXXXXXX2222XXXXX22222222222222222222AAAAAAAAA22XXXX222AAAAAAAA2222222222222222222222222222222222XXXX",
+  "XXXXXXX2222XXXXX222222222222222222222AAAAAAA2222XXXX222AAAAAAA2222222222222222222222222222222222XXXX",
+  "XXXXXX222222XXXX2222222222222222222222AAAAA222222XXX2222AAAAA222222222222222222222222222222222XXXXXX",
+  "XXXXXX2222222XX222222222222222222222222AAA222222222222222AAA222222222222222222222222222222222XXXXXXX",
+  "XXXXX22222222222222222222222222222222222222222222222222222222222222222222222222XXXX2222222222XXXXXXX",
+  "XXXXX22222222222222222222222222222222222222222222222222222222222222222222222222XXXXX2222222222XXXXXX",
+  "XXXX222222222XXX2222222222222222222222222222222222222222222222222222222222222222XXXX2222222222XXXXXX",
+  "XXXX222222222XXX222222222222222222222222222222222222222222222222222222222222222222222222XXXXX22XXXXX",
+  "XXX2222222222XXX22222222222222222222222222222222222222222222222222222222222222222222222XXXXXX22XXXXX",
+  "XXX2222222222222222222222222222222222222222222222222XX222222222222222222222222222222222XXXXXX2XXXXXX",
+  "XXX222222222222222222222222222222222222222222222222XXXX222222222222222222222222222222222222222XXXXXX",
+  "XXX22222222222222222222XXXXXXXXXX222222222222222222XXXX22222222222XXXXXXXXXX22222222222222222XXXXXXX",
+  "XXX22222222222222222222XXXXXXXXXXAA2222222222222222XXXX22222222222XXXXXXXXXX22222222222222222XXXXXXX",
+  "XXX22222222222222222222XXXXXXXXXXAA22222222222222222XX222222222222XXXXXXXXXX22222222222222222XXXXXXX",
+  "XXX22222222222222222222XXXXXXXXXX222222222222222222222222222222222XXXXXXXXXX22222222222222222XXXXXXX",
+  "XXX22222222222222222222XXXXXXXXXXX2222222222222222222222222222222XXXXXXXXXXX22222222222222222XXXXXXX",
+  "XXX22222222222222222222XXXXXXXXXXX222222222222222222222222222222XXXXXXXXXXXX22222222222222222XXXXXXX",
+  "XXX22222222222222222222XXXXXXXXXXX22222222222222222222222222222XXXXXXXXXXXXX22222222222222222XXXXXXX",
+  "XXX22222222222222222222XXXXXXXXXXX2222222222222222222222222222XXXXXXXXXXXXXX22222222222222222XXXXXXX",
+  "XXX2222222222222222222XXXXXXXXXXXX2222222222222222222222222222XXXXXXXXXXXXXXX2222222222222222XXXXXXX",
+  "XXX2222222222222222222XXXXXXXXXXXX2222222222222222222222222222XXXXXXXXXXXXXXX2222222222222222XXXXXXX",
+  "XXX2222222222222222222XXXXXXXXXXXX2222222222222222222222222222XXXXXXXXXXXXXXX2222222222222222XXXXXXX",
+  "XXX2222222222222222222XXXXXXXXXXXX2222222222222222222222222222XXXXXXXXXXXXXXX2222222222222222XXXXXXX",
+  "XXX2222222222222222222XXXXXXXXXXXXX222222222222222222222222222XXXXXXXXXXXXXXX2222222222222222XXXXXXX",
+  "XXX2222222222222222222XXXXXXXXXXXXX222222222222222222222222222XXXXXXXXXXXXXXX22222222222222222XXXXXX",
+  "XXX2222222222222222222XXXXXXXXXXXXX222222222222222222222222222XXXXXXXXXXXXXXX22222222222222222XXXXXX",
+  "XXX2222222222222222222XXXXXXXXXXXXX222222222222222222222222222XXXXXXXXXXXXXXX222222222222222222XXXXX",
+  "XXX2222222222222222222XXXXXXXXXXXXX222222222222222222222222222XXXXXXXXXXXXXXX2222222222222XX222XXXXX",
+  "XXXX2XX222222222222222XXXXXXXXXXXXX222222222222222222222222222XXXXXXXXXXXXXXX2222222222222XX222XXXXX",
+  "XXXXXXX222222222222222XXXXXXXXXXXXX222222222222222222222222222XXXXXXXXXXXXXXX222222222222222222XXXXX",
+  "XXXXX222222222222222222XXXXXXXXXXXX222222222222222222222222222XXXXXXXXXXXXXX2222222222222222222XXXXX",
+  "XXXXX222222222222222222XXXXXXXXXXXX222222222222XX22222222222222XXXXXXXXXXXXX2222222222222222222XXXXX",
+  "XXXXX222222222222222222XXXXXXXXXXXX22222222222XXX222222222222222XXXXXXXXXXXX2222222222222222222XXXXX",
+  "XXXXX222222222222222222XXXXXXXXXXX22222222222XXX22222222222222222XXXXXXXXXXX2222222222222222222XXXXX",
+  "XXXXX222222222222222222XXXXXXXXXX222222222222XX2222222222222222222XXXXXXXXXX2222222222222222222XXXXX",
+  "XXXXX222222222222222222XXXXXXXXXX222222222222222222222222222222222XXXXXXXXXX22222222222XXXX2222XXXXX",
+  "XXXXX222222222222222222XXXXXXXXXX222222222222222222222222222222222XXXXXXXXXX2222222222XXXXXX222XXXXX",
+  "XXXXX2222XX222222222222XXXXXXXXXX222222222222222XXXXX2222222222222XXXXXXXXXX222222222XXXXXXX222XXXXX",
+  "XXXXX2222XX22222222222222222222222222222222XX22XXXXXXX222222222222222222222222222222XXXXXXX2222XXXXX",
+  "XXXXX22222222222222222222222222222222222222XX22XXXXXXX22222222222222222222222222222XXXXXXX22222XXXXX",
+  "XXXXX222222222222222222222222222222222222222222XXXXXXX22222222222222222222222222222XXXXXX222222XXXXX",
+  "XXXXX2222222222222222222222222222222222222222222XXXXXX22222222222222222222222222222XXXXX2222222XXXXX",
+  "XXXXX22222222222222222222222222222222222222222222XXXX222222222222222222222222222222XXXX22222222XXXXX",
+  "XXXXX222222222222222222222222222222222222222222222XX22222222222222222222222222222222222222222222XXXX",
+  "XXXX22222222222222222222222222222222222AA2222222222222222222222222222222222222222222222222222222XXXX",
+  "XXXX2222222222222222222222222222222222AAAA2XXX22222222222AAA222222222222222XXXXX22222222222222222XXX",
+  "XXXX222222222222222222222222222222222AAAAAAXXXX222222222AAAAA22222222222222XXXXX22222222222222222XXX",
+  "XXXXX222222222XX22222222222222222222AAAAAAAXXXXX2222222AAAAAAA22222222222222222222222222222222222XXX",
+  "XXXXX22222222XXXX2222222222222222222AAAAAAAAXXXX222222AAAAAAAAA2222222222222222222222222222222222XXX",
+  "XXXXXX2222222XXXX22222222222X2222222AAAAAAAAAXXX22222AAAAAAAAAAA222222222222222222222222222222222XXX",
+  "XXXXXX22222222XXX2222222222XXX222222AAAAAAAAA22222XX2AAAAAAAAAAA2222222222222222222222222222X2222XXX",
+  "XXXXXXX222222222222222222222X2222222AAAAAAAAA22222XX2AAAAAAAAAAA2222XX222222222222222222222XXX222XXX",
+  "XXXXXXX22222222222222222222222222222AAAAAAAAA22222222AAAAAAAAAAA2222XX22222222222222222222XXXX222XXX",
+  "XXXXXXX22222222222222222222222222222AAAAAAAAA22222222AAAAAAAAAAA2222222222222222222222222XXXX2222XXX",
+  "XXXXXXX22222222222222222222222XXX2222AAAAAAAA22222222AAAAAAAAAAAXX22222222222222222222222XXX22222XXX",
+  "XXXXXXX22222222222222222222222XXX2222AAAAAAA2222222222AAAAAAAAA2XX222222222222222222222222222222XXXX",
+  "XXXXXXX22222222222222222222222XXX22222AAAAA222222222222AAAAAAA2222222222222222222222222222222222XXXX",
+  "XXXXXXX22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222XXXX",
+  "XXXXXXX22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222XXXX",
+  "XXXXXXX222222222222222222222222XXX22222222222222222222222222222222222222222222222222222222222222XXXX",
+  "XXXXXX2222222222222222222222222XXX2222222222X222222222222222222222222222222222222222222222222222XXXX",
+  "XXXXXX22222222222222222222222222X2222222222XXX22222222222222222222222222222222222222222222222222XXXX",
+  "XXXXX2222222222222222XXXX222222222222222222XXX22222222222222222222222222222222222222222222222222XXXX",
+  "XXXXX222222222222222XXXXX2222222222222222222XX22222222222222222222222222222222222222222222222222XXXX",
+  "XXXX2222222222222222XXXX222222222222222222222222222222222222222222222222222222222222222222222222XXXX",
+  "XXXX22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222XXXX",
+  "XXXX222222222XX222222222222222222222222222222222222222222222222222222222222222222222222222222222XXXX",
+  "XXX22222222XXXXXX2222222222222222222222222222222222222222222222222222222222222222222222222222222XXXX",
+  "XX2222222XXXXXXXXXX222222222222222222222222222222222222222222222222222222222222222222222222222222XXX",
+  "X2222222XXXXXXXXXXXXX2222222222222222XXXXXXXXXXXXXXXX222222222222222222222222222222222222222222222XX",
+  "X222222XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX2222222222222222222222222222222222222222222XX",
+  "X22222XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX2222XXXXXXXXXXXXXXXX22222XX",
+  "X2222XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX2222XX",
+  "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+ ],
+ "objects": {
+  "Creep": [
+   {
+    "id": "pg_player1_puller_1",
+    "name": "cpg_player1_puller_1",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 15,
+    "y": 8,
+    "my": false,
+    "string": "Creep信息(名称: cpg_player1_puller_1, 简化配方: M6C6, 评分: 6, 攻击力: 0, 治疗力: 0)",
+    "recipe": "CCCCCCMMMMMM",
+    "energy": [
+     0,
+     300
+    ]
+   },
+   {
+    "id": "pg_player1_puller_2",
+    "name": "cpg_player1_puller_2",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 9,
+    "y": 8,
+    "my": false,
+    "string": "Creep信息(名称: cpg_player1_puller_2, 简化配方: M6C6, 评分: 6, 攻击力: 0, 治疗力: 0)",
+    "recipe": "CCCCCCMMMMMM",
+    "energy": [
+     0,
+     300
+    ]
+   },
+   {
+    "id": "pg_player1_melee_1",
+    "name": "cpg_player1_melee_1",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 9,
+    "y": 11,
+    "my": false,
+    "string": "Creep信息(名称: cpg_player1_melee_1, 简化配方: M4A4, 评分: 45, 攻击力: 120, 治疗力: 0)",
+    "recipe": "AAAAMMMM"
+   },
+   {
+    "id": "pg_player1_melee_2",
+    "name": "cpg_player1_melee_2",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 15,
+    "y": 11,
+    "my": false,
+    "string": "Creep信息(名称: cpg_player1_melee_2, 简化配方: M4A4, 评分: 45, 攻击力: 120, 治疗力: 0)",
+    "recipe": "AAAAMMMM"
+   },
+   {
+    "id": "pg_player1_ranged_1",
+    "name": "cpg_player1_ranged_1",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 9,
+    "y": 9,
+    "my": false,
+    "string": "Creep信息(名称: cpg_player1_ranged_1, 简化配方: M4R4, 评分: 65, 攻击力: 40, 治疗力: 0)",
+    "recipe": "RRRRMMMM"
+   },
+   {
+    "id": "pg_player1_ranged_2",
+    "name": "cpg_player1_ranged_2",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 15,
+    "y": 9,
+    "my": false,
+    "string": "Creep信息(名称: cpg_player1_ranged_2, 简化配方: M4R4, 评分: 65, 攻击力: 40, 治疗力: 0)",
+    "recipe": "RRRRMMMM"
+   },
+   {
+    "id": "pg_player1_healer_1",
+    "name": "cpg_player1_healer_1",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 9,
+    "y": 10,
+    "my": false,
+    "string": "Creep信息(名称: cpg_player1_healer_1, 简化配方: M4H4, 评分: 70, 攻击力: 0, 治疗力: 48)",
+    "recipe": "HHHHMMMM"
+   },
+   {
+    "id": "pg_player1_healer_2",
+    "name": "cpg_player1_healer_2",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 15,
+    "y": 10,
+    "my": false,
+    "string": "Creep信息(名称: cpg_player1_healer_2, 简化配方: M4H4, 评分: 70, 攻击力: 0, 治疗力: 48)",
+    "recipe": "HHHHMMMM"
+   },
+   {
+    "id": "pg_player1_heavy_melee_1",
+    "name": "cpg_player1_heavy_melee_1",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 12,
+    "y": 11,
+    "my": false,
+    "string": "Creep信息(名称: cpg_player1_heavy_melee_1, 简化配方: M6A8T4, 评分: 86, 攻击力: 240, 治疗力: 0)",
+    "recipe": "TTTTAAAAAAAAMMMMMM"
+   },
+   {
+    "id": "pg_player1_heavy_melee_2",
+    "name": "cpg_player1_heavy_melee_2",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 13,
+    "y": 11,
+    "my": false,
+    "string": "Creep信息(名称: cpg_player1_heavy_melee_2, 简化配方: M6A8T4, 评分: 86, 攻击力: 240, 治疗力: 0)",
+    "recipe": "TTTTAAAAAAAAMMMMMM"
+   },
+   {
+    "id": "pg_player1_heavy_melee_3",
+    "name": "cpg_player1_heavy_melee_3",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 11,
+    "y": 11,
+    "my": false,
+    "string": "Creep信息(名称: cpg_player1_heavy_melee_3, 简化配方: M6A8T4, 评分: 86, 攻击力: 240, 治疗力: 0)",
+    "recipe": "TTTTAAAAAAAAMMMMMM"
+   },
+   {
+    "id": "pg_player1_heavy_ranged_1",
+    "name": "cpg_player1_heavy_ranged_1",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 13,
+    "y": 9,
+    "my": false,
+    "string": "Creep信息(名称: cpg_player1_heavy_ranged_1, 简化配方: M6R8T4, 评分: 118, 攻击力: 80, 治疗力: 0)",
+    "recipe": "TTTTRRRRRRRRMMMMMM"
+   },
+   {
+    "id": "pg_player1_heavy_ranged_2",
+    "name": "cpg_player1_heavy_ranged_2",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 12,
+    "y": 9,
+    "my": false,
+    "string": "Creep信息(名称: cpg_player1_heavy_ranged_2, 简化配方: M6R8T4, 评分: 118, 攻击力: 80, 治疗力: 0)",
+    "recipe": "TTTTRRRRRRRRMMMMMM"
+   },
+   {
+    "id": "pg_player1_heavy_ranged_3",
+    "name": "cpg_player1_heavy_ranged_3",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 11,
+    "y": 9,
+    "my": false,
+    "string": "Creep信息(名称: cpg_player1_heavy_ranged_3, 简化配方: M6R8T4, 评分: 118, 攻击力: 80, 治疗力: 0)",
+    "recipe": "TTTTRRRRRRRRMMMMMM"
+   },
+   {
+    "id": "pg_player1_heavy_healer_1",
+    "name": "cpg_player1_heavy_healer_1",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 11,
+    "y": 10,
+    "my": false,
+    "string": "Creep信息(名称: cpg_player1_heavy_healer_1, 简化配方: M6H8T4, 评分: 152, 攻击力: 0, 治疗力: 96)",
+    "recipe": "TTTTHHHHHHHHMMMMMM"
+   },
+   {
+    "id": "pg_player1_heavy_healer_2",
+    "name": "cpg_player1_heavy_healer_2",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 13,
+    "y": 10,
+    "my": false,
+    "string": "Creep信息(名称: cpg_player1_heavy_healer_2, 简化配方: M6H8T4, 评分: 152, 攻击力: 0, 治疗力: 96)",
+    "recipe": "TTTTHHHHHHHHMMMMMM"
+   },
+   {
+    "id": "pg_player2_puller_1",
+    "name": "cpg_player2_puller_1",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 83,
+    "y": 90,
+    "my": true,
+    "string": "Creep信息(名称: cpg_player2_puller_1, 简化配方: M6C6, 评分: 6, 攻击力: 0, 治疗力: 0)",
+    "recipe": "CCCCCCMMMMMM",
+    "energy": [
+     0,
+     300
+    ]
+   },
+   {
+    "id": "pg_player2_puller_2",
+    "name": "cpg_player2_puller_2",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 89,
+    "y": 90,
+    "my": true,
+    "string": "Creep信息(名称: cpg_player2_puller_2, 简化配方: M6C6, 评分: 6, 攻击力: 0, 治疗力: 0)",
+    "recipe": "CCCCCCMMMMMM",
+    "energy": [
+     0,
+     300
+    ]
+   },
+   {
+    "id": "pg_player2_melee_1",
+    "name": "cpg_player2_melee_1",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 89,
+    "y": 87,
+    "my": true,
+    "string": "Creep信息(名称: cpg_player2_melee_1, 简化配方: M4A4, 评分: 45, 攻击力: 120, 治疗力: 0)",
+    "recipe": "AAAAMMMM"
+   },
+   {
+    "id": "pg_player2_melee_2",
+    "name": "cpg_player2_melee_2",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 83,
+    "y": 87,
+    "my": true,
+    "string": "Creep信息(名称: cpg_player2_melee_2, 简化配方: M4A4, 评分: 45, 攻击力: 120, 治疗力: 0)",
+    "recipe": "AAAAMMMM"
+   },
+   {
+    "id": "pg_player2_ranged_1",
+    "name": "cpg_player2_ranged_1",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 89,
+    "y": 89,
+    "my": true,
+    "string": "Creep信息(名称: cpg_player2_ranged_1, 简化配方: M4R4, 评分: 65, 攻击力: 40, 治疗力: 0)",
+    "recipe": "RRRRMMMM"
+   },
+   {
+    "id": "pg_player2_ranged_2",
+    "name": "cpg_player2_ranged_2",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 83,
+    "y": 89,
+    "my": true,
+    "string": "Creep信息(名称: cpg_player2_ranged_2, 简化配方: M4R4, 评分: 65, 攻击力: 40, 治疗力: 0)",
+    "recipe": "RRRRMMMM"
+   },
+   {
+    "id": "pg_player2_healer_1",
+    "name": "cpg_player2_healer_1",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 89,
+    "y": 88,
+    "my": true,
+    "string": "Creep信息(名称: cpg_player2_healer_1, 简化配方: M4H4, 评分: 70, 攻击力: 0, 治疗力: 48)",
+    "recipe": "HHHHMMMM"
+   },
+   {
+    "id": "pg_player2_healer_2",
+    "name": "cpg_player2_healer_2",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 83,
+    "y": 88,
+    "my": true,
+    "string": "Creep信息(名称: cpg_player2_healer_2, 简化配方: M4H4, 评分: 70, 攻击力: 0, 治疗力: 48)",
+    "recipe": "HHHHMMMM"
+   },
+   {
+    "id": "pg_player2_heavy_melee_1",
+    "name": "cpg_player2_heavy_melee_1",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 86,
+    "y": 87,
+    "my": true,
+    "string": "Creep信息(名称: cpg_player2_heavy_melee_1, 简化配方: M6A8T4, 评分: 86, 攻击力: 240, 治疗力: 0)",
+    "recipe": "TTTTAAAAAAAAMMMMMM"
+   },
+   {
+    "id": "pg_player2_heavy_melee_2",
+    "name": "cpg_player2_heavy_melee_2",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 85,
+    "y": 87,
+    "my": true,
+    "string": "Creep信息(名称: cpg_player2_heavy_melee_2, 简化配方: M6A8T4, 评分: 86, 攻击力: 240, 治疗力: 0)",
+    "recipe": "TTTTAAAAAAAAMMMMMM"
+   },
+   {
+    "id": "pg_player2_heavy_melee_3",
+    "name": "cpg_player2_heavy_melee_3",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 87,
+    "y": 87,
+    "my": true,
+    "string": "Creep信息(名称: cpg_player2_heavy_melee_3, 简化配方: M6A8T4, 评分: 86, 攻击力: 240, 治疗力: 0)",
+    "recipe": "TTTTAAAAAAAAMMMMMM"
+   },
+   {
+    "id": "pg_player2_heavy_ranged_1",
+    "name": "cpg_player2_heavy_ranged_1",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 85,
+    "y": 89,
+    "my": true,
+    "string": "Creep信息(名称: cpg_player2_heavy_ranged_1, 简化配方: M6R8T4, 评分: 118, 攻击力: 80, 治疗力: 0)",
+    "recipe": "TTTTRRRRRRRRMMMMMM"
+   },
+   {
+    "id": "pg_player2_heavy_ranged_2",
+    "name": "cpg_player2_heavy_ranged_2",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 86,
+    "y": 89,
+    "my": true,
+    "string": "Creep信息(名称: cpg_player2_heavy_ranged_2, 简化配方: M6R8T4, 评分: 118, 攻击力: 80, 治疗力: 0)",
+    "recipe": "TTTTRRRRRRRRMMMMMM"
+   },
+   {
+    "id": "pg_player2_heavy_ranged_3",
+    "name": "cpg_player2_heavy_ranged_3",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 87,
+    "y": 89,
+    "my": true,
+    "string": "Creep信息(名称: cpg_player2_heavy_ranged_3, 简化配方: M6R8T4, 评分: 118, 攻击力: 80, 治疗力: 0)",
+    "recipe": "TTTTRRRRRRRRMMMMMM"
+   },
+   {
+    "id": "pg_player2_heavy_healer_1",
+    "name": "cpg_player2_heavy_healer_1",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 87,
+    "y": 88,
+    "my": true,
+    "string": "Creep信息(名称: cpg_player2_heavy_healer_1, 简化配方: M6H8T4, 评分: 152, 攻击力: 0, 治疗力: 96)",
+    "recipe": "TTTTHHHHHHHHMMMMMM"
+   },
+   {
+    "id": "pg_player2_heavy_healer_2",
+    "name": "cpg_player2_heavy_healer_2",
+    "type": "Creep",
+    "method": "get.creep",
+    "x": 85,
+    "y": 88,
+    "my": true,
+    "string": "Creep信息(名称: cpg_player2_heavy_healer_2, 简化配方: M6H8T4, 评分: 152, 攻击力: 0, 治疗力: 96)",
+    "recipe": "TTTTHHHHHHHHMMMMMM"
+   }
+  ],
+  "StructureContainer": [
+   {
+    "id": "3",
+    "name": "box3",
+    "type": "StructureContainer",
+    "method": "get.box",
+    "x": 12,
+    "y": 48,
+    "string": "(box3😐 12◈48 ❤️undefined/undefined 📦2500/2500)",
+    "energy": [
+     2500,
+     2500
+    ]
+   },
+   {
+    "id": "4",
+    "name": "box4",
+    "type": "StructureContainer",
+    "method": "get.box",
+    "x": 86,
+    "y": 50,
+    "string": "(box4😐 86◈50 ❤️undefined/undefined 📦2500/2500)",
+    "energy": [
+     2500,
+     2500
+    ]
+   },
+   {
+    "id": "5",
+    "name": "box5",
+    "type": "StructureContainer",
+    "method": "get.box",
+    "x": 49,
+    "y": 84,
+    "string": "(box5😐 49◈84 ❤️undefined/undefined 📦2500/2500)",
+    "energy": [
+     2500,
+     2500
+    ]
+   },
+   {
+    "id": "6",
+    "name": "box6",
+    "type": "StructureContainer",
+    "method": "get.box",
+    "x": 49,
+    "y": 14,
+    "string": "(box6😐 49◈14 ❤️undefined/undefined 📦2500/2500)",
+    "energy": [
+     2500,
+     2500
+    ]
+   },
+   {
+    "id": "9",
+    "name": "box9",
+    "type": "StructureContainer",
+    "method": "get.box",
+    "x": 48,
+    "y": 50,
+    "string": "(box9😐 48◈50 ❤️undefined/undefined 📦2500/2500)",
+    "energy": [
+     2500,
+     2500
+    ]
+   },
+   {
+    "id": "10",
+    "name": "box10",
+    "type": "StructureContainer",
+    "method": "get.box",
+    "x": 50,
+    "y": 48,
+    "string": "(box10😐 50◈48 ❤️undefined/undefined 📦2500/2500)",
+    "energy": [
+     2500,
+     2500
+    ]
+   },
+   {
+    "id": "11",
+    "name": "box11",
+    "type": "StructureContainer",
+    "method": "get.box",
+    "x": 50,
+    "y": 50,
+    "string": "(box11😐 50◈50 ❤️undefined/undefined 📦2500/2500)",
+    "energy": [
+     2500,
+     2500
+    ]
+   },
+   {
+    "id": "12",
+    "name": "box12",
+    "type": "StructureContainer",
+    "method": "get.box",
+    "x": 48,
+    "y": 48,
+    "string": "(box12😐 48◈48 ❤️undefined/undefined 📦2500/2500)",
+    "energy": [
+     2500,
+     2500
+    ]
+   }
+  ],
+  "StructureTower": [
+   {
+    "id": "1",
+    "name": "twr1",
+    "type": "StructureTower",
+    "method": "get.tower",
+    "x": 14,
+    "y": 50,
+    "string": "(twr1😐 14◈50 ❤️3000/3000 📦0/10 🔄0)t",
+    "energy": [
+     0,
+     10
+    ]
+   },
+   {
+    "id": "2",
+    "name": "twr2",
+    "type": "StructureTower",
+    "method": "get.tower",
+    "x": 84,
+    "y": 48,
+    "string": "(twr2😐 84◈48 ❤️3000/3000 📦0/10 🔄0)t",
+    "energy": [
+     0,
+     10
+    ]
+   },
+   {
+    "id": "7",
+    "name": "twr7",
+    "type": "StructureTower",
+    "method": "get.tower",
+    "x": 49,
+    "y": 86,
+    "string": "(twr7😐 49◈86 ❤️3000/3000 📦0/10 🔄0)t",
+    "energy": [
+     0,
+     10
+    ]
+   },
+   {
+    "id": "8",
+    "name": "twr8",
+    "type": "StructureTower",
+    "method": "get.tower",
+    "x": 49,
+    "y": 12,
+    "string": "(twr8😐 49◈12 ❤️3000/3000 📦0/10 🔄0)t",
+    "energy": [
+     0,
+     10
+    ]
+   }
+  ],
+  "Flag": [
+   {
+    "id": "pg_flag_vulnerability",
+    "type": "Flag",
+    "method": "get.flag",
+    "x": 49,
+    "y": 49,
+    "string": "[object Object]"
+   },
+   {
+    "id": "pg_flag_heal_reduction_a",
+    "type": "Flag",
+    "method": "get.flag",
+    "x": 90,
+    "y": 8,
+    "string": "[object Object]"
+   },
+   {
+    "id": "pg_flag_heal_reduction_b",
+    "type": "Flag",
+    "method": "get.flag",
+    "x": 8,
+    "y": 90,
+    "string": "[object Object]"
+   },
+   {
+    "id": "pg_flag_attack_reduction_a",
+    "type": "Flag",
+    "method": "get.flag",
+    "x": 74,
+    "y": 24,
+    "string": "[object Object]"
+   },
+   {
+    "id": "pg_flag_attack_reduction_b",
+    "type": "Flag",
+    "method": "get.flag",
+    "x": 24,
+    "y": 74,
+    "string": "[object Object]"
+   },
+   {
+    "id": "pg_flag_ranged_attack_reduction_a",
+    "type": "Flag",
+    "method": "get.flag",
+    "x": 13,
+    "y": 49,
+    "string": "[object Object]"
+   },
+   {
+    "id": "pg_flag_ranged_attack_reduction_b",
+    "type": "Flag",
+    "method": "get.flag",
+    "x": 85,
+    "y": 49,
+    "string": "[object Object]"
+   },
+   {
+    "id": "pg_flag_hits_loss_a",
+    "type": "Flag",
+    "method": "get.flag",
+    "x": 39,
+    "y": 59,
+    "string": "[object Object]"
+   },
+   {
+    "id": "pg_flag_hits_loss_b",
+    "type": "Flag",
+    "method": "get.flag",
+    "x": 59,
+    "y": 39,
+    "string": "[object Object]"
+   },
+   {
+    "id": "pg_flag_fatigue_multiplier_a",
+    "type": "Flag",
+    "method": "get.flag",
+    "x": 49,
+    "y": 13,
+    "string": "[object Object]"
+   },
+   {
+    "id": "pg_flag_fatigue_multiplier_b",
+    "type": "Flag",
+    "method": "get.flag",
+    "x": 49,
+    "y": 85,
+    "string": "[object Object]"
+   }
+  ],
+  "swamp-ratio": 0.053900512678398224
+ }
+}

@@ -1,0 +1,1606 @@
+{
+  "map": [
+    "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "XXXXXXXXXXXXXXXXXXXXXXX2AAA2XXXXXXXXXXXXXXXX22222222222XXXXXXXXXXXXXXXXX2AAA2XXXXXXXXXXXXXXXXXXXXXXX",
+    "XXX2222222XXXXXX22222222AAA22XXXX22222XXXXX222222222222XXX222XXXX22XXXXX2AAA222XXX2XXXXX2XXXXX2XXXXX",
+    "XXX22222222XXX2222222222AAA22XXX2222222XXX2222222222222XX2222XXX22222XXX2AAA22222222XXX2222XX22XXXXX",
+    "XXX222222222222222222XX2AAA222XX2222222XXXX222222222222XX2222222222222XX2AAA222222222XX22222222XXXXX",
+    "XXX22222222222222222XXX2AAA222XX2222222XXXX2222222222222222XXX22222222XX2AAA222222222XXX2222222XXXXX",
+    "XXX2222XX222222XXX2XXXX2AAA222XXX2222222XXX222222222222222222222222222222AAA2222222222XX22222222XXXX",
+    "XXX2222XXX2222XXXXXXXXX2AAA222X222222222222222222222222222222222222222222AAA2222222222XX2222222222XX",
+    "XXX222XXXXX22XXXXXXXXX22AAA2222222222222222222222222222222222222222222222AAA22XXX22222222222222222XX",
+    "XXXXXXXXXXX222XXXXXXX222AXXXXXXXXXXXXXXXXXXXAAAAAAAAAAAXXXXXXXXXXXXXXXXXXXXA2XXXXX22222222XX222222XX",
+    "XXXXXXXXXXXX2222XXX22222XXXXXXXXXXXXXXXXXXXXXAAAAAAAAAXXXXXXXXXXXXXXXXXXXXXX2XXXXX2222222XXX222222XX",
+    "XXXXXXXX2XXXX2222222X2222XXXXXXXXXXXXXXXXXXXAAAAAAAAAAAXXXXXXXXXXXXXXXXXXXX222222XX222222XXX222222XX",
+    "XXXXX22222XXX222XX22XX222222222222222222222222222222222222222222222222222222222222XX222XXX2222222XXX",
+    "XXXX2222222XX22XXXXXXX222222222222222222222222222222222222222222222222222222222222XX222XXX22XXXX2XXX",
+    "XXXXXX2222222222XXXXXX2222XX2222222222222222222222222222222222222222222222222222222222XXX22XXXXX2XXX",
+    "XXXXXX2222222222XXXXXX2222XX22222222222222XXXXXXXXXXXXXXXXXX22222222222222222222222222XXXXXXXXX222XX",
+    "XX2XXX22222222222XXXX2222222222222XXXXXXXXXXXXXXXXXXXXXXXXXXXXX222222222222XX222222222XXXX2XXX2222XX",
+    "XX22222222XXX222222222222222222XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX22222222222XX222222222XXXX22222222XX",
+    "XX22222XX2XXX222222222222222XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX222222222XX2222222222X2222222222XX",
+    "XX2222XXX22XXX222222222222XXXXXXXXXXXXXXXXXXXXXXXXXX22222XXXXXXXXXXX2222222222XX22222222222222222XXX",
+    "XX22222XX22XX22222222222XXXXXXXXXXXXXXXXXXXXXXX2222222222222XXXXXXXXXXX2222222XXX2222222222222222XXX",
+    "XX222222222XXX22222222XXXXXXXXXXXXXXXX222222222222222222222222XXXXXXXXXX22222XXXXX222222222222222XXX",
+    "XX222222222XXX222222XXXXXXXXXXXXXXX22222222222222222222222222222XXXXXXXXX2222XXXXX2222222222222222XX",
+    "XX22222XX222XX22222XXXXXXXXXXXXXX222222222X22222222222XX2222X22222XXXXXXXX222XXXXXX222222222222222XX",
+    "XX22222XX222222222XXXXXXXXXXXX22222222222XXX2222222222XX2222X2X22222XXXXXXX2222XXXXX22222222222222XX",
+    "XX222XXXX22222222XXXXXXXXXX22222222222222XXX2222222222XXX2XXXXX2222222XXXXXX2222XXX2222222XX22222XXX",
+    "XX222XXXXX22222XXXXXXXXXX2222XXX22222X2XXXXX2222222222222222X2X22222222XXXXXX222XXX2222222XX22222XXX",
+    "XX222X2XXXX222XXXXXXXXXX2222XXXX2222XXXXXXXX222222222222222222222222XX22XXXXXX22XXX22222222222222XXX",
+    "XX222222XX222XXXXXXXXXX2222XXXX22222XXXXXXX2222222222222222222222222XXX22XXXXXX22XX22222222222222XXX",
+    "XX2222222222XXXXXXXXXX222222XX2222222XXXXX22222222222222222222222222XXX2222XXXXX22222222222222222XXX",
+    "XX222222222XXXXXXXXX222222222222222222XXX222222222222222222XX2222X2XXX222222XXXX222222222222XXX222XX",
+    "XX22222222XXXXXXXXX22222222222222222222222222222222222XX222222222XXX222222222XXXX22222222222XXX222XX",
+    "XX2222222XXXXXXXXX22222222222222222222222222222222222XXXX22222222X2X222222222XXXX22222222222222222XX",
+    "XXX22222XXXXXXXXX222222222222222222222222222222222222XXXXX22222222222222222222XXX22222222222222222XX",
+    "XXXX222XXXXXXXX2222222222222222222222222XXX22222222AA2XXXX22222222222222222222XXXX222222222222XXXXXX",
+    "XXXX22XXXXXXXX222222222X2222222222222222XXX22222222AA22XXX222222222222222222222XXX22222222XX2XXXXXXX",
+    "XXX22XXXXXXXX222222222XX2222222222222222XXX222222222222XXX222222222222222222X222XXX2222222XX222X2XXX",
+    "X222XXXXXXXX222222222XX222222222222222222222222222222222XX2222X2222222222222XX22XXX222222XXXX2222XXX",
+    "X22XXXXXXXXX22222222XXX222222222222222222222222222222222XXX222222222X22222222222XXXX22222XXX222222XX",
+    "X22XXXXXXXX22222222XXX222222222222222222222222222222222XXXX22XX22222XX222222X2222XXX22222XX2222222XX",
+    "X222XXXXXX222222222XX2222222222222222222222222222222222XXXX22XXX2222X222222222222XXX2222222222222XXX",
+    "XXX22XXXX22XX22222XXX2222222222222222222222222222222222XXX222XXX22222222222222222XXX2222222XX2222XXX",
+    "XXXX22XX222XX2222XXX222222222222222222222222222222222222222222XX222222222222222222XXX22222XXX22222XX",
+    "XXXXX222222222222XXX222222222222222222222222222AAAAAA2222222222222X222222222222222XXX222222XX222XXXX",
+    "XXXXXX2222222222XXX22222X222222222222222222222AAAAAAAA22222222222XXX22222222222222XXX22222222222XXXX",
+    "XXXXXX2222222222XX22222XX22222222222222222222AAAAAAAAAA222XX22222222222222222XXX22XXX222222222222XXX",
+    "XXXXX2222222222XXX22222X2222XX22222X22222222AAAAAAAAAAAA22XX22222222222222222XXX222XXX2222222222222X",
+    "XXXXX2222222222XXX222222222XXXX22XXX2222222AAAAAAAAAAAAAA2XX22222X222X2222222222222XXX222222222222XX",
+    "XXXX2222X222222XX2222222222XXXX22XXX2222222AAAAAAAAAAAAAA222222XXXXXXXXX22222222222XXX222222222222XX",
+    "XXX2222XXX22222XX2222222222XXX222XX22222222AAAAAAAAAAAAAA222X222XXXXXXXX2222222X222XX222222222222XXX",
+    "XXX2222XXX22222XX22XX2222222222222222222222AAAAAAAAAAAAAA222XXX2222XXXX2222222XXX22XX222222222222XXX",
+    "XX22222XXXX222XXX2XXX2222222222222222222XX2AAAAAAAAAAAAAA222XX222222XXX222222XXXX22XX22222222222XXXX",
+    "XX22222XXXX222XXX2XXX2222222222222222222222AAAAAAAAAAAAAA222XXX22222XXX2222X2XXXX2XXX2222222222XXXXX",
+    "X2222222XX2222XXX222222222222222222222222222AAAAAAAAAAAA222XXXX22222XXXX222XXXXX22XXX2222222222XXXXX",
+    "XX2222222222222XXX2222222222222X2222222222222AAAAAAAAAA2222XXXXX2222XXXXX222XXX22XXX2222222222XXXXXX",
+    "XX2222222222222XXX222222222222XXX2222222222222AAAAAAAA22222XXXXX22XXXXXXX2222XX22XXX2222222222XXXXXX",
+    "XXX2222XX222222XXX222222222222XX222222222222222AAAAAA222222XXXXXXXXXXXXXX2222222XXX222222222222XXXXX",
+    "XXX222XXXX22222XXX22222222222XXX222222XXXXX22222222222222222XXXXXXXXXXXXX2222222XXX222222222XX22XXXX",
+    "XXXX22XXXX222222XXX2222222222X2X22222XXXXXXXXX22222222222222222XXXXXXXXX2222222XXX222222222XXXX22XXX",
+    "XXXX22XXX2222222XXX222XX222XXX2X2222XXXXXXXXX2222222XX2222222222222222222222222XX222222222XXXXXX222X",
+    "XXXX222222222222XXX222XX22XXX2222222XXXXXXXXXXX22222XX222222222222222222222222XXX22222222XXXXXXXX22X",
+    "XXXX222222222222XXXX22XX222X222222222XXXXX222X2222222222222222222222222222222XXX22222222XXXXXXXXX22X",
+    "XXXX2222222222222XXX2222222222222222222XX222222222222222222222222222222222222XX222XX2222XXXXXXXX222X",
+    "XXX22222222222222XXX2222222222222222222XX22222222222222222222222222222222222XX2222XX222XXXXXXXX222XX",
+    "XXX222222222222222XXX222222222222222222XX22222222222222222222222222222222222X222222222XXXXXXXX222XXX",
+    "XXX222222222222222XXXX222222222222222222222222222222222222222222222222222222222222222XXXXXXXX222XXXX",
+    "XXX2X22222222222222XXX2222222222222222222222X22222222222222222XX2222222222222222222XXXXXXXXX22222XXX",
+    "XXX2XXX222222222222XXXX22222222222222222222XXX222222222222X222XX222222222222222222XXXXXXXXX222222XXX",
+    "XXXX2XX222222222222XXXX22222XXXX22XXX222222XXX222222222222XX222222222222222222222XXXXXXXXX22222222XX",
+    "XXXXXXXX222222222222XXXX2222XXXX2XXXXXX2222XXX222222222222X222222222222222222222XXXXXXXXX222222222XX",
+    "XXXXXXX2222222222222XXXXX222XXXXXXXXXXXXX222222222222222222222222222222X222222XXXXXXXXXX222222222XXX",
+    "XXXXXXX22222222222222XXXXXX22XXX22XXXXXXX2222222222222222222222XX22222XXX2222XXXXXXXXXX22222X2222XXX",
+    "XX22X222222222XXX22222XXXXXX2222222XXXXXX22222222222222222222XXXX2222XXXX222XXXXXXXXXX22222XXX2222XX",
+    "XX222222222222XXXXX2222XXXXXX222222XXXXX222222222222222222222XXXX22222XX222XXXXXXXXXX22222XXXXXX22XX",
+    "XXX22222222222XXXXXX2222XXXXXX222222XX22222222222222222222222XXXX22222222XXXXXXXXXX2222222XXXXXXX2XX",
+    "XXX222XX22222222222222222XXXXXXX22222222222222222222222222222XXX222222XXXXXXXXXXXX222222222XXXXXXXXX",
+    "XXX222XXXX2222222222222222XXXXXXXX2222222222222222222222222222XX222XXXXXXXXXXXXXX222222222222XXXXXXX",
+    "XX22222XXX22222222222222222XXXXXXXXX22222222222222222222222222222XXXXXXXXXXXXXXX22X222XX2222222XXXXX",
+    "XX22222222222222222222222222XXXXXXXXXX2222222222222222XXXX2222XXXXXXXXXXXXXXXX222XXX22XX22222222XXXX",
+    "XXX22222222222222222222222222XXXXXXXXXXX2222222222222XXXXXXXXXXXXXXXXXXXXXXX2222XXXXX2X2222222222XXX",
+    "XXXX22222222222222222XX222222222XXXXXXXXXXX22222XXXXXXXXXXXXXXXXXXXXXXXXXX22222XXXXX2222222222222XXX",
+    "XXXX22222222222222222XXX2222222222XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX222222XXX2222222222222222XXX",
+    "XX222222222XX222222222XXX22222222222XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX222222222XX222222X2X222222222XX",
+    "XX222222222XX22XX22222XXX222222222222XXXXXXXXXXXXXXXXXXXXXXXXXXXXX222222222222XX2222XXXXXX2222222XXX",
+    "X2222222222XX2XXX222222XX222XXX222222222XXXXXXXXXXXXXXXXXX222222222222222222222222XXXXXXXX2222222XXX",
+    "X22222222222X2XXX22222222222XXX22222X22222222222222222222222XXX222222222222222222XXXX22XXX2222222XXX",
+    "X22222222X2222X222XXXX22222222222222X22222222222222222222222XXX222222222222222222XX222222222222222XX",
+    "XX222222XXX2222222XXXX2222222222222222222222222222222222222222222222222222222222222222222222222222XX",
+    "XX222222XXXX222222XXXX222XXXXXXXXXXXXXXXXXXXXAAAAAAAAAAAXXXXXXXXXXXXXXXXXXX2222222222222222222222XXX",
+    "XXX222222XX2222XX2222222XXXXXXXXXXXXXXXXXXXXXXAAAAAAAAAXXXXXXXXXXXXXXXXXXXXX2222222222222222222222XX",
+    "XXX2222222XX22XXX2222222AXXXXXXXXXXXXXXXXXXXXAAAAAAAAAAAXXXXXXXXXXXXXXXXXXXA2222222222222222222X22XX",
+    "XXX22222222222XXX2222222AAA2222222222222222222222222222222222222222222222AAA2XX2222222222222222222XX",
+    "XX2222222XXXXXXXX2222222AAA2222XX2222222222222222222222222222222222222222AAA2XXX22222XX22222222222XX",
+    "XX2222222XXXXXXX22222222AAA222XXXX222222222222222222222222222222222222222AAA22XX2222XXXX2XXX22222XXX",
+    "X22222222XXXX22222222222AAA222XXX22222222X22222222222222222222222222XX222AAA22XX222XXX22XXXX22222XXX",
+    "XX22222222X2222222222222AAA222222222222XXX22222222222222222222222222XX222AAA2222X2XXXX2XXXXX2XX2XXXX",
+    "XX22222222222222222XXX22AAA22222222222222X2222222222222222222222222XX2222AAA2222XXXXX22XXXX2XXXX2XXX",
+    "XXX22222XXX222XXX22XXX22AAA222222222222XXXX2222222222222222222222XXXXX222AAA22XX2XXXX2X22XXXXXXXX2XX",
+    "XXXXXXXXXXXXXXXXXXXXXXX2AAA22XXXXXXXXXXXXXXXX22222222222XXXXXXXXXXXXXXXX2AAA2XXXXXXXXXXXXXXXXXXXXXXX",
+    "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  ],
+  "objects": {
+    "StructureSpawn": [
+      {
+        "id": "39",
+        "name": "sp39",
+        "type": "StructureSpawn",
+        "method": "get.spawn",
+        "x": 49,
+        "y": 4,
+        "my": true
+      },
+      {
+        "id": "128",
+        "name": "sp128",
+        "type": "StructureSpawn",
+        "method": "get.spawn",
+        "x": 50,
+        "y": 95,
+        "my": false
+      }
+    ],
+    "StructureWall": [
+      {
+        "id": "1",
+        "name": "wall1",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 2,
+        "y": 39
+      },
+      {
+        "id": "2",
+        "name": "wall2",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 2,
+        "y": 40
+      },
+      {
+        "id": "3",
+        "name": "wall3",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 3,
+        "y": 40
+      },
+      {
+        "id": "4",
+        "name": "wall4",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 3,
+        "y": 41
+      },
+      {
+        "id": "5",
+        "name": "wall5",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 4,
+        "y": 41
+      },
+      {
+        "id": "6",
+        "name": "wall6",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 4,
+        "y": 42
+      },
+      {
+        "id": "7",
+        "name": "wall7",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 5,
+        "y": 42
+      },
+      {
+        "id": "8",
+        "name": "wall8",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 5,
+        "y": 43
+      },
+      {
+        "id": "9",
+        "name": "wall9",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 6,
+        "y": 43
+      },
+      {
+        "id": "10",
+        "name": "wall10",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 6,
+        "y": 44
+      },
+      {
+        "id": "157",
+        "name": "wall157",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 93,
+        "y": 55
+      },
+      {
+        "id": "158",
+        "name": "wall158",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 93,
+        "y": 56
+      },
+      {
+        "id": "159",
+        "name": "wall159",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 94,
+        "y": 56
+      },
+      {
+        "id": "160",
+        "name": "wall160",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 94,
+        "y": 57
+      },
+      {
+        "id": "161",
+        "name": "wall161",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 95,
+        "y": 57
+      },
+      {
+        "id": "162",
+        "name": "wall162",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 95,
+        "y": 58
+      },
+      {
+        "id": "163",
+        "name": "wall163",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 96,
+        "y": 58
+      },
+      {
+        "id": "164",
+        "name": "wall164",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 96,
+        "y": 59
+      },
+      {
+        "id": "165",
+        "name": "wall165",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 97,
+        "y": 59
+      },
+      {
+        "id": "166",
+        "name": "wall166",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 97,
+        "y": 60
+      }
+    ],
+    "StructureRampart": [
+      {
+        "id": "11",
+        "name": "ramp11",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 42,
+        "y": 46,
+        "my": false
+      },
+      {
+        "id": "12",
+        "name": "ramp12",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 42,
+        "y": 47,
+        "my": false
+      },
+      {
+        "id": "13",
+        "name": "ramp13",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 42,
+        "y": 48,
+        "my": false
+      },
+      {
+        "id": "14",
+        "name": "ramp14",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 42,
+        "y": 49,
+        "my": false
+      },
+      {
+        "id": "15",
+        "name": "ramp15",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 42,
+        "y": 50,
+        "my": false
+      },
+      {
+        "id": "16",
+        "name": "ramp16",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 42,
+        "y": 51,
+        "my": false
+      },
+      {
+        "id": "17",
+        "name": "ramp17",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 42,
+        "y": 52,
+        "my": false
+      },
+      {
+        "id": "18",
+        "name": "ramp18",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 42,
+        "y": 53,
+        "my": false
+      },
+      {
+        "id": "19",
+        "name": "ramp19",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 43,
+        "y": 45,
+        "my": false
+      },
+      {
+        "id": "20",
+        "name": "ramp20",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 43,
+        "y": 46,
+        "my": false
+      },
+      {
+        "id": "21",
+        "name": "ramp21",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 43,
+        "y": 53,
+        "my": false
+      },
+      {
+        "id": "22",
+        "name": "ramp22",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 43,
+        "y": 54,
+        "my": false
+      },
+      {
+        "id": "23",
+        "name": "ramp23",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 44,
+        "y": 44,
+        "my": false
+      },
+      {
+        "id": "24",
+        "name": "ramp24",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 44,
+        "y": 45,
+        "my": false
+      },
+      {
+        "id": "25",
+        "name": "ramp25",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 44,
+        "y": 54,
+        "my": false
+      },
+      {
+        "id": "26",
+        "name": "ramp26",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 44,
+        "y": 55,
+        "my": false
+      },
+      {
+        "id": "27",
+        "name": "ramp27",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 45,
+        "y": 43,
+        "my": false
+      },
+      {
+        "id": "28",
+        "name": "ramp28",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 45,
+        "y": 44,
+        "my": false
+      },
+      {
+        "id": "29",
+        "name": "ramp29",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 45,
+        "y": 55,
+        "my": false
+      },
+      {
+        "id": "30",
+        "name": "ramp30",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 45,
+        "y": 56,
+        "my": false
+      },
+      {
+        "id": "31",
+        "name": "ramp31",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 46,
+        "y": 42,
+        "my": false
+      },
+      {
+        "id": "32",
+        "name": "ramp32",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 46,
+        "y": 43,
+        "my": false
+      },
+      {
+        "id": "33",
+        "name": "ramp33",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 46,
+        "y": 56,
+        "my": false
+      },
+      {
+        "id": "34",
+        "name": "ramp34",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 46,
+        "y": 57,
+        "my": false
+      },
+      {
+        "id": "35",
+        "name": "ramp35",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 47,
+        "y": 42,
+        "my": false
+      },
+      {
+        "id": "36",
+        "name": "ramp36",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 47,
+        "y": 57,
+        "my": false
+      },
+      {
+        "id": "37",
+        "name": "ramp37",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 48,
+        "y": 42,
+        "my": false
+      },
+      {
+        "id": "38",
+        "name": "ramp38",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 48,
+        "y": 57,
+        "my": false
+      },
+      {
+        "id": "40",
+        "name": "ramp40",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 21,
+        "my": false
+      },
+      {
+        "id": "41",
+        "name": "ramp41",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 22,
+        "my": false
+      },
+      {
+        "id": "42",
+        "name": "ramp42",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 23,
+        "my": false
+      },
+      {
+        "id": "43",
+        "name": "ramp43",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 24,
+        "my": false
+      },
+      {
+        "id": "44",
+        "name": "ramp44",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 25,
+        "my": false
+      },
+      {
+        "id": "45",
+        "name": "ramp45",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 26,
+        "my": false
+      },
+      {
+        "id": "46",
+        "name": "ramp46",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 27,
+        "my": false
+      },
+      {
+        "id": "47",
+        "name": "ramp47",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 28,
+        "my": false
+      },
+      {
+        "id": "48",
+        "name": "ramp48",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 29,
+        "my": false
+      },
+      {
+        "id": "49",
+        "name": "ramp49",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 30,
+        "my": false
+      },
+      {
+        "id": "50",
+        "name": "ramp50",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 31,
+        "my": false
+      },
+      {
+        "id": "51",
+        "name": "ramp51",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 32,
+        "my": false
+      },
+      {
+        "id": "52",
+        "name": "ramp52",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 33,
+        "my": false
+      },
+      {
+        "id": "53",
+        "name": "ramp53",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 34,
+        "my": false
+      },
+      {
+        "id": "54",
+        "name": "ramp54",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 35,
+        "my": false
+      },
+      {
+        "id": "55",
+        "name": "ramp55",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 36,
+        "my": false
+      },
+      {
+        "id": "56",
+        "name": "ramp56",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 37,
+        "my": false
+      },
+      {
+        "id": "57",
+        "name": "ramp57",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 38,
+        "my": false
+      },
+      {
+        "id": "58",
+        "name": "ramp58",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 39,
+        "my": false
+      },
+      {
+        "id": "59",
+        "name": "ramp59",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 40,
+        "my": false
+      },
+      {
+        "id": "60",
+        "name": "ramp60",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 41,
+        "my": false
+      },
+      {
+        "id": "61",
+        "name": "ramp61",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 42,
+        "my": false
+      },
+      {
+        "id": "62",
+        "name": "ramp62",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 57,
+        "my": false
+      },
+      {
+        "id": "63",
+        "name": "ramp63",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 58,
+        "my": false
+      },
+      {
+        "id": "64",
+        "name": "ramp64",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 59,
+        "my": false
+      },
+      {
+        "id": "65",
+        "name": "ramp65",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 60,
+        "my": false
+      },
+      {
+        "id": "66",
+        "name": "ramp66",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 61,
+        "my": false
+      },
+      {
+        "id": "67",
+        "name": "ramp67",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 62,
+        "my": false
+      },
+      {
+        "id": "68",
+        "name": "ramp68",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 63,
+        "my": false
+      },
+      {
+        "id": "69",
+        "name": "ramp69",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 64,
+        "my": false
+      },
+      {
+        "id": "70",
+        "name": "ramp70",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 65,
+        "my": false
+      },
+      {
+        "id": "71",
+        "name": "ramp71",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 66,
+        "my": false
+      },
+      {
+        "id": "72",
+        "name": "ramp72",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 67,
+        "my": false
+      },
+      {
+        "id": "73",
+        "name": "ramp73",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 68,
+        "my": false
+      },
+      {
+        "id": "74",
+        "name": "ramp74",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 69,
+        "my": false
+      },
+      {
+        "id": "75",
+        "name": "ramp75",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 70,
+        "my": false
+      },
+      {
+        "id": "76",
+        "name": "ramp76",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 71,
+        "my": false
+      },
+      {
+        "id": "77",
+        "name": "ramp77",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 72,
+        "my": false
+      },
+      {
+        "id": "78",
+        "name": "ramp78",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 73,
+        "my": false
+      },
+      {
+        "id": "79",
+        "name": "ramp79",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 74,
+        "my": false
+      },
+      {
+        "id": "80",
+        "name": "ramp80",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 75,
+        "my": false
+      },
+      {
+        "id": "81",
+        "name": "ramp81",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 76,
+        "my": false
+      },
+      {
+        "id": "82",
+        "name": "ramp82",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 77,
+        "my": false
+      },
+      {
+        "id": "83",
+        "name": "ramp83",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 49,
+        "y": 78,
+        "my": false
+      },
+      {
+        "id": "84",
+        "name": "ramp84",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 21,
+        "my": true
+      },
+      {
+        "id": "85",
+        "name": "ramp85",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 22,
+        "my": true
+      },
+      {
+        "id": "86",
+        "name": "ramp86",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 23,
+        "my": true
+      },
+      {
+        "id": "87",
+        "name": "ramp87",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 24,
+        "my": true
+      },
+      {
+        "id": "88",
+        "name": "ramp88",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 25,
+        "my": true
+      },
+      {
+        "id": "89",
+        "name": "ramp89",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 26,
+        "my": true
+      },
+      {
+        "id": "90",
+        "name": "ramp90",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 27,
+        "my": true
+      },
+      {
+        "id": "91",
+        "name": "ramp91",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 28,
+        "my": true
+      },
+      {
+        "id": "92",
+        "name": "ramp92",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 29,
+        "my": true
+      },
+      {
+        "id": "93",
+        "name": "ramp93",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 30,
+        "my": true
+      },
+      {
+        "id": "94",
+        "name": "ramp94",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 31,
+        "my": true
+      },
+      {
+        "id": "95",
+        "name": "ramp95",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 32,
+        "my": true
+      },
+      {
+        "id": "96",
+        "name": "ramp96",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 33,
+        "my": true
+      },
+      {
+        "id": "97",
+        "name": "ramp97",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 34,
+        "my": true
+      },
+      {
+        "id": "98",
+        "name": "ramp98",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 35,
+        "my": true
+      },
+      {
+        "id": "99",
+        "name": "ramp99",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 36,
+        "my": true
+      },
+      {
+        "id": "100",
+        "name": "ramp100",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 37,
+        "my": true
+      },
+      {
+        "id": "101",
+        "name": "ramp101",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 38,
+        "my": true
+      },
+      {
+        "id": "102",
+        "name": "ramp102",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 39,
+        "my": true
+      },
+      {
+        "id": "103",
+        "name": "ramp103",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 40,
+        "my": true
+      },
+      {
+        "id": "104",
+        "name": "ramp104",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 41,
+        "my": true
+      },
+      {
+        "id": "105",
+        "name": "ramp105",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 42,
+        "my": true
+      },
+      {
+        "id": "106",
+        "name": "ramp106",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 57,
+        "my": true
+      },
+      {
+        "id": "107",
+        "name": "ramp107",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 58,
+        "my": true
+      },
+      {
+        "id": "108",
+        "name": "ramp108",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 59,
+        "my": true
+      },
+      {
+        "id": "109",
+        "name": "ramp109",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 60,
+        "my": true
+      },
+      {
+        "id": "110",
+        "name": "ramp110",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 61,
+        "my": true
+      },
+      {
+        "id": "111",
+        "name": "ramp111",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 62,
+        "my": true
+      },
+      {
+        "id": "112",
+        "name": "ramp112",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 63,
+        "my": true
+      },
+      {
+        "id": "113",
+        "name": "ramp113",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 64,
+        "my": true
+      },
+      {
+        "id": "114",
+        "name": "ramp114",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 65,
+        "my": true
+      },
+      {
+        "id": "115",
+        "name": "ramp115",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 66,
+        "my": true
+      },
+      {
+        "id": "116",
+        "name": "ramp116",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 67,
+        "my": true
+      },
+      {
+        "id": "117",
+        "name": "ramp117",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 68,
+        "my": true
+      },
+      {
+        "id": "118",
+        "name": "ramp118",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 69,
+        "my": true
+      },
+      {
+        "id": "119",
+        "name": "ramp119",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 70,
+        "my": true
+      },
+      {
+        "id": "120",
+        "name": "ramp120",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 71,
+        "my": true
+      },
+      {
+        "id": "121",
+        "name": "ramp121",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 72,
+        "my": true
+      },
+      {
+        "id": "122",
+        "name": "ramp122",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 73,
+        "my": true
+      },
+      {
+        "id": "123",
+        "name": "ramp123",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 74,
+        "my": true
+      },
+      {
+        "id": "124",
+        "name": "ramp124",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 75,
+        "my": true
+      },
+      {
+        "id": "125",
+        "name": "ramp125",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 76,
+        "my": true
+      },
+      {
+        "id": "126",
+        "name": "ramp126",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 77,
+        "my": true
+      },
+      {
+        "id": "127",
+        "name": "ramp127",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 50,
+        "y": 78,
+        "my": true
+      },
+      {
+        "id": "129",
+        "name": "ramp129",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 51,
+        "y": 42,
+        "my": true
+      },
+      {
+        "id": "130",
+        "name": "ramp130",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 51,
+        "y": 57,
+        "my": true
+      },
+      {
+        "id": "131",
+        "name": "ramp131",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 52,
+        "y": 42,
+        "my": true
+      },
+      {
+        "id": "132",
+        "name": "ramp132",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 52,
+        "y": 57,
+        "my": true
+      },
+      {
+        "id": "133",
+        "name": "ramp133",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 53,
+        "y": 42,
+        "my": true
+      },
+      {
+        "id": "134",
+        "name": "ramp134",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 53,
+        "y": 43,
+        "my": true
+      },
+      {
+        "id": "135",
+        "name": "ramp135",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 53,
+        "y": 56,
+        "my": true
+      },
+      {
+        "id": "136",
+        "name": "ramp136",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 53,
+        "y": 57,
+        "my": true
+      },
+      {
+        "id": "137",
+        "name": "ramp137",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 54,
+        "y": 43,
+        "my": true
+      },
+      {
+        "id": "138",
+        "name": "ramp138",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 54,
+        "y": 44,
+        "my": true
+      },
+      {
+        "id": "139",
+        "name": "ramp139",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 54,
+        "y": 55,
+        "my": true
+      },
+      {
+        "id": "140",
+        "name": "ramp140",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 54,
+        "y": 56,
+        "my": true
+      },
+      {
+        "id": "141",
+        "name": "ramp141",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 55,
+        "y": 44,
+        "my": true
+      },
+      {
+        "id": "142",
+        "name": "ramp142",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 55,
+        "y": 45,
+        "my": true
+      },
+      {
+        "id": "143",
+        "name": "ramp143",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 55,
+        "y": 54,
+        "my": true
+      },
+      {
+        "id": "144",
+        "name": "ramp144",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 55,
+        "y": 55,
+        "my": true
+      },
+      {
+        "id": "145",
+        "name": "ramp145",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 56,
+        "y": 45,
+        "my": true
+      },
+      {
+        "id": "146",
+        "name": "ramp146",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 56,
+        "y": 46,
+        "my": true
+      },
+      {
+        "id": "147",
+        "name": "ramp147",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 56,
+        "y": 53,
+        "my": true
+      },
+      {
+        "id": "148",
+        "name": "ramp148",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 56,
+        "y": 54,
+        "my": true
+      },
+      {
+        "id": "149",
+        "name": "ramp149",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 57,
+        "y": 46,
+        "my": true
+      },
+      {
+        "id": "150",
+        "name": "ramp150",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 57,
+        "y": 47,
+        "my": true
+      },
+      {
+        "id": "151",
+        "name": "ramp151",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 57,
+        "y": 48,
+        "my": true
+      },
+      {
+        "id": "152",
+        "name": "ramp152",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 57,
+        "y": 49,
+        "my": true
+      },
+      {
+        "id": "153",
+        "name": "ramp153",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 57,
+        "y": 50,
+        "my": true
+      },
+      {
+        "id": "154",
+        "name": "ramp154",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 57,
+        "y": 51,
+        "my": true
+      },
+      {
+        "id": "155",
+        "name": "ramp155",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 57,
+        "y": 52,
+        "my": true
+      },
+      {
+        "id": "156",
+        "name": "ramp156",
+        "type": "StructureRampart",
+        "method": "get.rampart",
+        "x": 57,
+        "y": 53,
+        "my": true
+      }
+    ],
+    "Flag": [
+      {
+        "id": "rampartsLeft",
+        "name": "flagrampartsLeft",
+        "type": "Flag",
+        "method": "get.flag",
+        "x": 47,
+        "y": 47,
+        "my": false
+      },
+      {
+        "id": "rampartsRight",
+        "name": "flagrampartsRight",
+        "type": "Flag",
+        "method": "get.flag",
+        "x": 52,
+        "y": 52,
+        "my": true
+      }
+    ]
+  }
+}

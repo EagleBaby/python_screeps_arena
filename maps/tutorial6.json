@@ -1,0 +1,1564 @@
+{
+  "map": [
+    "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "XXXXXXXXXX22222XXXXXXXXXXXXXXXXX222XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "XXXXXXXX222222222XXXXXXXXXXXXX2222222XXXXXXXXXXXXXXXXXXXXXXXXX22222XXXXXXXXXXXXXXXXXXXXXX2222XXXXXXX",
+    "XXXXXX2222222222222XXXXXXXXX22222222222222222222XXXXXXXXXXXX222222222XXXXXXXXXXXXXXXXXX22222222XXXXX",
+    "XXXXX2222222222222222XXXXX22222222222222222222222XXXXXXXXXX2222222222222222XXX22222222222222222XXXXX",
+    "XXXX222222222222222222XX222222222222222XXX2222222XXXXXXXXX222222222222222222XX222222222222222222XXXX",
+    "XXXX2222222222222222222222222222222222XXXXX222222XXXXXXXXXX22222222222222222XXX22222222222222222XXXX",
+    "XXX222222222222222XX22222222222222222XXXXXXX22222XXXXXXXXXX222222222222222222X2222222222222222222XXX",
+    "XXX222222222222222XX2222222222222222XXXXXXXXX2222XXXXXXXXXXX22222X2222222222222222222222222222222XXX",
+    "XXX2222222222222222222222222222XX222XXXXXXXXX2222XXXXXXXXXXXX222XXX222222222222222222222222222222XXX",
+    "XXX222222222222222222222222222XXXX22XXXXXXXXX2222XXXXXXXXXXX222XXXX222222222222222222222222222222XXX",
+    "XXX222222222222222222222222222XXXX22XXXXXXXX222222XXXXXXXXX2222XXX22222222XXXX2222222222222XX2222XXX",
+    "XXX2222222222222222222222222222XXX222XXXXXX222222222222222222222X22222222XXXXXXXXXXXX222222XXX222XXX",
+    "XXX2222X2222222XXXXXXX2222222222X22222XXXX2222222222222222222222222222222XXXXXXXXXXXXX22222XXX222XXX",
+    "XXX222XXX22222XXXXXXXXX22222222222222222222222222222222222222222222222222XXXXXXXXXXXXX22222XXX222XXX",
+    "XXX222XXX2222XXXXXXXXXX22222222222222222222222222222222222222222222222222XXXXXXXXXXXXX222222X22222XX",
+    "XXX222XX222XXXXXXXXXXX22222222222222222222222XX2222222222222222222XXXX222XXXXXXXXXXXXX222222222222XX",
+    "XXX222222XXXXXXXXXXXX22222222222222222222222XXX222222222222222222XXXXXX22XXXXXXXXXXXX22222X2222222XX",
+    "XXXX222XXXXXXXXXXXX22222222222222222222222222X222222222222222222XXXXXXX22XXXXXXXXXXX22222XXX222222XX",
+    "XXXXXXXXXXXXXXXXX2222XX2222222222222222222222222222222222222222XXXXXXXX22XXXXXXXXX2222222XXX222222XX",
+    "XXXXXXXXXXXXXXX22222XXX2222222XX22222222222222222222222222222222XXXXXX2222222222222222222XXX222222XX",
+    "XXXXXXXXXXXXX2222222XXX222222XXXX22222222222222222222222222222222XXXX22222222222222222222222222222XX",
+    "XXXXXXXXXXXX222222222XX222222XXXX22222222222XXXXX22222222222222222222222XX222222222222222222222222XX",
+    "XXXXXXXXXXXX222222222222222222XX222222222222XXXXXX2222222222222222222222XX222222222222222222222222XX",
+    "XXXXXXXXXXX222222222222222222222222222222222XXXXXXX22222222222222222XX2222222222222222222222222222XX",
+    "XXXXXXXXXXX222222XX2222222222222222222XX22222XXXXXX22222222222222222XX2222222222222222222222222222XX",
+    "XXXXXXXXXX2222222XX2222222222222222222XX2222222222222222222222222222222222222222222222222222222222XX",
+    "XXXXXXXXX22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222XX",
+    "XXXXXXXXX2222222222222222222222222222222222222222222222222222222222222222222222222XX22222222222222XX",
+    "XXXXXXXX22222222222222222222222222222222222222222222222222222222222222222222222222XX22222222222222XX",
+    "XXXXXXXX22222222222222222222222222222222222222222222222222222XXXX22222222222222222XX22222222222222XX",
+    "XXXXXXX222222222222222222222222222222222222222222222222222222XXXXX22222222222222222222222222222222XX",
+    "XXXXXXX2222222222X2222222222222222222222222222222222222222222XXXXXX2222222222222222222222222222222XX",
+    "XXXXXX2222222222XXX222222222222222222222222222222222222222222XXXXXXX222222222222222222222222222222XX",
+    "XXXXXX22222222222XX222222222222222222222222222222222222222222XXXXXXXX22222222222222222222222222222XX",
+    "XXXXX222222222222222222222222222222XXXXXXX2XXXXXXXXXXXXX2XX22XXXXXXXX22222222222222X2222222222222XXX",
+    "XXXXX22222222XXX2222222222222222222XXXXXXXXX22222222222XXXX222XXXXXX22222222222222XXX222222222222XXX",
+    "XXXX22222222XXXXX222222222222222222XXXXXXXXX22222222222X2XX2222XXXX222222222222222XXX22222222222XXXX",
+    "XXXX222222222XXX2222222222222222222XXXXXXX2X22222222222X22222222222222222222222222XXX22222222222XXXX",
+    "XXXXX2222222222222222222222222222222XXXXX22XXXXXXXXXXXXX2222222222222222222222222222222222222222XXXX",
+    "XXXXXX2222222222222222222222222XX2222222222X22222222222X2222222222222222222222222222222222222222XXXX",
+    "XXXXXXXXXXXX22222X2222222222222XX2222222222X22222222222X2222222222222222222222222222222222222222XXXX",
+    "XXXXXXXXXXXXX222XXX22222XXXX222222222222222X22222222222X22222222222222222222222222XXXXXX22222222XXXX",
+    "XXXXXXXXXXXXXX2XXXX2222XXXXXX22222222222222XXXXXXXXXXXXX22222222222222222222222222XXXXXXX2222222XXXX",
+    "XXXXXXXXXXXXXX2XXXX2222XXXXXXX2222222222222X22222222222X22222222222222222222222222XXXXXXX2222222XXXX",
+    "XXXXXXXXXXXXX2XXXXX2222XXXXXXXX222222222222X22222222222X222222XX2222222222222222222XXXXXX2222222XXXX",
+    "XXXXXXXXXXXXX2XXXXX2222XXXXXXXXX22222222222X22222222222X222222XX22222222222222222222XXXXX2222222XXXX",
+    "XXXXXXXXXXXX2XXXXXX22222XXXXXXXXX2222222222XXXXXXXXXXXXX2222222222222222222222222222222222222222XXXX",
+    "XXXXXXXXXXX2XXXXXXX222222XXXXXXXX2222222222X22222222222X2222222222222222222222222222222222222222XXXX",
+    "XXXXXX22XX2XXXXXXXX2222222XXXXXX22222222222X21111111112X222222222222XX22222222222222222222222222XXXX",
+    "XXXX222222XXXXXXXXX22222222XXXX222222222222X22222222222X222222222222XX22222222222222222222222222XXXX",
+    "XXXX22222XXXXXXXXX222XX22222XX2222222222222XXXXXXXXXXXXX2222222222222222222222222222222222222222XXXX",
+    "XXXX2222XXXXXXXXXX22XXX22222222222222222222XAAAAAAAAAAAX22222222222222222222222222222222222222222XXX",
+    "XXXXX2XXXXXXXXXXX22XXXX22222222222222222222X2AAAAAAAAAAX22222222XXXX2222222222222222222222222222XXXX",
+    "XXXXXXXXXXXXXXXXXXXXXX222222222222222222222XAAAAAAAAAAAX2222222XXXXXXXXX22222222222222222222XXXXXXXX",
+    "XXXXXXXXXXXXXXXXXXXXX2222222222222222222222XXXXXXXXXXXXX222222XXXXXXXXXX2222222222222222222XXXXXXXXX",
+    "XXXXXXXXXXXXXXXXXXXX222XX222222222222222222XAAAAAAAAAAAX222222XXXXXXXXXX2222222222222222222XXXXXXXXX",
+    "XXXXXXXXXXXXX222XXX222XXXX22222222222222222X2111111111AX222222XXXXXXXXXX22222222222222222222XXXXXXXX",
+    "XXXXXXXXXXXX2222XX2222XXX2222222XXXX2222222XAAAAAAAAAAAX222222XXXXXXXXXX22222222222222222222222XXXXX",
+    "XXXXXXXXXXX22222222222222222222XXXXX2222222XXXXXXXXXXXXX2222222XXXXXXXX2222222222222222222222222XXXX",
+    "XXXXXXXXXX22222222222222222222XXXXX22222222222222222222222222222222XXX222222222222222222222222222XXX",
+    "XXXXXXXXX222222222222222222222XXXX222222222222222222222222222222222222222222222XXX222222222222222XXX",
+    "XXXXXXXX222222222XXX2222222222XXX222222222222222222222222222222222222222222222XXXXX22222222222222XXX",
+    "XXXXXXX2222222222XXX222222222222222222XX2222222222222222222222222XXXXXXXXX22222XXXXX2222222222222XXX",
+    "XXXXXX2222222222222222222222222222222XXXX22222222222222222222222XXXXXXXXXX222222XXXX2222222222222XXX",
+    "XXXXXX222222222222222222222222222222XXXXX22222222222222222222222XXXXXXXXXX222222222222XXX22222222XXX",
+    "XXXXX22222222222222222XX2222222222222XXXX222222222222222222222222XXXXXXXXX22222222222XXXXX2222222XXX",
+    "XXXXX2222222222222222XXXX22222222222222222222222222222222222222222XXXXXXX222222222222XXXXXX222222XXX",
+    "XXXX2222222222222222XXXXX222222222222222222222222222222222222222222222222222222222222XXXXXX222222XXX",
+    "XXXX222222222222222XXXXXX2222XXX222222222222XX222222222222222222222222222222222222222XXXXXX222222XXX",
+    "XXX222222222222222XXXXXX22222XXXX2222222222XXX222222222222222222222222222222222222222XXXXXX22222XXXX",
+    "XXX22222222222222XXXXXX222222XXXX2222222222XXX2222222222222XXXX2222222222222222222222XXXXXX22222XXXX",
+    "XX2222222222222222XXXX2222222XXXX22222222222X222XXXXX22222XXXXXX222222222222222222222XXXXXX2222XXXXX",
+    "XX2222222222222222222222222222XX222222222X22222XXXXXXX22222XXXXXX22222222222222222222XXXXXX2222XXXXX",
+    "XXX2222222222222222222222222222222222222XXX2222XXXXXXXX22222XXXXX2222222222XXX2222222XXXXX2222XXXXXX",
+    "XXX2222222222222222222222222222222222222XXX2222XXXXXXXX222222XXXX2222XX2222XXXX222222XXXX22222XXXXXX",
+    "XXXX2222222222222222222222XXX222222222222XX2222XXXXXXXX2222222XXX2222XXX222XXXX2222222XX22222XXXXXXX",
+    "XXXX222222222222222222222XXXXX22222222222222222XXXXXXX222222222XX2222XX2222XXX222222222222222XXXXXXX",
+    "XXXXX222222222222222222222XXXXX22222222222222222XXXXX22222222222222222222222X2222222222222222XXXXXXX",
+    "XXXXX2222222222222222222222XXX2222222222222222222XXX22222222222222222222222222222222222222222XXXXXXX",
+    "XXXXX22222222222222XXXXXX2222222222222222222222222X222222222222222222222222222222222222222222XXXXXXX",
+    "XXXXX2222222222222XXXXXXX222222222222222222222222222222222222222222222222222222222222222222222XXXXXX",
+    "XXXXX222222222222XXXXXXX22222222222222222222222222222222222222222222222222222XXX22222222222222XXXXXX",
+    "XXXXX22222222222XXXXXXX222222222222222222222X2222222222222222222222222222222XXXXX22222222222222XXXXX",
+    "XXXXX2222222222XXXXXXX222222222222222222222XXX222222222222222222222222222222XXXXXX2222222222222XXXXX",
+    "XXXXX2222222222XXXXXX2222222222222222222222XXX222222222222222222222222222222XXXXXXX2222222222222XXXX",
+    "XXXXX2222222222XXXXX222222222222222222222222222XX222222222222222222222222222XXXXXXX2222222222222XXXX",
+    "XXXXX22222222222XXX2222222222222222222222222222XX222222222222222222222XX222XXXXXXXX2222222222222XXXX",
+    "XXXXX22222222222222222222222222XXXXXX2222222222XX222222222222222222222XX22XXXXXXXXX222222222222XXXXX",
+    "XXXXX2222222222222222222222222XXXXXXX2222222222222222222222222222222222222XXXXXXXXX222222222222XXXXX",
+    "XXXXX222222222222222222222222XXXXXXXX22222222222222222222222222222222222222XXXX222222222222222XXXXXX",
+    "XXXXX22222222222222222222222XXXXXXXX22222XXXXXXX222222222222XXXXXXXX22222222XX2222222222222222XXXXXX",
+    "XXXXXX222222222222222222222XXXXX2222222XXXXXXXXXXX22222222XXXXXXXXXXXX22222222222222222222222XXXXXXX",
+    "XXXXXXX222222222222XXXXXXXXXXXXX22222XXXXXXXXXXXXXXX2222XXXXXXXXXXXXXXXX22222222222222222222XXXXXXXX",
+    "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX2XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX2222222222222222XXXXXXXXXX",
+    "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  ],
+  "objects": {
+    "Creep": [
+      {
+        "id": "27",
+        "name": "c27",
+        "type": "Creep",
+        "method": "get.creep",
+        "x": 44,
+        "y": 39,
+        "my": true,
+        "string": "Creep信息(名称: c27, 简化配方: M1C1, 评分: 1, 攻击力: 0, 治疗力: 0)",
+        "recipe": "CM",
+        "energy": [
+          50,
+          50
+        ]
+      },
+      {
+        "id": "29",
+        "name": "c29",
+        "type": "Creep",
+        "method": "get.creep",
+        "x": 44,
+        "y": 43,
+        "my": true,
+        "string": "Creep信息(名称: c29, 简化配方: M1C2, 评分: 1, 攻击力: 0, 治疗力: 0)",
+        "recipe": "CCM",
+        "energy": [
+          100,
+          100
+        ]
+      },
+      {
+        "id": "31",
+        "name": "c31",
+        "type": "Creep",
+        "method": "get.creep",
+        "x": 44,
+        "y": 47,
+        "my": true,
+        "string": "Creep信息(名称: c31, 简化配方: M1C2, 评分: 1, 攻击力: 0, 治疗力: 0)",
+        "recipe": "CCM",
+        "energy": [
+          0,
+          100
+        ]
+      },
+      {
+        "id": "33",
+        "name": "c33",
+        "type": "Creep",
+        "method": "get.creep",
+        "x": 44,
+        "y": 51,
+        "my": true,
+        "string": "Creep信息(名称: c33, 简化配方: M1C2, 评分: 1, 攻击力: 0, 治疗力: 0)",
+        "recipe": "CCM",
+        "energy": [
+          100,
+          100
+        ]
+      },
+      {
+        "id": "35",
+        "name": "c35",
+        "type": "Creep",
+        "method": "get.creep",
+        "x": 44,
+        "y": 55,
+        "my": true,
+        "string": "Creep信息(名称: c35, 简化配方: M1C1, 评分: 1, 攻击力: 0, 治疗力: 0)",
+        "recipe": "CM",
+        "energy": [
+          50,
+          50
+        ]
+      },
+      {
+        "id": "37",
+        "name": "c37",
+        "type": "Creep",
+        "method": "get.creep",
+        "x": 44,
+        "y": 59,
+        "my": true,
+        "string": "Creep信息(名称: c37, 简化配方: M1C1, 评分: 1, 攻击力: 0, 治疗力: 0)",
+        "recipe": "CM",
+        "energy": [
+          50,
+          50
+        ]
+      }
+    ],
+    "StructureRoad": [
+      {
+        "id": "43",
+        "name": "road43",
+        "type": "StructureRoad",
+        "method": "get.road",
+        "x": 45,
+        "y": 51,
+        "string": "(road43😐 45◈51 ❤️500/500)"
+      },
+      {
+        "id": "46",
+        "name": "road46",
+        "type": "StructureRoad",
+        "method": "get.road",
+        "x": 45,
+        "y": 59,
+        "string": "(road46😐 45◈59 ❤️500/500)"
+      },
+      {
+        "id": "52",
+        "name": "road52",
+        "type": "StructureRoad",
+        "method": "get.road",
+        "x": 46,
+        "y": 51,
+        "string": "(road52😐 46◈51 ❤️500/500)"
+      },
+      {
+        "id": "55",
+        "name": "road55",
+        "type": "StructureRoad",
+        "method": "get.road",
+        "x": 46,
+        "y": 59,
+        "string": "(road55😐 46◈59 ❤️500/500)"
+      },
+      {
+        "id": "61",
+        "name": "road61",
+        "type": "StructureRoad",
+        "method": "get.road",
+        "x": 47,
+        "y": 51,
+        "string": "(road61😐 47◈51 ❤️500/500)"
+      },
+      {
+        "id": "64",
+        "name": "road64",
+        "type": "StructureRoad",
+        "method": "get.road",
+        "x": 47,
+        "y": 59,
+        "string": "(road64😐 47◈59 ❤️500/500)"
+      },
+      {
+        "id": "70",
+        "name": "road70",
+        "type": "StructureRoad",
+        "method": "get.road",
+        "x": 48,
+        "y": 51,
+        "string": "(road70😐 48◈51 ❤️500/500)"
+      },
+      {
+        "id": "73",
+        "name": "road73",
+        "type": "StructureRoad",
+        "method": "get.road",
+        "x": 48,
+        "y": 59,
+        "string": "(road73😐 48◈59 ❤️500/500)"
+      },
+      {
+        "id": "79",
+        "name": "road79",
+        "type": "StructureRoad",
+        "method": "get.road",
+        "x": 49,
+        "y": 51,
+        "string": "(road79😐 49◈51 ❤️500/500)"
+      },
+      {
+        "id": "82",
+        "name": "road82",
+        "type": "StructureRoad",
+        "method": "get.road",
+        "x": 49,
+        "y": 59,
+        "string": "(road82😐 49◈59 ❤️500/500)"
+      },
+      {
+        "id": "88",
+        "name": "road88",
+        "type": "StructureRoad",
+        "method": "get.road",
+        "x": 50,
+        "y": 51,
+        "string": "(road88😐 50◈51 ❤️500/500)"
+      },
+      {
+        "id": "91",
+        "name": "road91",
+        "type": "StructureRoad",
+        "method": "get.road",
+        "x": 50,
+        "y": 59,
+        "string": "(road91😐 50◈59 ❤️500/500)"
+      },
+      {
+        "id": "97",
+        "name": "road97",
+        "type": "StructureRoad",
+        "method": "get.road",
+        "x": 51,
+        "y": 51,
+        "string": "(road97😐 51◈51 ❤️500/500)"
+      },
+      {
+        "id": "100",
+        "name": "road100",
+        "type": "StructureRoad",
+        "method": "get.road",
+        "x": 51,
+        "y": 59,
+        "string": "(road100😐 51◈59 ❤️500/500)"
+      },
+      {
+        "id": "106",
+        "name": "road106",
+        "type": "StructureRoad",
+        "method": "get.road",
+        "x": 52,
+        "y": 51,
+        "string": "(road106😐 52◈51 ❤️500/500)"
+      },
+      {
+        "id": "109",
+        "name": "road109",
+        "type": "StructureRoad",
+        "method": "get.road",
+        "x": 52,
+        "y": 59,
+        "string": "(road109😐 52◈59 ❤️500/500)"
+      },
+      {
+        "id": "115",
+        "name": "road115",
+        "type": "StructureRoad",
+        "method": "get.road",
+        "x": 53,
+        "y": 51,
+        "string": "(road115😐 53◈51 ❤️500/500)"
+      },
+      {
+        "id": "118",
+        "name": "road118",
+        "type": "StructureRoad",
+        "method": "get.road",
+        "x": 53,
+        "y": 59,
+        "string": "(road118😐 53◈59 ❤️500/500)"
+      }
+    ],
+    "StructureWall": [
+      {
+        "id": "1",
+        "name": "wall1",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 43,
+        "y": 37,
+        "string": "(wall1😐 43◈37 ❤️10000/10000)"
+      },
+      {
+        "id": "2",
+        "name": "wall2",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 43,
+        "y": 38,
+        "string": "(wall2😐 43◈38 ❤️10000/10000)"
+      },
+      {
+        "id": "3",
+        "name": "wall3",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 43,
+        "y": 39,
+        "string": "(wall3😐 43◈39 ❤️10000/10000)"
+      },
+      {
+        "id": "4",
+        "name": "wall4",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 43,
+        "y": 40,
+        "string": "(wall4😐 43◈40 ❤️10000/10000)"
+      },
+      {
+        "id": "5",
+        "name": "wall5",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 43,
+        "y": 41,
+        "string": "(wall5😐 43◈41 ❤️10000/10000)"
+      },
+      {
+        "id": "6",
+        "name": "wall6",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 43,
+        "y": 42,
+        "string": "(wall6😐 43◈42 ❤️10000/10000)"
+      },
+      {
+        "id": "7",
+        "name": "wall7",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 43,
+        "y": 43,
+        "string": "(wall7😐 43◈43 ❤️10000/10000)"
+      },
+      {
+        "id": "8",
+        "name": "wall8",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 43,
+        "y": 44,
+        "string": "(wall8😐 43◈44 ❤️10000/10000)"
+      },
+      {
+        "id": "9",
+        "name": "wall9",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 43,
+        "y": 45,
+        "string": "(wall9😐 43◈45 ❤️10000/10000)"
+      },
+      {
+        "id": "10",
+        "name": "wall10",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 43,
+        "y": 46,
+        "string": "(wall10😐 43◈46 ❤️10000/10000)"
+      },
+      {
+        "id": "11",
+        "name": "wall11",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 43,
+        "y": 47,
+        "string": "(wall11😐 43◈47 ❤️10000/10000)"
+      },
+      {
+        "id": "12",
+        "name": "wall12",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 43,
+        "y": 48,
+        "string": "(wall12😐 43◈48 ❤️10000/10000)"
+      },
+      {
+        "id": "13",
+        "name": "wall13",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 43,
+        "y": 49,
+        "string": "(wall13😐 43◈49 ❤️10000/10000)"
+      },
+      {
+        "id": "14",
+        "name": "wall14",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 43,
+        "y": 50,
+        "string": "(wall14😐 43◈50 ❤️10000/10000)"
+      },
+      {
+        "id": "15",
+        "name": "wall15",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 43,
+        "y": 51,
+        "string": "(wall15😐 43◈51 ❤️10000/10000)"
+      },
+      {
+        "id": "16",
+        "name": "wall16",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 43,
+        "y": 52,
+        "string": "(wall16😐 43◈52 ❤️10000/10000)"
+      },
+      {
+        "id": "17",
+        "name": "wall17",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 43,
+        "y": 53,
+        "string": "(wall17😐 43◈53 ❤️10000/10000)"
+      },
+      {
+        "id": "18",
+        "name": "wall18",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 43,
+        "y": 54,
+        "string": "(wall18😐 43◈54 ❤️10000/10000)"
+      },
+      {
+        "id": "19",
+        "name": "wall19",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 43,
+        "y": 55,
+        "string": "(wall19😐 43◈55 ❤️10000/10000)"
+      },
+      {
+        "id": "20",
+        "name": "wall20",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 43,
+        "y": 56,
+        "string": "(wall20😐 43◈56 ❤️10000/10000)"
+      },
+      {
+        "id": "21",
+        "name": "wall21",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 43,
+        "y": 57,
+        "string": "(wall21😐 43◈57 ❤️10000/10000)"
+      },
+      {
+        "id": "22",
+        "name": "wall22",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 43,
+        "y": 58,
+        "string": "(wall22😐 43◈58 ❤️10000/10000)"
+      },
+      {
+        "id": "23",
+        "name": "wall23",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 43,
+        "y": 59,
+        "string": "(wall23😐 43◈59 ❤️10000/10000)"
+      },
+      {
+        "id": "24",
+        "name": "wall24",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 43,
+        "y": 60,
+        "string": "(wall24😐 43◈60 ❤️10000/10000)"
+      },
+      {
+        "id": "25",
+        "name": "wall25",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 43,
+        "y": 61,
+        "string": "(wall25😐 43◈61 ❤️10000/10000)"
+      },
+      {
+        "id": "26",
+        "name": "wall26",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 44,
+        "y": 37,
+        "string": "(wall26😐 44◈37 ❤️10000/10000)"
+      },
+      {
+        "id": "28",
+        "name": "wall28",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 44,
+        "y": 41,
+        "string": "(wall28😐 44◈41 ❤️10000/10000)"
+      },
+      {
+        "id": "30",
+        "name": "wall30",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 44,
+        "y": 45,
+        "string": "(wall30😐 44◈45 ❤️10000/10000)"
+      },
+      {
+        "id": "32",
+        "name": "wall32",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 44,
+        "y": 49,
+        "string": "(wall32😐 44◈49 ❤️10000/10000)"
+      },
+      {
+        "id": "34",
+        "name": "wall34",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 44,
+        "y": 53,
+        "string": "(wall34😐 44◈53 ❤️10000/10000)"
+      },
+      {
+        "id": "36",
+        "name": "wall36",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 44,
+        "y": 57,
+        "string": "(wall36😐 44◈57 ❤️10000/10000)"
+      },
+      {
+        "id": "38",
+        "name": "wall38",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 44,
+        "y": 61,
+        "string": "(wall38😐 44◈61 ❤️10000/10000)"
+      },
+      {
+        "id": "39",
+        "name": "wall39",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 45,
+        "y": 37,
+        "string": "(wall39😐 45◈37 ❤️10000/10000)"
+      },
+      {
+        "id": "40",
+        "name": "wall40",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 45,
+        "y": 41,
+        "string": "(wall40😐 45◈41 ❤️10000/10000)"
+      },
+      {
+        "id": "41",
+        "name": "wall41",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 45,
+        "y": 45,
+        "string": "(wall41😐 45◈45 ❤️10000/10000)"
+      },
+      {
+        "id": "42",
+        "name": "wall42",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 45,
+        "y": 49,
+        "string": "(wall42😐 45◈49 ❤️10000/10000)"
+      },
+      {
+        "id": "44",
+        "name": "wall44",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 45,
+        "y": 53,
+        "string": "(wall44😐 45◈53 ❤️10000/10000)"
+      },
+      {
+        "id": "45",
+        "name": "wall45",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 45,
+        "y": 57,
+        "string": "(wall45😐 45◈57 ❤️10000/10000)"
+      },
+      {
+        "id": "47",
+        "name": "wall47",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 45,
+        "y": 61,
+        "string": "(wall47😐 45◈61 ❤️10000/10000)"
+      },
+      {
+        "id": "48",
+        "name": "wall48",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 46,
+        "y": 37,
+        "string": "(wall48😐 46◈37 ❤️10000/10000)"
+      },
+      {
+        "id": "49",
+        "name": "wall49",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 46,
+        "y": 41,
+        "string": "(wall49😐 46◈41 ❤️10000/10000)"
+      },
+      {
+        "id": "50",
+        "name": "wall50",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 46,
+        "y": 45,
+        "string": "(wall50😐 46◈45 ❤️10000/10000)"
+      },
+      {
+        "id": "51",
+        "name": "wall51",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 46,
+        "y": 49,
+        "string": "(wall51😐 46◈49 ❤️10000/10000)"
+      },
+      {
+        "id": "53",
+        "name": "wall53",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 46,
+        "y": 53,
+        "string": "(wall53😐 46◈53 ❤️10000/10000)"
+      },
+      {
+        "id": "54",
+        "name": "wall54",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 46,
+        "y": 57,
+        "string": "(wall54😐 46◈57 ❤️10000/10000)"
+      },
+      {
+        "id": "56",
+        "name": "wall56",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 46,
+        "y": 61,
+        "string": "(wall56😐 46◈61 ❤️10000/10000)"
+      },
+      {
+        "id": "57",
+        "name": "wall57",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 47,
+        "y": 37,
+        "string": "(wall57😐 47◈37 ❤️10000/10000)"
+      },
+      {
+        "id": "58",
+        "name": "wall58",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 47,
+        "y": 41,
+        "string": "(wall58😐 47◈41 ❤️10000/10000)"
+      },
+      {
+        "id": "59",
+        "name": "wall59",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 47,
+        "y": 45,
+        "string": "(wall59😐 47◈45 ❤️10000/10000)"
+      },
+      {
+        "id": "60",
+        "name": "wall60",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 47,
+        "y": 49,
+        "string": "(wall60😐 47◈49 ❤️10000/10000)"
+      },
+      {
+        "id": "62",
+        "name": "wall62",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 47,
+        "y": 53,
+        "string": "(wall62😐 47◈53 ❤️10000/10000)"
+      },
+      {
+        "id": "63",
+        "name": "wall63",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 47,
+        "y": 57,
+        "string": "(wall63😐 47◈57 ❤️10000/10000)"
+      },
+      {
+        "id": "65",
+        "name": "wall65",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 47,
+        "y": 61,
+        "string": "(wall65😐 47◈61 ❤️10000/10000)"
+      },
+      {
+        "id": "66",
+        "name": "wall66",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 48,
+        "y": 37,
+        "string": "(wall66😐 48◈37 ❤️10000/10000)"
+      },
+      {
+        "id": "67",
+        "name": "wall67",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 48,
+        "y": 41,
+        "string": "(wall67😐 48◈41 ❤️10000/10000)"
+      },
+      {
+        "id": "68",
+        "name": "wall68",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 48,
+        "y": 45,
+        "string": "(wall68😐 48◈45 ❤️10000/10000)"
+      },
+      {
+        "id": "69",
+        "name": "wall69",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 48,
+        "y": 49,
+        "string": "(wall69😐 48◈49 ❤️10000/10000)"
+      },
+      {
+        "id": "71",
+        "name": "wall71",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 48,
+        "y": 53,
+        "string": "(wall71😐 48◈53 ❤️10000/10000)"
+      },
+      {
+        "id": "72",
+        "name": "wall72",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 48,
+        "y": 57,
+        "string": "(wall72😐 48◈57 ❤️10000/10000)"
+      },
+      {
+        "id": "74",
+        "name": "wall74",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 48,
+        "y": 61,
+        "string": "(wall74😐 48◈61 ❤️10000/10000)"
+      },
+      {
+        "id": "75",
+        "name": "wall75",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 49,
+        "y": 37,
+        "string": "(wall75😐 49◈37 ❤️10000/10000)"
+      },
+      {
+        "id": "76",
+        "name": "wall76",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 49,
+        "y": 41,
+        "string": "(wall76😐 49◈41 ❤️10000/10000)"
+      },
+      {
+        "id": "77",
+        "name": "wall77",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 49,
+        "y": 45,
+        "string": "(wall77😐 49◈45 ❤️10000/10000)"
+      },
+      {
+        "id": "78",
+        "name": "wall78",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 49,
+        "y": 49,
+        "string": "(wall78😐 49◈49 ❤️10000/10000)"
+      },
+      {
+        "id": "80",
+        "name": "wall80",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 49,
+        "y": 53,
+        "string": "(wall80😐 49◈53 ❤️10000/10000)"
+      },
+      {
+        "id": "81",
+        "name": "wall81",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 49,
+        "y": 57,
+        "string": "(wall81😐 49◈57 ❤️10000/10000)"
+      },
+      {
+        "id": "83",
+        "name": "wall83",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 49,
+        "y": 61,
+        "string": "(wall83😐 49◈61 ❤️10000/10000)"
+      },
+      {
+        "id": "84",
+        "name": "wall84",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 50,
+        "y": 37,
+        "string": "(wall84😐 50◈37 ❤️10000/10000)"
+      },
+      {
+        "id": "85",
+        "name": "wall85",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 50,
+        "y": 41,
+        "string": "(wall85😐 50◈41 ❤️10000/10000)"
+      },
+      {
+        "id": "86",
+        "name": "wall86",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 50,
+        "y": 45,
+        "string": "(wall86😐 50◈45 ❤️10000/10000)"
+      },
+      {
+        "id": "87",
+        "name": "wall87",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 50,
+        "y": 49,
+        "string": "(wall87😐 50◈49 ❤️10000/10000)"
+      },
+      {
+        "id": "89",
+        "name": "wall89",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 50,
+        "y": 53,
+        "string": "(wall89😐 50◈53 ❤️10000/10000)"
+      },
+      {
+        "id": "90",
+        "name": "wall90",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 50,
+        "y": 57,
+        "string": "(wall90😐 50◈57 ❤️10000/10000)"
+      },
+      {
+        "id": "92",
+        "name": "wall92",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 50,
+        "y": 61,
+        "string": "(wall92😐 50◈61 ❤️10000/10000)"
+      },
+      {
+        "id": "93",
+        "name": "wall93",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 51,
+        "y": 37,
+        "string": "(wall93😐 51◈37 ❤️10000/10000)"
+      },
+      {
+        "id": "94",
+        "name": "wall94",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 51,
+        "y": 41,
+        "string": "(wall94😐 51◈41 ❤️10000/10000)"
+      },
+      {
+        "id": "95",
+        "name": "wall95",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 51,
+        "y": 45,
+        "string": "(wall95😐 51◈45 ❤️10000/10000)"
+      },
+      {
+        "id": "96",
+        "name": "wall96",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 51,
+        "y": 49,
+        "string": "(wall96😐 51◈49 ❤️10000/10000)"
+      },
+      {
+        "id": "98",
+        "name": "wall98",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 51,
+        "y": 53,
+        "string": "(wall98😐 51◈53 ❤️10000/10000)"
+      },
+      {
+        "id": "99",
+        "name": "wall99",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 51,
+        "y": 57,
+        "string": "(wall99😐 51◈57 ❤️10000/10000)"
+      },
+      {
+        "id": "101",
+        "name": "wall101",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 51,
+        "y": 61,
+        "string": "(wall101😐 51◈61 ❤️10000/10000)"
+      },
+      {
+        "id": "102",
+        "name": "wall102",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 52,
+        "y": 37,
+        "string": "(wall102😐 52◈37 ❤️10000/10000)"
+      },
+      {
+        "id": "103",
+        "name": "wall103",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 52,
+        "y": 41,
+        "string": "(wall103😐 52◈41 ❤️10000/10000)"
+      },
+      {
+        "id": "104",
+        "name": "wall104",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 52,
+        "y": 45,
+        "string": "(wall104😐 52◈45 ❤️10000/10000)"
+      },
+      {
+        "id": "105",
+        "name": "wall105",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 52,
+        "y": 49,
+        "string": "(wall105😐 52◈49 ❤️10000/10000)"
+      },
+      {
+        "id": "107",
+        "name": "wall107",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 52,
+        "y": 53,
+        "string": "(wall107😐 52◈53 ❤️10000/10000)"
+      },
+      {
+        "id": "108",
+        "name": "wall108",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 52,
+        "y": 57,
+        "string": "(wall108😐 52◈57 ❤️10000/10000)"
+      },
+      {
+        "id": "110",
+        "name": "wall110",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 52,
+        "y": 61,
+        "string": "(wall110😐 52◈61 ❤️10000/10000)"
+      },
+      {
+        "id": "111",
+        "name": "wall111",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 53,
+        "y": 37,
+        "string": "(wall111😐 53◈37 ❤️10000/10000)"
+      },
+      {
+        "id": "112",
+        "name": "wall112",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 53,
+        "y": 41,
+        "string": "(wall112😐 53◈41 ❤️10000/10000)"
+      },
+      {
+        "id": "113",
+        "name": "wall113",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 53,
+        "y": 45,
+        "string": "(wall113😐 53◈45 ❤️10000/10000)"
+      },
+      {
+        "id": "114",
+        "name": "wall114",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 53,
+        "y": 49,
+        "string": "(wall114😐 53◈49 ❤️10000/10000)"
+      },
+      {
+        "id": "116",
+        "name": "wall116",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 53,
+        "y": 53,
+        "string": "(wall116😐 53◈53 ❤️10000/10000)"
+      },
+      {
+        "id": "117",
+        "name": "wall117",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 53,
+        "y": 57,
+        "string": "(wall117😐 53◈57 ❤️10000/10000)"
+      },
+      {
+        "id": "119",
+        "name": "wall119",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 53,
+        "y": 61,
+        "string": "(wall119😐 53◈61 ❤️10000/10000)"
+      },
+      {
+        "id": "120",
+        "name": "wall120",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 54,
+        "y": 37,
+        "string": "(wall120😐 54◈37 ❤️10000/10000)"
+      },
+      {
+        "id": "122",
+        "name": "wall122",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 54,
+        "y": 41,
+        "string": "(wall122😐 54◈41 ❤️10000/10000)"
+      },
+      {
+        "id": "124",
+        "name": "wall124",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 54,
+        "y": 45,
+        "string": "(wall124😐 54◈45 ❤️10000/10000)"
+      },
+      {
+        "id": "126",
+        "name": "wall126",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 54,
+        "y": 49,
+        "string": "(wall126😐 54◈49 ❤️10000/10000)"
+      },
+      {
+        "id": "128",
+        "name": "wall128",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 54,
+        "y": 53,
+        "string": "(wall128😐 54◈53 ❤️10000/10000)"
+      },
+      {
+        "id": "130",
+        "name": "wall130",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 54,
+        "y": 57,
+        "string": "(wall130😐 54◈57 ❤️10000/10000)"
+      },
+      {
+        "id": "132",
+        "name": "wall132",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 54,
+        "y": 61,
+        "string": "(wall132😐 54◈61 ❤️10000/10000)"
+      },
+      {
+        "id": "133",
+        "name": "wall133",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 55,
+        "y": 37,
+        "string": "(wall133😐 55◈37 ❤️10000/10000)"
+      },
+      {
+        "id": "134",
+        "name": "wall134",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 55,
+        "y": 38,
+        "string": "(wall134😐 55◈38 ❤️10000/10000)"
+      },
+      {
+        "id": "135",
+        "name": "wall135",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 55,
+        "y": 39,
+        "string": "(wall135😐 55◈39 ❤️10000/10000)"
+      },
+      {
+        "id": "136",
+        "name": "wall136",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 55,
+        "y": 40,
+        "string": "(wall136😐 55◈40 ❤️10000/10000)"
+      },
+      {
+        "id": "137",
+        "name": "wall137",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 55,
+        "y": 41,
+        "string": "(wall137😐 55◈41 ❤️10000/10000)"
+      },
+      {
+        "id": "138",
+        "name": "wall138",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 55,
+        "y": 42,
+        "string": "(wall138😐 55◈42 ❤️10000/10000)"
+      },
+      {
+        "id": "139",
+        "name": "wall139",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 55,
+        "y": 43,
+        "string": "(wall139😐 55◈43 ❤️10000/10000)"
+      },
+      {
+        "id": "140",
+        "name": "wall140",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 55,
+        "y": 44,
+        "string": "(wall140😐 55◈44 ❤️10000/10000)"
+      },
+      {
+        "id": "141",
+        "name": "wall141",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 55,
+        "y": 45,
+        "string": "(wall141😐 55◈45 ❤️10000/10000)"
+      },
+      {
+        "id": "142",
+        "name": "wall142",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 55,
+        "y": 46,
+        "string": "(wall142😐 55◈46 ❤️10000/10000)"
+      },
+      {
+        "id": "143",
+        "name": "wall143",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 55,
+        "y": 47,
+        "string": "(wall143😐 55◈47 ❤️10000/10000)"
+      },
+      {
+        "id": "144",
+        "name": "wall144",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 55,
+        "y": 48,
+        "string": "(wall144😐 55◈48 ❤️10000/10000)"
+      },
+      {
+        "id": "145",
+        "name": "wall145",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 55,
+        "y": 49,
+        "string": "(wall145😐 55◈49 ❤️10000/10000)"
+      },
+      {
+        "id": "146",
+        "name": "wall146",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 55,
+        "y": 50,
+        "string": "(wall146😐 55◈50 ❤️10000/10000)"
+      },
+      {
+        "id": "147",
+        "name": "wall147",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 55,
+        "y": 51,
+        "string": "(wall147😐 55◈51 ❤️10000/10000)"
+      },
+      {
+        "id": "148",
+        "name": "wall148",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 55,
+        "y": 52,
+        "string": "(wall148😐 55◈52 ❤️10000/10000)"
+      },
+      {
+        "id": "149",
+        "name": "wall149",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 55,
+        "y": 53,
+        "string": "(wall149😐 55◈53 ❤️10000/10000)"
+      },
+      {
+        "id": "150",
+        "name": "wall150",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 55,
+        "y": 54,
+        "string": "(wall150😐 55◈54 ❤️10000/10000)"
+      },
+      {
+        "id": "151",
+        "name": "wall151",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 55,
+        "y": 55,
+        "string": "(wall151😐 55◈55 ❤️10000/10000)"
+      },
+      {
+        "id": "152",
+        "name": "wall152",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 55,
+        "y": 56,
+        "string": "(wall152😐 55◈56 ❤️10000/10000)"
+      },
+      {
+        "id": "153",
+        "name": "wall153",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 55,
+        "y": 57,
+        "string": "(wall153😐 55◈57 ❤️10000/10000)"
+      },
+      {
+        "id": "154",
+        "name": "wall154",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 55,
+        "y": 58,
+        "string": "(wall154😐 55◈58 ❤️10000/10000)"
+      },
+      {
+        "id": "155",
+        "name": "wall155",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 55,
+        "y": 59,
+        "string": "(wall155😐 55◈59 ❤️10000/10000)"
+      },
+      {
+        "id": "156",
+        "name": "wall156",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 55,
+        "y": 60,
+        "string": "(wall156😐 55◈60 ❤️10000/10000)"
+      },
+      {
+        "id": "157",
+        "name": "wall157",
+        "type": "StructureWall",
+        "method": "get.wall",
+        "x": 55,
+        "y": 61,
+        "string": "(wall157😐 55◈61 ❤️10000/10000)"
+      }
+    ],
+    "Flag": [
+      {
+        "id": "121",
+        "name": "flag121",
+        "type": "Flag",
+        "method": "get.flag",
+        "x": 54,
+        "y": 39,
+        "string": "(flag121😐 54◈39)"
+      },
+      {
+        "id": "123",
+        "name": "flag123",
+        "type": "Flag",
+        "method": "get.flag",
+        "x": 54,
+        "y": 43,
+        "string": "(flag123😐 54◈43)"
+      },
+      {
+        "id": "125",
+        "name": "flag125",
+        "type": "Flag",
+        "method": "get.flag",
+        "x": 54,
+        "y": 47,
+        "string": "(flag125😐 54◈47)"
+      },
+      {
+        "id": "127",
+        "name": "flag127",
+        "type": "Flag",
+        "method": "get.flag",
+        "x": 54,
+        "y": 51,
+        "string": "(flag127😐 54◈51)"
+      },
+      {
+        "id": "129",
+        "name": "flag129",
+        "type": "Flag",
+        "method": "get.flag",
+        "x": 54,
+        "y": 55,
+        "string": "(flag129😐 54◈55)"
+      },
+      {
+        "id": "131",
+        "name": "flag131",
+        "type": "Flag",
+        "method": "get.flag",
+        "x": 54,
+        "y": 59,
+        "string": "(flag131😐 54◈59)"
+      }
+    ],
+    "swamp-ratio": 0.009654548197314828
+  }
+}
