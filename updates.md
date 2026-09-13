@@ -1,10 +1,14 @@
 # PyScreeps-Arena Changelog
 
+English | [中文](updates_cn.md)
+
 > A Python development toolkit for Screeps: Arena players. With `std.py` serving as the glue layer between JS and Python, players can write logic code in `main.py` and run `build.py` to generate `main.mjs` for submission to the game.
-> 
+>
 > **Important Note**: Screeps: Arena code is not compatible with Screeps: World.
 
-## Version Naming Conventions
+---
+
+## 📖 Version Naming Conventions
 
 - `x.y.z`: Official release version
 - `x.ya/z`: Alpha/beta pre-release versions
@@ -15,163 +19,187 @@
 ## [0.7.x] - 2026-Q3 | Season 4
 
 ### 0.7.1
-- **Feature**: Cluster analysis upgrades — `ClusterResult` gains `sse`, `density`, `entropy` metrics (per-tick cached); `grade` now sums `dynamicGrade` so it reflects flags
-- **Feature**: New `std.front(a, b)` — returns the front line `(Point, Point)` between two clusters' control ranges, or `None` if they don't overlap
-- **Feature**: Cluster drawing is multi-line now; `know.draws.cluster_sse / cluster_density / cluster_entropy` toggle the new values
-- **Fix**: All `Logic` instances register into `__names__`, so `ref` by name works for `TeamLogic` etc.; `transform()` now removes the old logic from its team
-- **Docs**: Scheduler tutorial replaced by "Direct Control" and "Drawing" tutorials
-- **Fix**: Fixed other issues.
+
+- ✨ **Feature**: Cluster analysis upgrades — `ClusterResult` gains `sse`, `density`, `entropy` metrics (per-tick cached); `grade` now sums `dynamicGrade` so it reflects flags
+- ✨ **Feature**: New `std.front(a, b)` — returns the front line `(Point, Point)` between two clusters' control ranges, or `None` if they don't overlap
+- ✨ **Feature**: Cluster drawing is multi-line now; `know.draws.cluster_sse / cluster_density / cluster_entropy` toggle the new values
+- 🐛 **Fix**: All `Logic` instances register into `__names__`, so `ref` by name works for `TeamLogic` etc.; `transform()` now removes the old logic from its team
+- 📝 **Docs**: Scheduler tutorial replaced by "Direct Control" and "Drawing" tutorials
+- 🐛 **Fix**: Fixed other issues.
 
 ### 0.7.0
-- **Major Update**: Adapted for Screeps: Arena season 4 (green `spawn_and_swamp`, blue `pain_and_gain`, red `escort_run`)
-- **Feature**: New `seasons` module — per-season arena field registry; `build.py` now takes a `season` option, and the compiler infers the default `main.mjs` export path from season+color when `target` is left empty
-- **Feature**: Compiler generates real imports for the current color's special classes/constants, and auto-fills blank placeholder classes for historical special types of other colors (cross-color duplicate names produce a warning)
-- **Feature**: Added season 4 `ScoreFlag` prototype (blue `pain_and_gain`) with `TICKS_LIMIT`, `MAX_SCORE_PER_TICK`, `FLAG_TYPES` constants
-- **Feature**: Flag side effects are tracked for you — `creep.info` combat & movement values (`attackPower`, `meleePower`, `rangedPower`, `healPower`, `grade`, `effect`, `meleeRatio`, `rangedRatio`, `attackRatio`, `motionAbility` and the `dynamic*` variants) now reflect the flags each side holds
-- **Feature**: Added `VirtualBlocker(x, y)` / `VirtualBlocker(point)` — marks a cell as blocked so creeps simply walk around it; call `blocker.remove()` to unblock
-- **Feature**: Local simulator now ships all season 4 maps (3 colors × basic/advanced, advanced suffixed `-ex`). This is a Experimental function with many bugs.
-- **Docs**: Added season 4 notes (`season4.md`); updated documentation
-- **Fix**: Fixed other issues.
 
-  
+- 🚀 **Major Update**: Adapted for Screeps: Arena season 4 (green `spawn_and_swamp`, blue `pain_and_gain`, red `escort_run`)
+- ✨ **Feature**: New `seasons` module — per-season arena field registry; `build.py` now takes a `season` option, and the compiler infers the default `main.mjs` export path from season+color when `target` is left empty
+- ✨ **Feature**: Compiler generates real imports for the current color's special classes/constants, and auto-fills blank placeholder classes for historical special types of other colors (cross-color duplicate names produce a warning)
+- ✨ **Feature**: Added season 4 `ScoreFlag` prototype (blue `pain_and_gain`) with `TICKS_LIMIT`, `MAX_SCORE_PER_TICK`, `FLAG_TYPES` constants
+- ✨ **Feature**: Flag side effects are tracked for you — `creep.info` combat & movement values (`attackPower`, `meleePower`, `rangedPower`, `healPower`, `grade`, `effect`, `meleeRatio`, `rangedRatio`, `attackRatio`, `motionAbility` and the `dynamic*` variants) now reflect the flags each side holds
+- ✨ **Feature**: Added `VirtualBlocker(x, y)` / `VirtualBlocker(point)` — marks a cell as blocked so creeps simply walk around it; call `blocker.remove()` to unblock
+- ✨ **Feature**: Local simulator now ships all season 4 maps (3 colors × basic/advanced, advanced suffixed `-ex`). This is a Experimental function with many bugs.
+- 📝 **Docs**: Added season 4 notes (`season4.md`); updated documentation
+- 🐛 **Fix**: Fixed other issues.
+
+---
+
 ## [>=0.6.2] - 2026-Q2 | Season 3
 
 ### 0.6.5.x
-- **Feature**: Prefab `SnakeTeamType` now support variable length (≥2 members).
-- **Feature**: Added an automatic update check when you `build` that triggers at most once per day.
-- **Fix**: Fixed scheduler behavior in multi-spawn scenarios.
-- **Fix**: Fixed incorrect ranged attack behavior in `autoAttack` when making contact with Walls.
-- **Fix**: Fixed other issues.
+
+- ✨ **Feature**: Prefab `SnakeTeamType` now support variable length (≥2 members).
+- ✨ **Feature**: Added an automatic update check when you `build` that triggers at most once per day.
+- 🐛 **Fix**: Fixed scheduler behavior in multi-spawn scenarios.
+- 🐛 **Fix**: Fixed incorrect ranged attack behavior in `autoAttack` when making contact with Walls.
+- 🐛 **Fix**: Fixed other issues.
 
 ### 0.6.4.x
-- **Fix**: Fixed other issues.
+
+- 🐛 **Fix**: Fixed other issues.
 
 ### 0.6.3.x
-- **Feature**: Added prefab types 'WorkerType'
-- **Fix**: Fixed other issues.
+
+- ✨ **Feature**: Added prefab types 'WorkerType'
+- 🐛 **Fix**: Fixed other issues.
 
 ### 0.6.2.x
-- **Fix**: Fixed other issues.
 
+- 🐛 **Fix**: Fixed other issues.
+
+---
 
 ## [0.6.x] - 2026-Q1 | Season 2
+
 ### 0.6.1
-- **Fix**: Fixed other issues.
+
+- 🐛 **Fix**: Fixed other issues.
 
 ### 0.6.0.x
-- **Major Update**: Adapted for Screeps: Arena season 2
-- **Feature**: `autoAttack` `autoHeal` `autoAction` for `Tower`
-- **Feature**: Remove module `datetime`. `Compiler` wont add timestamp into final main.mjs.
-- **Docs**: Updated documentation
 
+- 🚀 **Major Update**: Adapted for Screeps: Arena season 2
+- ✨ **Feature**: `autoAttack` `autoHeal` `autoAction` for `Tower`
+- ✨ **Feature**: Remove module `datetime`. `Compiler` wont add timestamp into final main.mjs.
+- 📝 **Docs**: Updated documentation
+
+---
 
 ## [0.5.x] - 2025-Q4 | Arena 1.0 Adaptation
 
 ### 0.5.9.x
-- **Fix**: Fixed logic defects in underlying codebase
-- **Feature**: Promoted engine's `state machine` to `behavior machine` architecture
-- **Feature**: Integrated `datetime` module into core architecture
-- **Feature**: Added `psaui` for graphical project configuration interface
-- **Docs**: Updated documentation
+
+- 🐛 **Fix**: Fixed logic defects in underlying codebase
+- ✨ **Feature**: Promoted engine's `state machine` to `behavior machine` architecture
+- ✨ **Feature**: Integrated `datetime` module into core architecture
+- ✨ **Feature**: Added `psaui` for graphical project configuration interface
+- 📝 **Docs**: Updated documentation
 
 ### 0.5.8.x
-- **Feature**: Added prefab types to docs for rapid new-arena development  
-- **Feature**: <Experimental> a lightweight mini-numpy module embeded into this arch.
-- **Fix**: Fixed various other issues.
+
+- ✨ **Feature**: Added prefab types to docs for rapid new-arena development
+- ✨ **Feature**: <Experimental> a lightweight mini-numpy module embeded into this arch.
+- 🐛 **Fix**: Fixed various other issues.
 
 ### 0.5.7.x
-- **Feature**: Added `Field` class as a 2D data field container supporting cost matrices, distance fields, direction fields, with conversion, visualization, and morphological operations
-- **Feature**: Added experimental creeplogic initialer via `psaui -c` (Chinese) or `psaui -e` (English) command
-- **Feature**: Recipes now support simplified `<Type><Count>...` format (e.g., `M1`, `R8A2M24T1`)
-- **Feature**: Added `creep.autoCombat()` method for automatic combat (cannot auto-move, returns `None`)
-- **Feature**: Added `creep.attach()` method for actively attaching to `Point` objects and subclasses
-- **Feature**: Added `info.dynamicFc`/`dynamicEc` properties for retrieving dynamic friendly/enemy strength
-- **Feature**: Added `creep.test` method to determine whether to approach, retreat from, or maintain distance to a target
-- **Feature**: Added `creep.info.(dynamic)meleeRatio` attribute for creep's melee combat strength
-- **Feature**: Added `get.collapse` method to optimize circular waypoint paths to better fit the map
-- **Feature**: Added `point.direction` method to get direction between two points
-- **Feature**: Added `point.offseT` method for polar coordinate offset
-- **Feature**: Added `View.color` attribute to get next random color
-- **Feature**: Modified `View.dashLine` method with default dash and gap lengths of 0.5
-- **Feature**: Added `point.near(target, distance=1)` method to check adjacency to target
-- **Feature**: Added `Cache` class for caching data within a time period; supports independent and same-name shared modes
-- **Fix**: Fixed performance issue in `creep.motion`
-- **Fix**: Removed empty result warnings for `closest`, `quickest`, `inrange`, `nearest` methods
-- **Fix**: Fixed planning and pathfinding issues caused by multiple Sites and Structures at a single location
-- **Fix**: Fixed logic defect in `creep.carry` when entering new terrain
-- **Feature**: Compiler now supports basic match statements
-- **Docs**: Updated documentation
 
+- ✨ **Feature**: Added `Field` class as a 2D data field container supporting cost matrices, distance fields, direction fields, with conversion, visualization, and morphological operations
+- ✨ **Feature**: Added experimental creeplogic initialer via `psaui -c` (Chinese) or `psaui -e` (English) command
+- ✨ **Feature**: Recipes now support simplified `<Type><Count>...` format (e.g., `M1`, `R8A2M24T1`)
+- ✨ **Feature**: Added `creep.autoCombat()` method for automatic combat (cannot auto-move, returns `None`)
+- ✨ **Feature**: Added `creep.attach()` method for actively attaching to `Point` objects and subclasses
+- ✨ **Feature**: Added `info.dynamicFc`/`dynamicEc` properties for retrieving dynamic friendly/enemy strength
+- ✨ **Feature**: Added `creep.test` method to determine whether to approach, retreat from, or maintain distance to a target
+- ✨ **Feature**: Added `creep.info.(dynamic)meleeRatio` attribute for creep's melee combat strength
+- ✨ **Feature**: Added `get.collapse` method to optimize circular waypoint paths to better fit the map
+- ✨ **Feature**: Added `point.direction` method to get direction between two points
+- ✨ **Feature**: Added `point.offseT` method for polar coordinate offset
+- ✨ **Feature**: Added `View.color` attribute to get next random color
+- ✨ **Feature**: Modified `View.dashLine` method with default dash and gap lengths of 0.5
+- ✨ **Feature**: Added `point.near(target, distance=1)` method to check adjacency to target
+- ✨ **Feature**: Added `Cache` class for caching data within a time period; supports independent and same-name shared modes
+- 🐛 **Fix**: Fixed performance issue in `creep.motion`
+- 🐛 **Fix**: Removed empty result warnings for `closest`, `quickest`, `inrange`, `nearest` methods
+- 🐛 **Fix**: Fixed planning and pathfinding issues caused by multiple Sites and Structures at a single location
+- 🐛 **Fix**: Fixed logic defect in `creep.carry` when entering new terrain
+- ✨ **Feature**: Compiler now supports basic match statements
+- 📝 **Docs**: Updated documentation
 
 ### 0.5.6.x
-- **Fix**: Fixed `SitePlaner.next` method by adding a `True` return case to accommodate the 1-tick waiting period required after site creation in post-1.0 gameplay.
-- **Feature**: Added `get.history` method and streamlined `get.situation` method; introduced `know.situ` and `know.hist` attrs; added global variable `k` pointing to the `know` object.
-- **Feature**: Added `energyPer` property to resource-storable classes.
-- **Feature**: Enhanced function documentation.
-- **Feature**: Added `stype` methods: `st.area`, `st.red`, `st.blue`, `st.green`.
-- **Feature**: Added `AreaEffect.kind: str` property.
-- **Fix**: Fixed fatal logical error caused by `Portal` under special conditions.
-- **Fix**: Fixed various other issues.
+
+- 🐛 **Fix**: Fixed `SitePlaner.next` method by adding a `True` return case to accommodate the 1-tick waiting period required after site creation in post-1.0 gameplay.
+- ✨ **Feature**: Added `get.history` method and streamlined `get.situation` method; introduced `know.situ` and `know.hist` attrs; added global variable `k` pointing to the `know` object.
+- ✨ **Feature**: Added `energyPer` property to resource-storable classes.
+- ✨ **Feature**: Enhanced function documentation.
+- ✨ **Feature**: Added `stype` methods: `st.area`, `st.red`, `st.blue`, `st.green`.
+- ✨ **Feature**: Added `AreaEffect.kind: str` property.
+- 🐛 **Fix**: Fixed fatal logical error caused by `Portal` under special conditions.
+- 🐛 **Fix**: Fixed various other issues.
 
 ### 0.5.5.x
-- **Feature**: Extended `GlobalKnowledge` class with portal state management attributes (`pairs`, `portals`, `reveals`, `conceals`) and nested `draws` class for controlling visualization. The `draws` class provides boolean flags for `creep` (default False), `portal` (default True), and `cluster` (default True) display options.
-- **Feature**: Integrated Portal awareness into kernel methods. `Point.distance`, `Point.closest`, `Point.nearest`, and `Creep.move` now support portal detection. `Point.quickest` integration pending. Functions based on these automaticly affected too.
-- **Feature**: Added global control static methods `Disable()` and `Enable()` to `Portal` class for temporarily toggling portal effects in internal calculations. Both methods return context managers that automatically restore the previous state upon exiting a `with` statement.
-- **Feature**: Added `case()` function for multi-condition state transitions. Supports optional base time offset and default fallback state, processes condition-target state pairs with optional timeout and dedicated timeout state override, returning the matched state string or None.
-- **Feature**: Added `path()` method to `View` class for intelligent route visualization. Automatically handles portal connections with dashed lines, derives complementary colors via HSV shift, and marks unrevealed portals with error indicators.
-- **Feature**: Added `nearest()` method to `Point` class for spatial proximity queries. Supports range-limited detection with optional `filter_fn` for custom filtering criteria and `notme` parameter for self-exclusion behavior.
-- **Fix**: Fixed `Creep.carry` exception under special conditions; remove param `intermit:bool=False` and will auto dynamic enable it or not; removed `Creep.intermit` function.
-- **Fix**: Fixed pathfinding error when map contain initial roads.
+
+- ✨ **Feature**: Extended `GlobalKnowledge` class with portal state management attributes (`pairs`, `portals`, `reveals`, `conceals`) and nested `draws` class for controlling visualization. The `draws` class provides boolean flags for `creep` (default False), `portal` (default True), and `cluster` (default True) display options.
+- ✨ **Feature**: Integrated Portal awareness into kernel methods. `Point.distance`, `Point.closest`, `Point.nearest`, and `Creep.move` now support portal detection. `Point.quickest` integration pending. Functions based on these automaticly affected too.
+- ✨ **Feature**: Added global control static methods `Disable()` and `Enable()` to `Portal` class for temporarily toggling portal effects in internal calculations. Both methods return context managers that automatically restore the previous state upon exiting a `with` statement.
+- ✨ **Feature**: Added `case()` function for multi-condition state transitions. Supports optional base time offset and default fallback state, processes condition-target state pairs with optional timeout and dedicated timeout state override, returning the matched state string or None.
+- ✨ **Feature**: Added `path()` method to `View` class for intelligent route visualization. Automatically handles portal connections with dashed lines, derives complementary colors via HSV shift, and marks unrevealed portals with error indicators.
+- ✨ **Feature**: Added `nearest()` method to `Point` class for spatial proximity queries. Supports range-limited detection with optional `filter_fn` for custom filtering criteria and `notme` parameter for self-exclusion behavior.
+- 🐛 **Fix**: Fixed `Creep.carry` exception under special conditions; remove param `intermit:bool=False` and will auto dynamic enable it or not; removed `Creep.intermit` function.
+- 🐛 **Fix**: Fixed pathfinding error when map contain initial roads.
 
 ### 0.5.4.x
-- **Feature**: Enhanced compiler: `from XXX import *` now imports all modules from `__init__.py`-less directories (subdirectories ignored with warning). Behavior unchanged for packages with `__init__.py`
-- **Fix**: Fixed logic error in `recursive` decorator under special conditions  
-- **Fix**: Fixed missing `get.parts`; added `.parts: list[str]` and `.dynamicParts: list[str]` attributes to `CreepInfo`
-- **Feature**: Added `.disable()` and `.enable()` instance methods to `Scheduler` for temporarily disabling/enabling scheduler
-- **Feature**: Added `basic.py` file to `src` directory in new projects
-- **Feature**: Added `.hpPer` attribute to `Creep` for retrieving creep's health percentage
-- **Docs**: Fixed comment accuracy for some functions in `math` library
+
+- ✨ **Feature**: Enhanced compiler: `from XXX import *` now imports all modules from `__init__.py`-less directories (subdirectories ignored with warning). Behavior unchanged for packages with `__init__.py`
+- 🐛 **Fix**: Fixed logic error in `recursive` decorator under special conditions
+- 🐛 **Fix**: Fixed missing `get.parts`; added `.parts: list[str]` and `.dynamicParts: list[str]` attributes to `CreepInfo`
+- ✨ **Feature**: Added `.disable()` and `.enable()` instance methods to `Scheduler` for temporarily disabling/enabling scheduler
+- ✨ **Feature**: Added `basic.py` file to `src` directory in new projects
+- ✨ **Feature**: Added `.hpPer` attribute to `Creep` for retrieving creep's health percentage
+- 📝 **Docs**: Fixed comment accuracy for some functions in `math` library
 
 ### 0.5.3.x
-- **Feature**: Added `enemies: list[Creep]` and `friends: list[Creep]` attributes to `GlobalKnowledge` (know, k)  
-- **Feature**: `Portal.destination` now supports manual assignment to another portal when explicitly ensured  
-- **Fix**: Tightened boundary conditions in `Creep.intermit` for transporting to simple `Point`-type targets  
-- **Optimization**: Pruned `Creep.autoAttack` logic—skip ranged attack when dynamic ranged attack power is 0  
-- **Docs**: Updated docstring for `CreepLogic.PRIORITY`  
-- **Docs**: Updated docstring for `get.chebRotate45x`  
-- **New**: `get.directionRotate(direction: int, count: int) -> int` – rotates direction by count × 45°  
-- **New**: `get.length(obj: st.point, target: st.point) -> int` – returns path length between two points  
-- **New**: `get.cost(pt: st.point, option: UsrObject = None) -> int` – returns cost of specified position
+
+- ✨ **Feature**: Added `enemies: list[Creep]` and `friends: list[Creep]` attributes to `GlobalKnowledge` (know, k)
+- ✨ **Feature**: `Portal.destination` now supports manual assignment to another portal when explicitly ensured
+- 🐛 **Fix**: Tightened boundary conditions in `Creep.intermit` for transporting to simple `Point`-type targets
+- ⚡ **Optimization**: Pruned `Creep.autoAttack` logic—skip ranged attack when dynamic ranged attack power is 0
+- 📝 **Docs**: Updated docstring for `CreepLogic.PRIORITY`
+- 📝 **Docs**: Updated docstring for `get.chebRotate45x`
+- 🆕 **New**: `get.directionRotate(direction: int, count: int) -> int` – rotates direction by count × 45°
+- 🆕 **New**: `get.length(obj: st.point, target: st.point) -> int` – returns path length between two points
+- 🆕 **New**: `get.cost(pt: st.point, option: UsrObject = None) -> int` – returns cost of specified position
 
 ### 0.5.2.x
-- **Fix**: Inaccurate `uid` annotation issue
-- **Fix**: Logic error in `intermit` when transporting to empty tiles
-- **Optimization**: Enhanced `TeamLogic` component functionality
+
+- 🐛 **Fix**: Inaccurate `uid` annotation issue
+- 🐛 **Fix**: Logic error in `intermit` when transporting to empty tiles
+- ⚡ **Optimization**: Enhanced `TeamLogic` component functionality
 
 ### 0.5.1.0
-- **Feature**: Extended API support for new game modes
+
+- ✨ **Feature**: Extended API support for new game modes
 
 ### 0.5.0.0
-- **Major Update**: Adapted for Screeps: Arena 1.0 version
-- **New**: Support for 3 new game modes
+
+- 🚀 **Major Update**: Adapted for Screeps: Arena 1.0 version
+- 🆕 **New**: Support for 3 new game modes
 
 ---
 
 ## [0.4.x] - 2025-Q1 | Lightweight OS Development Library
 
 ### 0.4.1.x Maintenance Releases
+
 - **0.4.1.2**: Fixed scheduler boundary condition issues
 - **0.4.1.1**: Optimized monitor memory usage
 - **0.4.1**: Stable release, fixed CreepLogic state switching anomalies
 
 ### 0.4.0
-- **Major Update**: Introduced state logic controller system
+
+- 🚀 **Major Update**: Introduced state logic controller system
   - `Logic`: Basic state machine framework
   - `CreepLogic`: Unit behavior state management
   - Embedded scheduler and monitor components
-- **Architecture Evolution**: Upgraded from HAL library level to lightweight OS development library
+- 🏗️ **Architecture Evolution**: Upgraded from HAL library level to lightweight OS development library
 
 ### 0.4 Pre-release Series (0.4a0 → 0.4b0)
+
 - 0.4a8-b0: Scheduler performance optimization and API freeze
 - 0.4a5-a7: Monitor component refactoring
 - 0.4a3-a4: CreepLogic state persistence implementation
@@ -182,21 +210,26 @@
 ## [0.3.x] - 2024-Q4 | Dynamic Type Architecture Refactor
 
 ### 0.3.6
-- **Fix**: Dynamic type inference issues in certain boundary scenarios
+
+- 🐛 **Fix**: Dynamic type inference issues in certain boundary scenarios
 
 ### 0.3.5
-- **Feature**: Expanded game object type encapsulation (added 5 new structs)
+
+- ✨ **Feature**: Expanded game object type encapsulation (added 5 new structs)
 
 ### 0.3.2
-- **Optimization**: Improved dynamic method call performance by approximately 30%
+
+- ⚡ **Optimization**: Improved dynamic method call performance by approximately 30%
 
 ### 0.3.0
-- **Major Update**: Complete refactor of the underlying architecture
-- **New**: Full dynamic encapsulation of game types, supporting instance method calls
-- **Removed**: Deprecated `put` static call pattern (retained `get` static functions)
-- **Migration Guide**: 0.2.x code needs to be refactored to object-oriented style
+
+- 🚀 **Major Update**: Complete refactor of the underlying architecture
+- 🆕 **New**: Full dynamic encapsulation of game types, supporting instance method calls
+- 🗑️ **Removed**: Deprecated `put` static call pattern (retained `get` static functions)
+- 📦 **Migration Guide**: 0.2.x code needs to be refactored to object-oriented style
 
 ### 0.3 Early Preview (0.3a0 → 0.3a4)
+
 - 0.3a4: Dynamic prototype chain final implementation
 - 0.3a2-a3: Iteration on type system encapsulation solutions
 - 0.3a0-a1: New architecture feasibility validation
@@ -206,55 +239,47 @@
 ## [0.2.x] - 2024-Q2 | Static Utility Library Era
 
 ### 0.2.2
-- **Fix**: `get` function anomalies in cross-tick caching
+
+- 🐛 **Fix**: `get` function anomalies in cross-tick caching
 
 ### 0.2.1
-- **Feature**: Added 8 high-frequency utility functions
+
+- ✨ **Feature**: Added 8 high-frequency utility functions
 
 ### 0.2.0
-- **Major Update**: Established `get`/`put` static call paradigm
-- **Feature**: Preliminary implementation of core Python → JS transpilation logic
-- **Architecture**: Similar to register-level development experience
+
+- 🚀 **Major Update**: Established `get`/`put` static call paradigm
+- ✨ **Feature**: Preliminary implementation of core Python → JS transpilation logic
+- 🏗️ **Architecture**: Similar to register-level development experience
 
 ### 0.2a0
-- **Preview**: Static utility library concept validation version
+
+- 🔭 **Preview**: Static utility library concept validation version
 
 ---
 
 ## [0.1.x] - 2024-Q1 | Project Genesis
 
 ### 0.1.20 - 0.1.21
-- **Feature**: Build system stabilization
+
+- ✨ **Feature**: Build system stabilization
 
 ### 0.1.10 - 0.1.11
-- **Feature**: Basic transpiler completed, supporting simple logic code generation
+
+- ✨ **Feature**: Basic transpiler completed, supporting simple logic code generation
 
 ### 0.1.5 - 0.1.9
-- **Feature**: Core functions of `std.py` glue layer implementation
-- **Testing**: Verified communication capability with Arena basic APIs
+
+- ✨ **Feature**: Core functions of `std.py` glue layer implementation
+- ✅ **Testing**: Verified communication capability with Arena basic APIs
 
 ### 0.1.1 - 0.1.4
-- **Initialization**: Project structure setup
-- **Experimental**: Explored Python and JS interoperability solutions
+
+- 🌱 **Initialization**: Project structure setup
+- 🧪 **Experimental**: Explored Python and JS interoperability solutions
 
 ### 0.1.0
-- **Birth**: PyScreeps-Arena project officially established
-- **Vision**: Let Python players also enjoy Screeps: Arena
 
----
+- 🎉 **Birth**: PyScreeps-Arena project officially established
+- 🌟 **Vision**: Let Python players also enjoy Screeps: Arena
 
-## Version Migration Recommendations
-
-| Current Version | Recommended Upgrade Path | Main Change Cost |
-|-----------------|--------------------------|------------------|
-| ≤ 0.2.x | → 0.3.0 | High (requires rewriting to dynamic types) |
-| 0.3.x | → 0.4.0 | Medium (requires understanding state machine patterns) |
-| 0.4.x | → 0.5.x | Low (mainly API adaptation) |
-
----
-
-## Future Planning (Roadmap)
-
-> Based on the 0.5.x architecture, subsequent versions will focus on:
-> - Visual tool development
-> - Error discovery and fixing
