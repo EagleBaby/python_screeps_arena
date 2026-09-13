@@ -18,7 +18,7 @@
 
 ## [0.7.x] - 2026-Q3 | 第 4 季度
 
-### 0.7.1
+### 0.7.1.x
 
 - ✨ **功能**：集群分析升级 — `ClusterResult` 新增 `sse`、`density`、`entropy` 指标（按 tick 缓存）；`grade` 改为累加 `dynamicGrade`，可反映旗帜加成
 - ✨ **功能**：新增 `std.front(a, b)` — 返回两集群控制范围之间的锋面线段 `(Point, Point)`，不重叠时返回 `None`
