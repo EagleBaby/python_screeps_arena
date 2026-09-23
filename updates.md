@@ -18,6 +18,24 @@ English | [中文](updates_cn.md)
 
 ## [0.7.x] - 2026-Q3 | Season 4
 
+### 0.7.2.x
+
+- ✨ **Feature**: New `enhanced.js` runtime layer — 34 patches restoring Python semantics on the real machine (3-arg `getattr`, `count`, `copy`/`deepcopy`, `sorted`/`min`/`max`, slices, `==`/`in` equality, missing string methods, `isinstance`, set family, …); boot self-check prints `ENHANCED_OK`
+- ✨ **Feature**: `Rect` rebuild — three constructor forms `Rect(pt0, pt1)` / `Rect(pt0, w, h)` / `Rect(l, t, w, h)`, per-edge open/close flags (`lclose/rclose/tclose/bclose`), `contain` / `interact`, `pt in rect` and `for pt in rect`; all `get.*` area filters now accept a `Rect` (closed interval, per-edge open/close respected)
+- ✨ **Feature**: Schedule system rework — registries are per-host, so callbacks live and die with their Logic/Creep; `schedule(delay, cb)` is relative to the current tick and missed ticks catch up; creeps pump their own scheduler at `handle`
+- ✨ **Feature**: New `get.travelTime(creep, destination, motion_bias)` — tick estimate from dynamic motion ability and per-cell terrain cost
+- ✨ **Feature**: New `@register` decorator marks public helper methods as non-states; `@recursive` / `@listen` are real decorators now (markers inherit with the function object, no more compiler-injected Login calls)
+- ✨ **Feature**: `Logic.transformed` follows the transform chain to the current holder of `it`; new `Logic.refOthers()` (same-NAME siblings) and `_NamedNode.children`
+- ✨ **Feature**: `creep.intermit` read/write switch — default for `carry`'s intermit parameter; `False` hard-disables drop-and-go hauling; `fetch()` / `deposit()` without a target auto-pick nearby resources / prefer the underfoot box before dropping
+- ✨ **Feature**: `get.byid` returns the wrapped object, identity-stable with `get.all` etc. (`is` comparisons work)
+- 🐛 **Fix**: `get.energyMax` — spawns contribute 1000 in total at most, no per-spawn stacking
+- 🐛 **Fix**: RecipeResponder synthesizer — part variables declared integer, TOUGH row no longer drags a HEAL coefficient (heals>toughs recipes feasible again), and repaired results rebuild a real `PartsVector` so cost/total are correct; `PartsVector.recalc` rebuilds `recipe`/`bodyCount` from `vec7` (single source of truth)
+- 🐛 **Fix**: a state error no longer aborts the rest of the `handleStage` tick, and Scheduler error messages now name the failing state
+- 🐛 **Fix**: delegate/reclaim restores the creep's name to its owner; `listen` handler lookup tolerates the old 2-arg `getattr`; SitePlaner waits 2× build speed before starting the next site
+- 📝 **Docs**: WildBuilder prefab rewritten — `flee` state renamed to `escape` with a read/write `flee` property; notes consolidated into `wildbuilder.md`
+- 🐛 **Fix**: Fixed other issues.
+
+
 ### 0.7.1.x
 
 - ✨ **Feature**: Cluster analysis upgrades — `ClusterResult` gains `sse`, `density`, `entropy` metrics (per-tick cached); `grade` now sums `dynamicGrade` so it reflects flags
