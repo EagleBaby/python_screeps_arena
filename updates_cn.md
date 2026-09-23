@@ -18,6 +18,25 @@
 
 ## [0.7.x] - 2026-Q3 | 第 4 赛季
 
+### 0.7.2.x
+
+- ✨ **新功能**: 新增 `enhanced.js` 运行时增强层 — 34 组补丁在真机补齐 Python 语义 (三参 `getattr`、`count`、`copy`/`deepcopy`、`sorted`/`min`/`max`、切片、`==`/`in` 判等、缺失字符串方法、`isinstance`、set 族等); 启动自检打印 `ENHANCED_OK`
+- ✨ **新功能**: `Rect` 重做 — 支持三种构造形式 `Rect(pt0, pt1)` / `Rect(pt0, w, h)` / `Rect(l, t, w, h)`, 每边可独立开闭 (`lclose/rclose/tclose/bclose`), 新增 `contain` / `interact`、`pt in rect` 与 `for pt in rect`; 全部 `get.*` 区域过滤参数现在接受 `Rect` 闭区间对象 (各边开合生效)
+- ✨ **新功能**: 调度系统重构 — 注册表随宿主持有, 回调随 Logic/Creep 生死; `schedule(delay, cb)` 为相对当前 tick 的延迟, 错过的拍次自动追补; creep 在 `handle` 开头泵自己的调度器
+- ✨ **新功能**: 新增 `get.travelTime(creep, destination, motion_bias)` — 按动态移动力与逐格地形成本估算行进 tick 数
+- ✨ **新功能**: 新增 `@register` 装饰器, 标记公开辅助方法不进状态表; `@recursive` / `@listen` 改为真正的函数标记装饰器 (标记随函数对象继承, 不再由编译器注入 Login 调用)
+- ✨ **新功能**: `Logic.transformed` 沿 transform 链定位当前持有 `it` 的实例; 新增 `Logic.refOthers()` (同名其余存活实例) 与 `_NamedNode.children`
+- ✨ **新功能**: `creep.intermit` 读写开关 — 作为 `carry` 的 intermit 形参默认值; 置 `False` 为硬开关, 强制拒绝边走边丢; `fetch()` / `deposit()` 省略目标时自动拾取身边资源 / 优先转入脚下箱子再落地
+- ✨ **新功能**: `get.byid` 返回包装对象, 与 `get.all` 等接口同一实例 (可用 `is` 恒等比较)
+- 🐛 **修复**: `get.energyMax` — spawn 总共最多贡献 1000, 不再按数量叠加
+- 🐛 **修复**: RecipeResponder 综合器 — 部件变量声明为整数, toughs 恒等行不再错带 HEAL 系数 (heals>toughs 的配方恢复可行), 修复解改用真实部件列表重建 `PartsVector` 使 total/cost 正确; `PartsVector.recalc` 以 `vec7` 为唯一事实源重建 `recipe`/`bodyCount`
+- 🐛 **修复**: 状态报错不再短路 `handleStage` 整拍, Scheduler 报错信息带出出错状态名
+- 🐛 **修复**: 代理归还控制权时把 creep 名改回让渡方; `listen` 处理器查找兼容旧运行时两参 `getattr`; SitePlaner 上一建筑等待阈值翻倍 (2× 建造速度)
+- 📝 **文档**: WildBuilder prefab 重写 — `flee` 状态更名 `escape` 并新增读写属性 `flee`; 说明集中到 `wildbuilder.md`
+- 🐛 **修复**: 修复了其他问题。
+
+
+
 ### 0.7.1.x
 
 - ✨ **功能**：集群分析升级 — `ClusterResult` 新增 `sse`、`density`、`entropy` 指标（按 tick 缓存）；`grade` 改为累加 `dynamicGrade`，可反映旗帜加成
